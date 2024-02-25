@@ -212,10 +212,10 @@ layers:
   - F6
   - SLCK
   - ''
-  - '&LSHIFT'
-  - '&LALT'
-  - '&LGUI'
-  - '&LCTRL'
+  - LSHIFT
+  - Alt
+  - Gui
+  - Ctrl
   - Esc
   - F10
   - F1

@@ -18,14 +18,14 @@
 #ifdef TOTEM38   /* dropped index and pinkies */
 #    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25
 #    define KEYS_R 5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 31
-#    define P_L_DEF    &kp ESC  /* left pinky             */
-#    define P_R_DEF    &kp RET  /* right pinky            */
-#    define P_T_R_T2L  &none    /* top right pinky        */
-#    define OI_M_R_T2L &none    /* middle right out index */
-#    define I_M_R_T2L  &LSHIFT  /* middle right index     */
-#    define M_M_R_T2L  &LALT    /* middle right middle    */
-#    define R_M_R_T2L  &LGUI    /* middle right ring      */
-#    define P_M_R_T2L  &LCTRL   /* middle right pinky     */
+#    define P_L_DEF    &kp ESC     /* left pinky             */
+#    define P_R_DEF    &kp RET     /* right pinky            */
+#    define P_T_R_T2L  &none       /* top right pinky        */
+#    define OI_M_R_T2L &none       /* middle right out index */
+#    define I_M_R_T2L  &kp LSHIFT  /* middle right index     */
+#    define M_M_R_T2L  &kp LALT    /* middle right middle    */
+#    define R_M_R_T2L  &kp LGUI    /* middle right ring      */
+#    define P_M_R_T2L  &kp LCTRL   /* middle right pinky     */
 #    define ALP_XXX &none
 #else
 #    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
@@ -267,7 +267,7 @@ P_L_DEF  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)      
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
          &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &out OUT_BLE  &out OUT_USB &ext_power EP_ON &ext_power EP_OFF P_T_R_T2L
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          OI_M_R_T2L I_M_R_T2L M_M_R_T2L R_M_R_T2L P_M_R_T2L 
+         &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          OI_M_R_T2L    I_M_R_T2L     M_M_R_T2L     R_M_R_T2L     P_M_R_T2L 
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 P_L_DEF  &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)    P_R_DEF
 //     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
