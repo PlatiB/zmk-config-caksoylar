@@ -194,7 +194,7 @@ layers:
   - {t: ↹, h: T2L}
   - '&win_sleep'
   - LG(L)
-  - ''
+  - {t: ⌦, h: T3R}
   T2L:
   - F12
   - F7
@@ -233,7 +233,7 @@ layers:
   - {t: ↹, h: T2L, type: held}
   - ''
   - ''
-  - ''
+  - {t: ⌦, h: T3R}
   MSE:
   - ''
   - ''
@@ -267,12 +267,12 @@ layers:
   - Forward Click
   - ''
   - ⏎
-  - ''
+  - {t: Esc, h: MSE}
   - ''
   - ''
   - Left Click
   - Right Click
-  - ''
+  - {t: ⌦, h: T3R}
 combos:
 - p: [1, 2]
   k: Tab Left
