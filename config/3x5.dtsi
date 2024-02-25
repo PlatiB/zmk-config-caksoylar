@@ -13,21 +13,19 @@
 #define T1L 4
 #define T2L 5
 #define MSE 6
-#define GME 7
-#define GM1 8
 
 // Key position groups and extra key bindings
 #ifdef ALPHA_23332   /* dropped index and pinkies */
-#    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
-#    define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
-#    define P_L_DEF  /* left pinky        */
-#    define P_R_DEF  /* right pinky       */
-#    define ALP_XXX
-#else
 #    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25
 #    define KEYS_R 5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 31
-#    define P_L_DEF &kp ESC
-#    define P_R_DEF &kp RET
+#    define P_L_DEF &kp ESC  /* left pinky        */
+#    define P_R_DEF &kp RET  /* right pinky       */
+#    define ALP_XXX
+#else
+#    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
+#    define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 39
+#    define P_L_DEF
+#    define P_R_DEF
 #    define ALP_XXX &none
 #endif
 
@@ -40,7 +38,9 @@
 #    define T3_L_DEF &lt MSE ESC
 #    define T3_R_DEF &lt T3R DEL
 #    define T3_L_T1R &kp DOT
+#    define T3_R_T1R &lt T3R DEL
 #    define T3_L_T2R &kp LPAR
+#    define T3_R_T2R &lt T3R DEL
 #    define T3_XXX   &none
 #else
 #    ifdef ALPHA_23332
@@ -51,7 +51,9 @@
 #    define T3_L_DEF
 #    define T3_R_DEF
 #    define T3_L_T1R
+#    define T3_R_T1R
 #    define T3_L_T2R
+#    define T3_R_T2R
 #    define T3_XXX
 #endif
 
@@ -278,36 +280,6 @@ P_L_DEF  &none         &none         &none         &none         &none          
             >;
         };
 #endif
-
-        game_layer {
-            display-name = "GME";
-            bindings = <
-//         ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P
-//         ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SQT
-//         ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-&mo GM1      &kp Z         &kp X         &kp C         MS_ACT(V)     &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &to DEF      &mo GM1
-//         ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                         &kp LCTRL     &kp LALT      &kp LSHIFT        &kp LSHIFT    &kp LALT      &kp LCTRL
-//                                                   ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
-            >;
-        };
-
-        game1_layer {
-            display-name = "GM1";
-            bindings = <
-//         ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6        &kp N7        &kp N8        &kp N9        &kp N0
-//         ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp P
-//         ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-&trans      &kp Z         &kp X         &kp C         MS_ACT(V)     &kp B             &kp N         &kp M          &kp COMMA     &kp DOT       &to DEF       &trans
-//         ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                         &kp LCTRL     &kp LALT      &kp LSHIFT        &kp LSHIFT    &kp LALT      &kp LCTRL
-//                                                   ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
-            >;
-        };
 
     };
 };
