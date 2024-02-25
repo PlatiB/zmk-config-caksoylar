@@ -13,7 +13,9 @@ parse_config:
     '&td_dot':  .:
     '&td_slash': /\
     '&kp C_AL_CALC': CALC
-
+    '&kp LA(LS(TAB))': Win Prev
+    '&kp LA(LS(TAB))': Win Next
+    
     '&kp LC(LG(LEFT))': Desk Left
     '&kp LC(LG(RIGHT))': Desk Right
     '&kp LC(TAB)': Tab Right
@@ -21,8 +23,6 @@ parse_config:
     '&kp LA(F4)': Win Close
     '&kp LC(F4)': Tab Close
     '&kp LS(TAB)': Win Prev
-    '&kp LA(LS(TAB))': Win Prev
-    '&kp LA(LS(TAB))': Win Next
     '&kp LS(INS)': Paste
 
     '&out OUT_USB': Out USB
