@@ -48,7 +48,7 @@ COMBO(lbkt,   &kp LBKT,          11 12, DEF T3R,      40, 100)	// 거짓음성
 COMBO(rbkt,   &kp RBKT,          17 18, DEF T3R,      40, 100)
 COMBO(lpar,   &kp LPAR,          12 13, DEF T3R,      40, 100)
 COMBO(rpar,   &kp RPAR,          16 17, DEF T3R,      40, 100)
-COMBO(tab,    &kp TAB,           11 13, DEF T3R,      40, 150)
+COMBO(tab,    &kp ESC,           11 13, DEF T3R,      40, 150)
 COMBO(del,    &kp DEL,           16 18, DEF T3R,      40, 150)
 
 // vertical same hand

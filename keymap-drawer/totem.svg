@@ -326,7 +326,7 @@ path.combo {
 <path d="M205,74 h-56 a6.0,6.0 0 0 0 -6.0,6.0 v19" class="combo"/>
 <path d="M205,74 h56 a6.0,6.0 0 0 1 6.0,6.0 v13" class="combo"/>
 <rect rx="6" ry="6" x="191" y="61" width="28" height="26" class="combo"/>
-<text x="205" y="74" class="combo tap">↹</text>
+<text x="205" y="74" class="combo tap">Esc</text>
 </g>
 <g class="combo combopos-11">
 <path d="M637,74 h-55 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>
@@ -903,7 +903,7 @@ path.combo {
 <path d="M205,74 h-56 a6.0,6.0 0 0 0 -6.0,6.0 v19" class="combo"/>
 <path d="M205,74 h56 a6.0,6.0 0 0 1 6.0,6.0 v13" class="combo"/>
 <rect rx="6" ry="6" x="191" y="61" width="28" height="26" class="combo"/>
-<text x="205" y="74" class="combo tap">↹</text>
+<text x="205" y="74" class="combo tap">Esc</text>
 </g>
 <g class="combo combopos-11">
 <path d="M637,74 h-55 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>

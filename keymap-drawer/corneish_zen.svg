@@ -318,7 +318,7 @@ path.combo {
 <path d="M140,54 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>
 <path d="M140,54 h50 a6.0,6.0 0 0 1 6.0,6.0 v13" class="combo"/>
 <rect rx="6" ry="6" x="126" y="41" width="28" height="26" class="combo"/>
-<text x="140" y="54" class="combo tap">↹</text>
+<text x="140" y="54" class="combo tap">Esc</text>
 </g>
 <g class="combo combopos-11">
 <path d="M588,54 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>
@@ -871,7 +871,7 @@ path.combo {
 <path d="M140,54 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>
 <path d="M140,54 h50 a6.0,6.0 0 0 1 6.0,6.0 v13" class="combo"/>
 <rect rx="6" ry="6" x="126" y="41" width="28" height="26" class="combo"/>
-<text x="140" y="54" class="combo tap">↹</text>
+<text x="140" y="54" class="combo tap">Esc</text>
 </g>
 <g class="combo combopos-11">
 <path d="M588,54 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>
