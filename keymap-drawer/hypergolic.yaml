@@ -208,8 +208,8 @@ layers:
   - LC(Z)
   - {t: ␣, h: T1L}
   - {t: ↹, h: T2L, type: held}
-  - ''
-  - ''
+  - {t: ⏎, h: T2R}
+  - {t: ⌫, h: T1R}
 combos:
 - p: [1, 2]
   k: Tab Left

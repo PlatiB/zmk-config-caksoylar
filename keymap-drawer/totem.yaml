@@ -231,8 +231,8 @@ layers:
   - {t: Esc, h: MSE}
   - {t: ␣, h: T1L}
   - {t: ↹, h: T2L, type: held}
-  - ''
-  - ''
+  - {t: ⏎, h: T2R}
+  - {t: ⌫, h: T1R}
   - {t: ⌦, h: T3R}
   MSE:
   - ''
@@ -268,8 +268,8 @@ layers:
   - ''
   - ⏎
   - {t: Esc, h: MSE}
-  - ''
-  - ''
+  - {t: ␣, h: T1L}
+  - {t: ↹, h: T2L}
   - Left Click
   - Right Click
   - {t: ⌦, h: T3R}
