@@ -55,9 +55,9 @@ layers:
   - '='
   - Caps Lock
   - LSHIFT
-  - Ctrl
-  - Gui
   - Alt
+  - Gui
+  - Ctrl
   - '`'
   - '1'
   - '2'
@@ -166,9 +166,9 @@ layers:
   - ⏭️
   - Caps Lock
   - RSHIFT
-  - Ctrl
-  - Gui
   - Alt
+  - Gui
+  - Ctrl
   - LC(Z)
   - LC(X)
   - LC(C)
@@ -195,17 +195,17 @@ layers:
   - Out USB
   - EP ON
   - EP OFF
-  - ''
+  - BT CLR ALL
   - F11
   - F4
   - F5
   - F6
   - SLCK
-  - ''
-  - LSHIFT
-  - Ctrl
-  - Gui
-  - Alt
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT CLR
   - F10
   - F1
   - F2
