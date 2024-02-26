@@ -73,6 +73,14 @@ COMBO(semi,   &kp SEMI,          27 28, DEF,          40, 100)
 COMBO(colon,  &kp COLON,         28 29, DEF,          40, 100)
 */
 
+#ifdef TOTEM38
+COMBO(semi,   &kp SEMI,          27 28, DEF,          40, 100)
+COMBO(colon,  &kp COLON,         28 29, DEF,          40, 100)
+#else
+COMBO(semi,   &kp SEMI,          26 27, DEF,          40, 100)
+COMBO(colon,  &kp COLON,         27 28, DEF,          40, 100)
+#endif
+
 #ifdef MOUSE_KEYS
 #    ifdef THREE_THUMBS
 #        ifdef TOTEM38
