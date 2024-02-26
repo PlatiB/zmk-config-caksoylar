@@ -138,28 +138,6 @@
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
         };
-
-        td_comma: tap_dance_0 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp COMMA>,
-                       <&kp SEMI>;
-        };
-        td_dot: tap_dance_1 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp DOT>,
-                       <&kp COLON>;
-        };
-        td_slash: tap_dance_2 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp SLASH>,
-                       <&kp BSLH>;
-        };
     };
 
      macros {
