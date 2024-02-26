@@ -74,25 +74,25 @@ COMBO(colon,  &kp COLON,         28 29, DEF,          40, 100)
 */
 
 #ifdef TOTEM38
-COMBO(semi,   &kp SEMI,          27 28, DEF,          40, 100)
-COMBO(colon,  &kp COLON,         28 29, DEF,          40, 100)
+COMBO(semi,   &kp SEMI,          27 28, DEF T3R,      40, 100)
+COMBO(colon,  &kp COLON,         28 29, DEF T3R,      40, 100)
 #else
-COMBO(semi,   &kp SEMI,          26 27, DEF,          40, 100)
-COMBO(colon,  &kp COLON,         27 28, DEF,          40, 100)
+COMBO(semi,   &kp SEMI,          26 27, DEF T3R,      40, 100)
+COMBO(colon,  &kp COLON,         27 28, DEF T3R,      40, 100)
 #endif
 
 #ifdef MOUSE_KEYS
 #    ifdef THREE_THUMBS
 #        ifdef TOTEM38
-COMBO(mse_l,  &mo MSE,    33 34, DEF T3R,     150,   0, slow-release;)
+COMBO(mse_l,  &mo MSE,           33 34, DEF T3R,     150,   0, slow-release;)
 #        else
-COMBO(mse_l,  &mo MSE,    31 32, DEF T3R,     150,   0, slow-release;)
+COMBO(mse_l,  &mo MSE,           31 32, DEF T3R,     150,   0, slow-release;)
 #        endif
 #    else
 #        ifdef TOTEM38
-COMBO(mse_l,  &mo MSE,    33 34, DEF T3R,     150,   0, slow-release;)
+COMBO(mse_l,  &mo MSE,           33 34, DEF T3R,     150,   0, slow-release;)
 #        else
-COMBO(mse_l,  &mo MSE,    31 32, DEF T3R,     150,   0, slow-release;)
+COMBO(mse_l,  &mo MSE,           31 32, DEF T3R,     150,   0, slow-release;)
 #        endif
 #    endif
 #endif
