@@ -58,6 +58,13 @@ COMBO(pp,     &kp C_PP,           4 14, T1L,         200, 200)
 // horizontal corse hand
 COMBO(capswd, &caps_word,        13 16, DEF T3R,      60, 200)
 
+#ifdef TOTEM38
+COMBO(semi,   &kp SEMI,          27 28, DEF,          40, 100)
+COMBO(colon,  &kp COLON,         28 29, DEF,          40, 100)
+#else
+COMBO(semi,   &kp SEMI,          26 27, DEF,          40, 100)
+COMBO(colon,  &kp COLON,         27 28, DEF,          40, 100)
+#endif
 /*
 거짓양성 콤보를 누르지 않았는데 누른 걸로 반응
 같은 손 리퀴어프라이어아이들보다 탭핑텀을 증가. 다른 손 반대
