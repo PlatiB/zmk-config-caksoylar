@@ -52,8 +52,8 @@ COMBO(tab,    &kp ESC,           11 13, DEF T2L,      40, 150)
 COMBO(del,    &kp DEL,           16 18, DEF T2L,      40, 150)
 
 // vertical same hand
-COMBO(mute,   &kp C_MUTE,         9 19, DEF T2L,     200, 200)
-
+COMBO(pp,     &kp C_PP,           6  7, T1L,          40, 100)
+COMBO(mute,   &kp C_MUTE,         7  8, T1L,          80,  50)
 
 // horizontal corse hand
 COMBO(capswd, &caps_word,        13 16, DEF T2L,      60, 200)
@@ -70,9 +70,9 @@ https://github.com/urob/zmk-config
 COMBO(esc,    &kp ESC,            0  1, DEF,          80,  50)
 COMBO(del,    &kp DEL,            8  9, DEF,          80,  50)
 COMBO(pp,     &kp C_PP,           4 14, T1L,         200, 200)
+COMBO(mute,   &kp C_MUTE,         9 19, DEF T2L,     200, 200)
 COMBO(semi,   &kp SEMI,          27 28, DEF,          40, 100)
 COMBO(colon,  &kp COLON,         28 29, DEF,          40, 100)
-COMBO(pp,     &kp C_PP,           5 15, T1L,         200, 200)
 COMBO(lock,   &kp LG(L),          3  4, DEF T2L,      80, 500)
 */
 
