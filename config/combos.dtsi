@@ -52,7 +52,7 @@ COMBO(tab,    &kp ESC,           11 13, DEF T2L,      40, 150)
 COMBO(del,    &kp DEL,           16 18, DEF T2L,      40, 150)
 
 // vertical same hand
-COMBO(mute,   &kp C_MUTE,         9 19, DEF T2L CMK, 200, 200)
+COMBO(mute,   &kp C_MUTE,         9 19, DEF T2L,     200, 200)
 
 
 // horizontal corse hand
