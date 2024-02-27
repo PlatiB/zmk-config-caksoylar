@@ -151,7 +151,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp LG(SPACE) &to CMK>;
+                = <&macro_tap &kp LG(SPACE) &to T2L>;
         )
         ZMK_MACRO(hangl,
             wait-ms = <10>;
