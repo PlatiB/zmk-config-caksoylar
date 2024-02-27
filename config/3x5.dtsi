@@ -225,10 +225,10 @@ P_L_DEF  &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK
         };
 
         t1l_layer {
-            display-name = "T1L";  // button
+            display-name = "T1L";  // button, shortcut, media
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-         &kp LG(DOT)   &kp LC(D)     &kp LC(T)     &win_sleep    &kp LC(L)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)
+         &kp LG(DOT)   &kp LC(D)     &kp LC(T)     &win_sleep    &kp LC(L)         &none         &kp C_PREV    &kp C_NEXT    &kp C_VOL_UP  &kp C_VOL_DN
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
          &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHIFT    &colmk            &hangl        &kp RSHIFT    &kp RCTRL     &kp RALT      &kp RGUI
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
