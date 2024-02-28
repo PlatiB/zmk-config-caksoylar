@@ -39,7 +39,7 @@
 #        define mid3        &bt BT_SEL 3
 #        define mid4        &bt BT_SEL 4
 #        define mid5        &bt BT_CLR
-#        define mid6        &bt BT_CLR_ALL
+#        define mid6        &none // &bt BT_CLR_ALL
 #endif
 
 #ifdef THREE_THUMBS
