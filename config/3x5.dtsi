@@ -79,7 +79,7 @@
 #    define T3_R_FUN
 #endif
 
-#include "combos.dtsi"
+// #include "combos.dtsi"
 
 #ifdef MOUSE_KEYS
 #    include "mouse.dtsi"
