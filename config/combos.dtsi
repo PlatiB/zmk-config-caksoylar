@@ -69,7 +69,7 @@ https://github.com/urob/zmk-config
 보류
 COMBO(esc,    &kp ESC,            0  1, DEF,          80,  50)
 COMBO(del,    &kp DEL,            8  9, DEF,          80,  50)
-COMBO(pp,     &kp C_PP,           4 14, T1L,         200, 200)
+COMBO(pp,     &kp C_PP,           4 14, DEF,         200, 200)
 COMBO(mute,   &kp C_MUTE,         9 19, DEF CMK,     200, 200)
 COMBO(semi,   &kp SEMI,          27 28, DEF,          40, 100)
 COMBO(colon,  &kp COLON,         28 29, DEF,          40, 100)
