@@ -164,7 +164,7 @@
     };
 
      macros {
-        ZMK_MACRO(sleep,
+        ZMK_MACRO(wslip,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
@@ -231,7 +231,7 @@ P_L_DEF &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)       
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LA(F4)    &swapper      &kp LC(LS(TAB)) &kp LC(TAB) &kp LC(F4)        &kp INS       &kp HOME      &kp UP        &kp END       &kp PG_UP        
         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp CAPS      &kp LEFT      &kp DOWN      &kp RIGHT     &kp PG_DN
-P_L_DEF &sleep        &kp LG(L)     &colmk        &hangl        &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
+P_L_DEF &wslip        &kp LG(L)     &colmk        &hangl        &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
                                     T3_L_NAV      &none         &none             &kp RET       &kp BSPC      T3_R_NAV
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
@@ -243,7 +243,7 @@ P_L_DEF &sleep        &kp LG(L)     &colmk        &hangl        &none           
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LA(F4)    &swapper      &kp LC(LS(TAB)) &kp LC(TAB) &kp LC(F4)        &out OUT_BLE  &out OUT_USB  &kp C_VOL_UP  &ext_power EP_ON &ext_power EP_OFF
         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none         &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    &none
-P_L_DEF &sleep        &kp LG(L)     &colmk        &hangl        &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
+P_L_DEF &wslip        &kp LG(L)     &colmk        &hangl        &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
                                     T3_L_MID      &none         &none             &kp C_STOP    &kp C_PP      T3_R_MID
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
@@ -267,7 +267,7 @@ P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH        
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LBRC      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RBRC          &kp LC(F4)    &kp LC(TAB)   &kp LC(LS(TAB)) &swapper    &kp LA(F4)
         &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
-P_L_DEF &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &none         &hangl        &colmk        &kp LG(L)     &sleep        P_R_DEF
+P_L_DEF &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &none         &hangl        &colmk        &kp LG(L)     &wslip        P_R_DEF
                                     T3_L_SYM      &kp RPAR      &kp UNDER         &none         &none         T3_R_SYM
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
@@ -279,7 +279,7 @@ P_L_DEF &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE        
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &kp LC(F4)    &kp LC(TAB)   &kp LC(LS(TAB)) &swapper    &kp LA(F4)
         &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
-P_L_DEF &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &none         &hangl        &colmk        &kp LG(L)     &sleep        P_R_DEF
+P_L_DEF &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &none         &hangl        &colmk        &kp LG(L)     &wslip        P_R_DEF
                                     T3_L_FUN      &kp SPACE     &kp TAB           &none         &none         T3_R_FUN
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
@@ -292,7 +292,7 @@ P_L_DEF &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK 
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LA(F4)    &swapper      &kp LC(LS(TAB)) &kp LC(TAB) &kp LC(F4)        &none        &msc SCRL_LEFT &mmv MOVE_UP  &msc SCRL_RIGHT &msc SCRL_UP
         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none       &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_DOWN
-P_L_DEF &sleep        &kp LG(L)     &colmk        &hangl        &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
+P_L_DEF &wslip        &kp LG(L)     &colmk        &hangl        &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
                                     T3_L_MSE      &none         &none             &mkp RCLK     &mkp LCLK     T3_R_MSE
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
