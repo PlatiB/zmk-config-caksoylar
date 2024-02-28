@@ -29,7 +29,6 @@
 #        define mid4        &kp LC(Z)
 #        define mid5        &none
 #        define mid6        &none
-// #        define SWP_POS 22
 #else
 #        define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
 #        define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
@@ -62,7 +61,6 @@
 #    define T3_R_SYM    &none
 #    define T3_L_FUN    &kp K_APP
 #    define T3_R_FUN    &none
-#    define T3_XXX      &none
 #else
 #    ifdef TOTEM38
 #        define THUMBS 30 31 32 33
@@ -83,7 +81,6 @@
 #    define T3_R_SYM
 #    define T3_L_FUN
 #    define T3_R_FUN
-#    define T3_XXX
 #endif
 
 #include "combos.dtsi"
