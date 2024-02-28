@@ -31,6 +31,7 @@
 #       define mid5        &none
 #       define mid6        &none
 #       define ALP_XXX     &none
+// #       define SWP_POS 22
 #   else
 #       define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25
 #       define KEYS_R 5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 31
@@ -44,10 +45,11 @@
 #       define mid5        &bt BT_CLR
 #       define mid6        &bt BT_CLR_ALL
 #       define ALP_XXX
+// #       define SWP_POS 22
 #   endif
 #else
 #    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
-#    define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 39
+#    define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
 #    define P_L_DEF
 #    define P_R_DEF
 #    define mid0        &bt BT_SEL 0
@@ -58,6 +60,7 @@
 #    define mid5        &bt BT_CLR
 #    define mid6        &bt BT_CLR_ALL
 #    define ALP_XXX
+// #    define SWP_POS 21
 #endif
 
 #ifdef THREE_THUMBS
@@ -179,7 +182,7 @@
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-            ignored-key-positions = <SWP_POS>;
+//            ignored-key-positions = <SWP_POS>;
         };
 
     };
