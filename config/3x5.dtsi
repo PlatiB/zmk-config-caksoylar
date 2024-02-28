@@ -254,7 +254,7 @@ P_L_DEF &lt BTN  Z    &aml LALT X   &aml LCTRL C  &kp D         &kp V           
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)      
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI         
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
 P_L_DEF &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
                                     &none         &mkp LCLK     &mkp RCLK         &mkp RCLK     &mkp LCLK     &none
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
@@ -266,7 +266,7 @@ P_L_DEF &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)       
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LA(F4)    &swapper      &kp LC(LS(TAB)) &kp LC(TAB) &kp LC(F4)        &kp INS       &kp HOME      &kp UP        &kp END       &kp PG_UP        
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp CAPS      &kp LEFT      &kp DOWN      &kp RIGHT     &kp PG_DN        
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp CAPS      &kp LEFT      &kp DOWN      &kp RIGHT     &kp PG_DN
 P_L_DEF &sleep        &LG(L)        &colmk        &hangl        &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
                                     T3_L_NAV      &none         &none             &kp RET       &kp BSPC      T3_R_NAV
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
@@ -290,7 +290,7 @@ P_L_DEF &sleep        &LG(L)        &colmk        &hangl        &none           
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &kp C_AL_CALC &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH
-        &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI         
+        &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
 P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &none         &kp COMMA     &kp DOT       &kp SLASH     P_R_DEF
                                     T3_L_NUM      &kp N0        &kp MINUS         &none         &none         T3_R_NUM
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
@@ -302,7 +302,7 @@ P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH        
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LBRC      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RBRC          &kp LC(F4)    &kp LC(TAB)   &kp LC(LS(TAB)) &swapper    &kp LA(F4)
-        &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI         
+        &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
 P_L_DEF &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &none         &hangl        &colmk        &kp LG(L)     &sleep        P_R_DEF
                                     T3_L_SYM      &kp RPAR      &kp UNDER         &none         &none         T3_R_SYM
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
@@ -314,7 +314,7 @@ P_L_DEF &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE        
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &kp LC(F4)    &kp LC(TAB)   &kp LC(LS(TAB)) &swapper    &kp LA(F4)
-        &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI         
+        &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
 P_L_DEF &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &none         &hangl        &colmk        &kp LG(L)     &sleep        P_R_DEF
                                     T3_L_FUN      &kp SPACE     &kp TAB           &none         &none         T3_R_FUN
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
