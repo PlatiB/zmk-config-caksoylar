@@ -232,7 +232,7 @@
         &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P            
         &aml LGUI A   &aml LALT S   &aml LCTRL D  &asl LSHFT F  &kp G             &kp H         &asr LSHFT J  &amr LCTRL K  &amr LALT L   &aml LGUI SQT   
 P_L_DEF &lt BTN Z     &aml LALT X   &aml LCTRL C  &kp V         &kp B             &kp N         &kp M         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH P_R_DEF
-                                    T3_L_DEF      &lt NAV SPACE &lt MSE TAB      &lt SYM RET   &lt NUM BSPC T3_R_DEF
+                                    T3_L_DEF      &lt NAV SPACE &lt MSE TAB       &lt SYM RET   &lt NUM BSPC  T3_R_DEF
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
@@ -244,7 +244,7 @@ P_L_DEF &lt BTN Z     &aml LALT X   &aml LCTRL C  &kp V         &kp B           
         &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y         &kp SQT          
         &aml LGUI A   &aml LALT R   &aml LCTRL S  &asl LSHFT T  &kp G             &kp M         &asr LSHFT N  &amr LCTRL E  &amr LALT I   &amlr LGUI O     
 P_L_DEF &lt BTN  Z    &aml LALT X   &aml LCTRL C  &kp D         &kp V             &kp K         &kp H         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH P_R_DEF
-                                    T3_L_DEF      &lt NAV SPACE &lt MSE TAB       &lt SYM RET   &lt NUM BSPC T3_R_DEF
+                                    T3_L_DEF      &lt NAV SPACE &lt MSE TAB       &lt SYM RET   &lt NUM BSPC  T3_R_DEF
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
@@ -266,7 +266,7 @@ P_L_DEF &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)       
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LA(F4)    &swapper      &kp LC(LS(TAB)) &kp LC(TAB) &kp LC(F4)        &kp INS       &kp HOME      &kp UP        &kp END       &kp PG_UP        
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp caps      &kp LEFT      &kp DOWN      &kp RIGHT     &kp PG_DN        
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp CAPS      &kp LEFT      &kp DOWN      &kp RIGHT     &kp PG_DN        
 P_L_DEF &sleep        &LG(L)        &colmk        &hangl        &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
                                     T3_L_NAV      &none         &none             &kp RET       &kp BSPC      T3_R_NAV
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
