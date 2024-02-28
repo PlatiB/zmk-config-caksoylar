@@ -220,7 +220,7 @@
         &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P            
         &aml LGUI A   &aml LALT S   &aml LCTRL D  &asl LSHFT F  &kp G             &kp H         &asr LSHFT J  &amr LCTRL K  &amr LALT L   &aml LGUI SQT   
 P_L_DEF &lt BTN Z     &aml LALT X   &aml LCTRL C  &kp V         &kp B             &kp N         &kp M         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH P_R_DEF
-                                    T3_L_DEF      &lt &NAV SPACE &lt MSE TAB      &lt SYM RET   &lt NUM BSPC T3_R_DEF
+                                    T3_L_DEF      &lt NAV SPACE &lt MSE TAB      &lt SYM RET   &lt NUM BSPC T3_R_DEF
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
