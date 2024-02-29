@@ -290,6 +290,18 @@ P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH        
             display-name = "SYM";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+        &kp LBRC      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RBRC          &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)
+        &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
+P_L_DEF &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &none         &base         &extra        &kp LG(L)     &sleep        P_R_DEF
+                                    T3_L_SYM      &kp RPAR      &kp UNDER         &none         &none         T3_R_SYM
+//                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
+            >;
+        };
+
+        function_layer {
+            display-name = "FUN";    //t3
+            bindings = <
+//     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)
         &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
 P_L_DEF &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &none         &base         &extra        &kp LG(L)     &sleep        P_R_DEF
@@ -298,24 +310,9 @@ P_L_DEF &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK 
             >;
         };
 
-        function_layer {
-            display-name = "FUN";
-            bindings = <
-//     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-         &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &out OUT_BLE  &out OUT_USB &ext_power EP_ON &ext_power EP_OFF &kp F11
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK 
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-P_L_DEF  &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &kp LC(Y)     &lt FUN LC(V) &kp LC(C)     &kp LC(X)     &kp LC(Z)    P_R_DEF
-//     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_FUN      &lt NAV SPACE &lt MID TAB       &lt SYM RET   &lt NUM BSPC T3_R_FUN
-//                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
-            >;
-        };
-
 #ifdef MOUSE_KEYS
         mouse_layer {
-            display-name = "MSE";    // T2L
+            display-name = "MSE";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
          &none         &none         &none         &none         &none             &none        &msc SCRL_LEFT &mmv MOVE_UP  &msc SCRL_RIGHT &msc SCRL_UP
