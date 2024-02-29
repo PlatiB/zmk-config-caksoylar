@@ -9,11 +9,11 @@
 #define DEF 0
 #define CMK 1
 #define BTN 2
-#define T1R 3
-#define T2R 4
-#define T3R 5
-#define T1L 6
-#define T3L 7
+#define NAV 3
+#define MID 4
+#define NUM 5
+#define SYM 6
+#define FUN 7
 #define MSE 8
 
 // Key position groups and extra key bindings
@@ -33,21 +33,21 @@
 
 // Dongle mode. keyboardname.keymap include #define DONGLE_MODE
 #ifdef DONGLE_MODE
-#        define mid0        &kp LC(Y)
-#        define mid1        &kp LC(V)
-#        define mid2        &kp LC(C)
-#        define mid3        &kp LC(X)
-#        define mid4        &kp LC(Z)
-#        define mid5        &none
-#        define mid6        &none
+#    define mid0        &kp LC(Y)
+#    define mid1        &kp LC(V)
+#    define mid2        &kp LC(C)
+#    define mid3        &kp LC(X)
+#    define mid4        &kp LC(Z)
+#    define mid5        &none
+#    define mid6        &none
 #else
-#        define mid0        &bt BT_SEL 0
-#        define mid1        &bt BT_SEL 1
-#        define mid2        &bt BT_SEL 2
-#        define mid3        &bt BT_SEL 3
-#        define mid4        &bt BT_SEL 4
-#        define mid5        &bt BT_CLR
-#        define mid6        &bt BT_CLR_ALL
+#    define mid0        &bt BT_SEL 0
+#    define mid1        &bt BT_SEL 1
+#    define mid2        &bt BT_SEL 2
+#    define mid3        &bt BT_SEL 3
+#    define mid4        &bt BT_SEL 4
+#    define mid5        &bt BT_CLR
+#    define mid6        &bt BT_CLR_ALL
 #endif
 
 #ifdef THREE_THUMBS
@@ -57,17 +57,17 @@
 #        define THUMBS 32 33 34 35 36 37
 #    endif
 #    define T3_L_DEF &lt MSE ESC
-#    define T3_R_DEF &lt T3R DEL
-#    define T3_L_T1L
-#    define T3_R_T1L
-#    define T3_L_T3L
-#    define T3_R_T3L
-#    define T3_L_T1R &kp DOT
-#    define T3_R_T1R &lt T3R DEL
-#    define T3_L_T2R &kp LPAR
-#    define T3_R_T2R &lt T3R DEL
-#    define T3_L_T3R
-#    define T3_R_T3R
+#    define T3_R_DEF &lt FUN DEL
+#    define T3_L_NAV
+#    define T3_R_NAV
+#    define T3_L_MID
+#    define T3_R_MID
+#    define T3_L_NUM &kp DOT
+#    define T3_R_NUM &lt FUN DEL
+#    define T3_L_SYM &kp LPAR
+#    define T3_R_SYM &lt FUN DEL
+#    define T3_L_FUN
+#    define T3_R_FUN
 #    define T3_XXX   &none
 #else
 #    ifdef TOTEM38
@@ -76,17 +76,17 @@
 #        define THUMBS 32 33 34 35
 #    endif
 #    define T3_L_DEF &lt MSE ESC
-#    define T3_R_DEF &lt T3R DEL
-#    define T3_L_T1L
-#    define T3_R_T1L
-#    define T3_L_T3L
-#    define T3_R_T3L
-#    define T3_L_T1R
-#    define T3_R_T1R
-#    define T3_L_T2R
-#    define T3_R_T2R
-#    define T3_L_T3R
-#    define T3_R_T3R
+#    define T3_R_DEF &lt FUN DEL
+#    define T3_L_NAV
+#    define T3_R_NAV
+#    define T3_L_MID
+#    define T3_R_MID
+#    define T3_L_NUM
+#    define T3_R_NUM
+#    define T3_L_SYM
+#    define T3_R_SYM
+#    define T3_L_FUN
+#    define T3_R_FUN
 #    define T3_XXX   &none
 #endif
 
@@ -173,7 +173,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp LG(SPACE) &to T3L>;
+                = <&macro_tap &kp LG(SPACE) &to MID>;
         )
         ZMK_MACRO(hangl,
             wait-ms = <10>;
@@ -190,19 +190,16 @@
             display-name = "DEF";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-         &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &aml LGUI A  &aml LALT S   &aml LCTRL D   &asl LSHFT F  &kp G             &kp H         &asr LSHFT J  &amr LCTRL K   &amr LALT L   &amr LGUI SQT
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-P_L_DEF  &kp Z         &kp X         &kp C         MS_ACT(V)     &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp SLASH    P_R_DEF
-//     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_DEF      &lt T1L SPACE &lt T3L TAB       &lt T2R RET   &lt T1R BSPC  T3_R_DEF
+        &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P            
+        &aml LGUI A   &aml LALT S   &aml LCTRL D  &asl LSHFT F  &kp G             &kp H         &asr LSHFT J  &amr LCTRL K  &amr LALT L   &aml LGUI SQT   
+P_L_DEF &lt BTN Z     &aml LALT X   &aml LCTRL C  &kp V         &kp B             &kp N         &kp M         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH P_R_DEF
+                                    T3_L_DEF      &lt NAV SPACE &lt MSE TAB       &lt SYM RET   &lt NUM BSPC  T3_R_DEF
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
 
-       t1r_layer {
-            display-name = "T1R";  // NUM
+       extra_layer {
+            display-name = "EXT";  // CMK
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
          &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &kp C_AL_CALC &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH
@@ -211,13 +208,43 @@ P_L_DEF  &kp Z         &kp X         &kp C         MS_ACT(V)     &kp B          
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 P_L_DEF  &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &none         &kp COMMA     &kp DOT       &kp SLASH    P_R_DEF
 //     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_T1R      &kp N0        &kp MINUS         &lt T2R RET   &lt T1R BSPC  T3_R_T1R
+                                     T3_L_NUM      &kp N0        &kp MINUS         &lt SYM RET   &lt NUM BSPC  T3_R_NUM
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
 
-       t2r_layer {
-            display-name = "T2R";  // SYM
+       button_layer {
+            display-name = "BTN";  // BTN
+            bindings = <
+//     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+         &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &kp C_AL_CALC &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH
+//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+         &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &kp CAPS      &kp LSHIFT    &kp LCTRL     &kp LALT      &kp LGUI
+//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+P_L_DEF  &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &none         &kp COMMA     &kp DOT       &kp SLASH    P_R_DEF
+//     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
+                                     T3_L_NUM      &kp N0        &kp MINUS         &lt SYM RET   &lt NUM BSPC  T3_R_NUM
+//                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
+            >;
+        };
+
+       num_layer {
+            display-name = "NUM";  // NUM
+            bindings = <
+//     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+         &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &kp C_AL_CALC &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH
+//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+         &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &kp CAPS      &kp LSHIFT    &kp LCTRL     &kp LALT      &kp LGUI
+//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+P_L_DEF  &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &none         &kp COMMA     &kp DOT       &kp SLASH    P_R_DEF
+//     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
+                                     T3_L_NUM      &kp N0        &kp MINUS         &lt SYM RET   &lt NUM BSPC  T3_R_NUM
+//                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
+            >;
+        };
+
+       sym_layer {
+            display-name = "SYM";  // SYM
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
          &kp LBRC      &kp AMPS      &kp STAR      &kp LPAR      &kp RBRC          &kp PG_UP     &kp HOME      &kp UP        &kp END        &kp INS
@@ -226,28 +253,28 @@ P_L_DEF  &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH       
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 P_L_DEF  &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)    P_R_DEF
 //     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_T2R      &kp RPAR      &kp UNDER         &lt T2R RET   &lt T1R BSPC  T3_R_T2R
+                                     T3_L_SYM      &kp RPAR      &kp UNDER         &lt SYM RET   &lt NUM BSPC  T3_R_SYM
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
 
-        t3r_layer {
-            display-name = "T3R";  // FUN
+        fun_layer {
+            display-name = "FUN";  // FUN
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-         &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &out OUT_BLE  &out OUT_USB &ext_power EP_ON &ext_power EP_OFF P_T_R_T3R
+         &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &out OUT_BLE  &out OUT_USB &ext_power EP_ON &ext_power EP_OFF P_T_R_FUN
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          OI_M_R_T3R    I_M_R_T3R     M_M_R_T3R     R_M_R_T3R     P_M_R_T3R 
+         &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          OI_M_R_FUN    I_M_R_FUN     M_M_R_FUN     R_M_R_FUN     P_M_R_FUN 
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-P_L_DEF  &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &kp LC(Y)     &lt T3R LC(V) &kp LC(C)     &kp LC(X)     &kp LC(Z)    P_R_DEF
+P_L_DEF  &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &kp LC(Y)     &lt FUN LC(V) &kp LC(C)     &kp LC(X)     &kp LC(Z)    P_R_DEF
 //     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_T3R      &lt T1L SPACE &lt T3L TAB       &lt T2R RET   &lt T1R BSPC T3_R_T3R
+                                     T3_L_FUN      &lt NAV SPACE &lt MID TAB       &lt SYM RET   &lt NUM BSPC T3_R_FUN
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
 
-        t1l_layer {
-            display-name = "T1L";  // NAV
+        nav_layer {
+            display-name = "NAV";  // NAV
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
          &kp LG(DOT)   &kp LC(D)     &kp LC(T)     &win_sleep    &kp LC(L)         &none         &kp C_PREV    &kp C_NEXT    &kp C_VOL_UP  &kp C_VOL_DN
@@ -256,13 +283,13 @@ P_L_DEF  &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 P_L_DEF  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)    P_R_DEF
 //     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_T1L      &lt T1L SPACE &lt T3L TAB       &lt T2R RET   &lt T1R BSPC  T3_R_T1L
+                                     T3_L_NAV      &lt NAV SPACE &lt MID TAB       &lt SYM RET   &lt NUM BSPC  T3_R_NAV
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
 
-        T3L_layer {
-            display-name = "T3L";  // MEDIA
+        media_layer {
+            display-name = "MID";  // MEDIA
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
          &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y         &kp SQT
@@ -271,7 +298,7 @@ P_L_DEF  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)      
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 P_L_DEF  &kp Z         &kp X         &kp C         MS_ACT(D)     &kp V             &kp K         &kp H         &kp COMMA     &kp DOT       &kp SLASH    P_R_DEF
 //     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_T3L     &lt T1L SPACE &lt T3L TAB       &lt T2R RET   &lt T1R BSPC  T3_R_T3L
+                                     T3_L_MID     &lt NAV SPACE &lt MID TAB       &lt SYM RET   &lt NUM BSPC  T3_R_MID
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
@@ -287,7 +314,7 @@ P_L_DEF  &kp Z         &kp X         &kp C         MS_ACT(D)     &kp V          
 //     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 P_L_DEF  &none         &none         &none         &trans        &none             &none         &mkp MB4      &mkp MCLK     &mkp MB5      &none        P_R_DEF
 //     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_XXX       &lt T1L SPACE &lt T3L TAB       &mkp LCLK     &mkp RCLK     T3_XXX
+                                     T3_XXX       &lt NAV SPACE &lt MID TAB       &mkp LCLK     &mkp RCLK     T3_XXX
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
