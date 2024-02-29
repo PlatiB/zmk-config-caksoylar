@@ -37,19 +37,19 @@
 #    else
 #        define THUMBS 32 33 34 35 36 37
 #    endif
-#    define T3_L_DEF &lt MID ESC
-#    define T3_R_DEF &lt FUN DEL
-#    define T3_L_NAV
-#    define T3_R_NAV &kp DEL
-#    define T3_L_MID
-#    define T3_R_MID &kp C_MUTE
-#    define T3_L_NUM &kp DOT
-#    define T3_R_NUM &lt FUN DEL
-#    define T3_L_SYM &kp LPAR
-#    define T3_R_SYM &lt FUN DEL
-#    define T3_L_FUN
-#    define T3_R_FUN
-#    define T3_XXX   &none
+#    define T3_L_DEF    &lt MID ESC
+#    define T3_R_DEF    &lt FUN DEL
+#    define T3_L_NAV    &none
+#    define T3_R_NAV    &kp DEL
+#    define T3_L_MID    &none    // layer?
+#    define T3_R_MID    &kp C_MUTE
+#    define T3_L_NUM    &kp DOT
+#    define T3_R_NUM    &none
+#    define T3_L_SYM    &kp LPAR
+#    define T3_R_SYM    &none
+#    define T3_L_FUN    &kp K_APP
+#    define T3_R_FUN    &none    // layer?
+#    define T3_XXX      &none
 #else
 #    ifdef TOTEM38
 #        define THUMBS 30 31 32 33
@@ -68,7 +68,7 @@
 #    define T3_R_SYM
 #    define T3_L_FUN
 #    define T3_R_FUN
-#    define T3_XXX   &none
+#    define T3_XXX       &none
 #endif
 
 // Dongle mode. keyboardname.keymap include #define DONGLE_MODE
@@ -203,7 +203,7 @@ P_L_DEF &lt BTN Z     &aml LALT X   &aml LCTRL C  &kp V         &kp B           
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y         &kp SQT          
-        &aml LGUI A   &aml LALT R   &aml LCTRL S  &asl LSHFT T  &kp G             &kp M         &asr LSHFT N  &amr LCTRL E  &amr LALT I   &amlr LGUI O     
+        &aml LGUI A   &aml LALT R   &aml LCTRL S  &asl LSHFT T  &kp G             &kp M         &asr LSHFT N  &amr LCTRL E  &amr LALT I   &amr LGUI O     
 P_L_DEF &lt BTN  Z    &aml LALT X   &aml LCTRL C  &kp D         &kp V             &kp K         &kp H         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH P_R_DEF
                                     T3_L_DEF      &lt NAV SPACE &lt MSE TAB       &lt SYM RET   &lt NUM BSPC  T3_R_DEF
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
