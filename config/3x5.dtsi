@@ -70,7 +70,7 @@
 #    define T3_R_SYM
 #    define T3_L_FUN
 #    define T3_R_FUN
-#    define T3_XXX       &none
+#    define T3_XXX
 #endif
 /*
 // Dongle mode. keyboardname.keymap include #define DONGLE_MODE
