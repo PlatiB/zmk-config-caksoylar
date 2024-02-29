@@ -290,13 +290,10 @@ P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH        
             display-name = "SYM";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-         &kp LBRC      &kp AMPS      &kp STAR      &kp LPAR      &kp RBRC          &kp PG_UP     &kp HOME      &kp UP        &kp END        &kp INS
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS          &kp PG_DN     &kp LEFT      &kp DOWN      &kp RIGHT      &kp LSHIFT
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-P_L_DEF  &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)    P_R_DEF
-//     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_SYM      &kp RPAR      &kp UNDER         &lt SYM RET   &lt NUM BSPC  T3_R_SYM
+        &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)
+        &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
+P_L_DEF &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &none         &base         &extra        &kp LG(L)     &sleep        P_R_DEF
+                                    T3_L_FUN      &kp SPACE     &kp TAB           &none         &none         T3_R_FUN
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
