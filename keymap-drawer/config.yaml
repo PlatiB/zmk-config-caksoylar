@@ -7,11 +7,6 @@ parse_config:
     '&caps_word': Caps Wrd
     '&inv_qm': ¿
 
-    '&en_cmkdh_ly': COLMAK영
-    '&kr_qwert_ly': QWERTY한
-    '&td_comma': ,;
-    '&td_dot':  .:
-    '&td_slash': /\
     '&kp C_AL_CALC': CALC
     '&kp LA(LS(TAB))': Win Prev
     '&kp LA(LS(TAB))': Win Next
