@@ -253,7 +253,7 @@ P_L_DEF &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)       
         &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &kp INS       &kp HOME      &kp UP        &kp END       &kp PG_UP        
         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp CAPS      &kp LEFT      &kp DOWN      &kp RIGHT     &kp PG_DN
 P_L_DEF &sleep        &kp LG(L)     &kp D_LT      &kp D_RT      &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
-                                    T3_L_NAV      &trans        &none             &none         &none         T3_R_NAV
+                                    T3_L_NAV      &trans        &none             &kp RET       &kp BSPC      T3_R_NAV
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
