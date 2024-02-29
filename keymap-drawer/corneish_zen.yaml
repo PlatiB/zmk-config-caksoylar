@@ -360,7 +360,7 @@ combos:
   l: [DEF, EXT]
 - p: [12, 13]
   k: (
-  l: [DEF, EXT, NUM]
+  l: [DEF, EXT]
 - p: [16, 17]
   k: )
   l: [DEF, EXT]
@@ -371,15 +371,9 @@ combos:
   o: 0.15
 - p: [16, 18]
   k: ⌦
-  l: [DEF, EXT, NAV]
+  l: [DEF, EXT]
   a: top
   o: 0.15
-- p: [16, 18]
-  k: MUTE
-  l: [MID]
-- p: [16, 18]
-  k: .
-  l: [NUM]
 - p: [13, 16]
   k: Caps Wrd
   l: [DEF, EXT]
@@ -390,6 +384,9 @@ combos:
 - p: [27, 28]
   k: ':'
   l: [DEF, EXT]
-- p: [31, 32]
-  k: MSE
-  l: [DEF, EXT]
+- p: [30, 31]
+  k: .
+  l: [NUM]
+- p: [30, 31]
+  k: MUTE
+  l: [MID]

@@ -46,14 +46,10 @@ COMBO(tabf4,  &kp LC(F4),         6  8, DEF EXT,      40, 150)
 
 COMBO(lbkt,   &kp LBKT,          11 12, DEF EXT,      40, 100)
 COMBO(rbkt,   &kp RBKT,          17 18, DEF EXT,      40, 100)
-COMBO(lpar,   &kp LPAR,          12 13, DEF EXT NUM,  40, 100)
+COMBO(lpar,   &kp LPAR,          12 13, DEF EXT,      40, 100)
 COMBO(rpar,   &kp RPAR,          16 17, DEF EXT,      40, 100)
 COMBO(tab,    &kp ESC,           11 13, DEF EXT,      40, 150)
-COMBO(del,    &kp DEL,           16 18, DEF EXT NAV,  40, 150)
-
-COMBO(mute,   &kp C_MUTE,        16 18, MID,          40, 150)
-
-COMBO(dot,    &kp DOT,           16 18, NUM,          40, 150)
+COMBO(del,    &kp DEL,           16 18, DEF EXT,      40, 150)
 
 // horizontal corse hand
 COMBO(capswd, &caps_word,        13 16, DEF EXT,      60, 200)
@@ -80,11 +76,15 @@ COMBO(lock,   &kp LG(L),          3  4, DEF EXT,      80, 500)
 #ifdef TOTEM38
 COMBO(semi,   &kp SEMI,          27 28, DEF EXT,      40, 100)
 COMBO(colon,  &kp COLON,         28 29, DEF EXT,      40, 100)
+COMBO(dot,    &kp DOT,           32 33, NUM,          40, 150)
+COMBO(mute,   &kp C_MUTE,        32 33, MID,          40, 150)
 #else
 COMBO(semi,   &kp SEMI,          26 27, DEF EXT,      40, 100)
 COMBO(colon,  &kp COLON,         27 28, DEF EXT,      40, 100)
+COMBO(dot,    &kp DOT,           30 31, NUM,          40, 150)
+COMBO(mute,   &kp C_MUTE,        30 31, MID,          40, 150)
 #endif
-
+/*
 #ifdef MOUSE_KEYS
 #    ifdef THREE_THUMBS
 #        ifdef TOTEM38
@@ -100,6 +100,6 @@ COMBO(mse_l,  &mo MSE,           31 32, DEF EXT,     150,   0, slow-release;)
 #        endif
 #    endif
 #endif
-
+*/
 	};
 };
