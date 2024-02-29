@@ -37,26 +37,26 @@
         compatible = "zmk,combos";
 
 // horizontal same hand
-COMBO(tab_l,  &kp LC(LS(TAB)),    1  2, DEF CMK,      80,  50)	// 거짓양성
-COMBO(tab_r,  &kp LC(TAB),        7  8, DEF CMK,      80,  50)
-COMBO(win_p,  &kp LA(LS(TAB)),    2  3, DEF CMK,      40, 100)	// 거짓음성
-COMBO(win_n,  &kp LA(TAB),        6  7, DEF CMK,      40, 100)
-COMBO(winf4,  &kp LA(F4),         1  3, DEF CMK,      40, 150)
-COMBO(tabf4,  &kp LC(F4),         6  8, DEF CMK,      40, 150)
+COMBO(tab_l,  &kp LC(LS(TAB)),    1  2, DEF EXT,      80,  50)	// 거짓양성
+COMBO(tab_r,  &kp LC(TAB),        7  8, DEF EXT,      80,  50)
+COMBO(win_p,  &kp LA(LS(TAB)),    2  3, DEF EXT,      40, 100)	// 거짓음성
+COMBO(win_n,  &kp LA(TAB),        6  7, DEF EXT,      40, 100)
+COMBO(winf4,  &kp LA(F4),         1  3, DEF EXT,      40, 150)
+COMBO(tabf4,  &kp LC(F4),         6  8, DEF EXT,      40, 150)
 
-COMBO(lbkt,   &kp LBKT,          11 12, DEF CMK,      40, 100)
-COMBO(rbkt,   &kp RBKT,          17 18, DEF CMK,      40, 100)
-COMBO(lpar,   &kp LPAR,          12 13, DEF CMK NUM,  40, 100)
-COMBO(rpar,   &kp RPAR,          16 17, DEF CMK,      40, 100)
-COMBO(tab,    &kp ESC,           11 13, DEF CMK,      40, 150)
-COMBO(del,    &kp DEL,           16 18, DEF CMK NAV,  40, 150)
+COMBO(lbkt,   &kp LBKT,          11 12, DEF EXT,      40, 100)
+COMBO(rbkt,   &kp RBKT,          17 18, DEF EXT,      40, 100)
+COMBO(lpar,   &kp LPAR,          12 13, DEF EXT NUM,  40, 100)
+COMBO(rpar,   &kp RPAR,          16 17, DEF EXT,      40, 100)
+COMBO(tab,    &kp ESC,           11 13, DEF EXT,      40, 150)
+COMBO(del,    &kp DEL,           16 18, DEF EXT NAV,  40, 150)
 
 COMBO(mute,   &kp C_MUTE,        16 18, MID,          40, 150)
 
 COMBO(dot,    &kp DOT,           16 18, NUM,          40, 150)
 
 // horizontal corse hand
-COMBO(capswd, &caps_word,        13 16, DEF CMK,      60, 200)
+COMBO(capswd, &caps_word,        13 16, DEF EXT,      60, 200)
 
 /*
 거짓양성 콤보를 누르지 않았는데 누른 걸로 반응
@@ -70,33 +70,33 @@ https://github.com/urob/zmk-config
 COMBO(esc,    &kp ESC,            0  1, DEF,          80,  50)
 COMBO(del,    &kp DEL,            8  9, DEF,          80,  50)
 COMBO(pp,     &kp C_PP,           4 14, DEF,         200, 200)
-COMBO(mute,   &kp C_MUTE,         9 19, DEF CMK,     200, 200)
+COMBO(mute,   &kp C_MUTE,         9 19, DEF EXT,     200, 200)
 COMBO(semi,   &kp SEMI,          27 28, DEF,          40, 100)
 COMBO(colon,  &kp COLON,         28 29, DEF,          40, 100)
-COMBO(lock,   &kp LG(L),          3  4, DEF CMK,      80, 500)
+COMBO(lock,   &kp LG(L),          3  4, DEF EXT,      80, 500)
 */
 
 
 #ifdef TOTEM38
-COMBO(semi,   &kp SEMI,          27 28, DEF CMK,      40, 100)
-COMBO(colon,  &kp COLON,         28 29, DEF CMK,      40, 100)
+COMBO(semi,   &kp SEMI,          27 28, DEF EXT,      40, 100)
+COMBO(colon,  &kp COLON,         28 29, DEF EXT,      40, 100)
 #else
-COMBO(semi,   &kp SEMI,          26 27, DEF CMK,      40, 100)
-COMBO(colon,  &kp COLON,         27 28, DEF CMK,      40, 100)
+COMBO(semi,   &kp SEMI,          26 27, DEF EXT,      40, 100)
+COMBO(colon,  &kp COLON,         27 28, DEF EXT,      40, 100)
 #endif
 
 #ifdef MOUSE_KEYS
 #    ifdef THREE_THUMBS
 #        ifdef TOTEM38
-COMBO(mse_l,  &mo MSE,           33 34, DEF CMK,     150,   0, slow-release;)
+COMBO(mse_l,  &mo MSE,           33 34, DEF EXT,     150,   0, slow-release;)
 #        else
-COMBO(mse_l,  &mo MSE,           31 32, DEF CMK,     150,   0, slow-release;)
+COMBO(mse_l,  &mo MSE,           31 32, DEF EXT,     150,   0, slow-release;)
 #        endif
 #    else
 #        ifdef TOTEM38
-COMBO(mse_l,  &mo MSE,           33 34, DEF CMK,     150,   0, slow-release;)
+COMBO(mse_l,  &mo MSE,           33 34, DEF EXT,     150,   0, slow-release;)
 #        else
-COMBO(mse_l,  &mo MSE,           31 32, DEF CMK,     150,   0, slow-release;)
+COMBO(mse_l,  &mo MSE,           31 32, DEF EXT,     150,   0, slow-release;)
 #        endif
 #    endif
 #endif
