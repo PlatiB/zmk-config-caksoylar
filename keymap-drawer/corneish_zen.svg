@@ -1091,8 +1091,8 @@ path.combo {
 <text x="0" y="0" class="key ghost tap">MUTE</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="185" y="196" width="28" height="26" class="combo"/>
-<text x="199" y="209" class="combo tap">MUTE</text>
+<rect rx="6" ry="6" x="248" y="206" width="28" height="26" class="combo"/>
+<text x="262" y="219" class="combo tap">MUTE</text>
 </g>
 </g>
 </g>
@@ -1239,8 +1239,8 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="185" y="196" width="28" height="26" class="combo"/>
-<text x="199" y="209" class="combo tap">.</text>
+<rect rx="6" ry="6" x="248" y="206" width="28" height="26" class="combo"/>
+<text x="262" y="219" class="combo tap">.</text>
 </g>
 </g>
 </g>
@@ -1396,6 +1396,10 @@ path.combo {
 </g>
 <g transform="translate(560, 205)" class="key ghost keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="248" y="206" width="28" height="26" class="combo"/>
+<text x="262" y="219" class="combo tap">(</text>
 </g>
 </g>
 </g>
