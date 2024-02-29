@@ -23,14 +23,14 @@
 #    define P_L_DEF    &kp ESC     /* left pinky             */
 #    define P_R_DEF    &kp RET     /* right pinky            */
 #    define ALP_XXX    &none
-#    define SWP_POS 0    // &kp LS(TAB) position
+#    define SWP_POS 0 9    // &kp LS(TAB) position
 #else
 #    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
 #    define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
 #    define P_L_DEF
 #    define P_R_DEF
 #    define ALP_XXX    &none
-#    define SWP_POS 0    // &kp LS(TAB) position
+#    define SWP_POS 0 9    // &kp LS(TAB) position
 #endif
 
 #ifdef THREE_THUMBS
@@ -75,21 +75,21 @@
 
 // Dongle mode. keyboardname.keymap include #define DONGLE_MODE
 #ifdef DONGLE_MODE
-#    define mid0        &kp LC(Y)
-#    define mid1        &kp LC(V)
-#    define mid2        &kp LC(C)
-#    define mid3        &kp LC(X)
-#    define mid4        &kp LC(Z)
+#    define mid0        &none
+#    define mid1        &none
+#    define mid2        &none
+#    define mid3        &none
+#    define mid4        &none
 #    define mid5        &none
 #    define mid6        &none
 #else
-#    define mid0        &bt BT_SEL 0
-#    define mid1        &bt BT_SEL 1
-#    define mid2        &bt BT_SEL 2
-#    define mid3        &bt BT_SEL 3
-#    define mid4        &bt BT_SEL 4
-#    define mid5        &bt BT_CLR
-#    define mid6        &bt BT_CLR_ALL
+#    define mid0        &none
+#    define mid1        &none
+#    define mid2        &none
+#    define mid3        &none
+#    define mid4        &none
+#    define mid5        &none
+#    define mid6        &none
 #endif
 
 // Desktop and tab navigation shortcuts
@@ -250,8 +250,8 @@ P_L_DEF &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)       
             >;
         };
 
-        nav_layer {
-            display-name = "NAV";  // NAVIGATION
+        navigation_layer {
+            display-name = "NAV";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &kp INS       &kp HOME      &kp UP        &kp END       &kp PG_UP        
@@ -263,7 +263,7 @@ P_L_DEF &sleep        &kp LG(L)     &extra        &base         &none           
         };
 
         media_layer {
-            display-name = "MID";  // MEDIA
+            display-name = "MID";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &out OUT_BLE  &out OUT_USB  &kp C_VOL_UP  &ext_power EP_ON &ext_power EP_OFF
@@ -274,23 +274,20 @@ P_L_DEF &sleep        &kp LG(L)     &extra        &base         &none           
             >;
         };
 
-       num_layer {
-            display-name = "NUM";  // NUM
+       number_layer {
+            display-name = "NUM";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-         &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &kp C_AL_CALC &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &kp CAPS      &kp LSHIFT    &kp LCTRL     &kp LALT      &kp LGUI
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-P_L_DEF  &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &none         &kp COMMA     &kp DOT       &kp SLASH    P_R_DEF
-//     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_NUM      &kp N0        &kp MINUS         &lt SYM RET   &lt NUM BSPC  T3_R_NUM
+        &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &kp C_AL_CALC &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH
+        &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
+P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &none         &kp COMMA     &kp DOT       &kp SLASH     P_R_DEF
+                                    T3_L_NUM      &kp N0        &kp MINUS         &none         &none         T3_R_NUM
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
 
        symbol_layer {
-            display-name = "SYM";  // SYM
+            display-name = "SYM";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
          &kp LBRC      &kp AMPS      &kp STAR      &kp LPAR      &kp RBRC          &kp PG_UP     &kp HOME      &kp UP        &kp END        &kp INS
@@ -305,7 +302,7 @@ P_L_DEF  &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE       
         };
 
         function_layer {
-            display-name = "FUN";  // FUN
+            display-name = "FUN";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
          &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &out OUT_BLE  &out OUT_USB &ext_power EP_ON &ext_power EP_OFF &kp F11
