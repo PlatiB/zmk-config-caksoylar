@@ -52,6 +52,13 @@
 #    define T3_L_FUN    &kp K_APP
 #    define T3_R_FUN    &lt FUN DEL
 #    define T3_XXX      &none
+#    define mid0        &none
+#    define mid1        &none
+#    define mid2        &none
+#    define mid3        &none
+#    define mid4        &none
+#    define mid5        &none
+#    define mid6        &none
 #else
 #    ifdef TOTEM38
 #        define THUMBS 30 31 32 33
@@ -71,6 +78,13 @@
 #    define T3_L_FUN
 #    define T3_R_FUN
 #    define T3_XXX       &none
+#    define mid0        &none
+#    define mid1        &none
+#    define mid2        &none
+#    define mid3        &none
+#    define mid4        &none
+#    define mid5        &none
+#    define mid6        &none
 #endif
 
 // Dongle mode. keyboardname.keymap include #define DONGLE_MODE
