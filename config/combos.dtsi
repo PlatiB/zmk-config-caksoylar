@@ -1,11 +1,12 @@
-/*                KEY POSITIONS
-30 keys:
-  ╭────────────────────╮ ╭────────────────────╮
-  │  0   1   2   3   4 │ │  5   6   7   8   9 │
-  │ 10  11  12  13  14 │ │ 15  16  17  18  19 │
-  ╰───╮ 20  21  22     │ │     23  24  25 ╭───╯
-      ╰───────╮ 26  27 │ │ 28  29 ╭───────╯
-              ╰────────╯ ╰────────╯ 
+/*               
+거짓양성 콤보를 누르지 않았는데 누른 걸로 반응
+같은 손 리퀴어프라이어아이들보다 탭핑텀을 증가. 다른 손 반대
+거짓음성 콤보를 눌렀는데 누르지 않은 걸로 반응
+같은 손 리퀴어프라이어아이들보다 탬핑텀을 감소. 다른 손 반대
+출처 Troubleshooting
+https://github.com/urob/zmk-config
+
+		KEY POSITIONS
 34 keys:
   ╭────────────────────╮ ╭────────────────────╮
   │  0   1   2   3   4 │ │  5   6   7   8   9 │
@@ -37,13 +38,14 @@
         compatible = "zmk,combos";
 
 // horizontal same hand
-COMBO(tab_l,  &kp LC(LS(TAB)),    1  2, DEF EXT,      80,  50)	// 거짓양성
-COMBO(tab_r,  &kp LC(TAB),        7  8, DEF EXT,      80,  50)
-COMBO(win_p,  &kp LA(LS(TAB)),    2  3, DEF EXT,      40, 100)	// 거짓음성
+COMBO(at,     &kp AT,             1  2, DEF EXT,      80,  50)	// 거짓양성
+COMBO(hash,   &kp HASH,           2  3, DEF EXT,      40, 100)	// 거짓음성
+COMBO(dqt,    &kp DQT,            1  3, DEF EXT,      40, 150)
+/*
 COMBO(win_n,  &kp LA(TAB),        6  7, DEF EXT,      40, 100)
-COMBO(winf4,  &kp LA(F4),         1  3, DEF EXT,      40, 150)
+COMBO(hash,   &kp LC(TAB),        7  8, DEF EXT,      80,  50)
 COMBO(tabf4,  &kp LC(F4),         6  8, DEF EXT,      40, 150)
-
+*/
 COMBO(lbkt,   &kp LBKT,          11 12, DEF EXT,      40, 100)
 COMBO(rbkt,   &kp RBKT,          17 18, DEF EXT,      40, 100)
 COMBO(lpar,   &kp LPAR,          12 13, DEF EXT,      40, 100)
@@ -53,25 +55,6 @@ COMBO(del,    &kp DEL,           16 18, DEF EXT NAV,  40, 150)
 
 // horizontal corse hand
 COMBO(capswd, &caps_word,        13 16, DEF EXT,      60, 200)
-
-/*
-거짓양성 콤보를 누르지 않았는데 누른 걸로 반응
-같은 손 리퀴어프라이어아이들보다 탭핑텀을 증가. 다른 손 반대
-거짓음성 콤보를 눌렀는데 누르지 않은 걸로 반응
-같은 손 리퀴어프라이어아이들보다 탬핑텀을 감소. 다른 손 반대
-출처 Troubleshooting
-https://github.com/urob/zmk-config
-
-보류
-COMBO(esc,    &kp ESC,            0  1, DEF,          80,  50)
-COMBO(del,    &kp DEL,            8  9, DEF,          80,  50)
-COMBO(pp,     &kp C_PP,           4 14, DEF,         200, 200)
-COMBO(mute,   &kp C_MUTE,         9 19, DEF EXT,     200, 200)
-COMBO(semi,   &kp SEMI,          27 28, DEF,          40, 100)
-COMBO(colon,  &kp COLON,         28 29, DEF,          40, 100)
-COMBO(lock,   &kp LG(L),          3  4, DEF EXT,      80, 500)
-*/
-
 
 #ifdef TOTEM38
 COMBO(semi,   &kp SEMI,          27 28, DEF EXT,      40, 150)

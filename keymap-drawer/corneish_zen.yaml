@@ -335,22 +335,13 @@ layers:
   - ''
 combos:
 - p: [1, 2]
-  k: Tab Left
-  l: [DEF, EXT]
-- p: [7, 8]
-  k: Tab Right
+  k: '@'
   l: [DEF, EXT]
 - p: [2, 3]
-  k: Win Next
-  l: [DEF, EXT]
-- p: [6, 7]
-  k: LA(TAB)
+  k: '#'
   l: [DEF, EXT]
 - p: [1, 3]
-  k: Win Close
-  l: [DEF, EXT]
-- p: [6, 8]
-  k: Tab Close
+  k: '"'
   l: [DEF, EXT]
 - p: [11, 12]
   k: '['
