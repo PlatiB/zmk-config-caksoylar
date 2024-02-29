@@ -7,12 +7,14 @@
 
 // Layer aliases left thums T0L, right thums T0R
 #define DEF 0
-#define T1R 1
-#define T2R 2
-#define T3R 3
-#define T1L 4
-#define T3L 5
-#define MSE 6
+#define CMK 1
+#define BTN 2
+#define T1R 3
+#define T2R 4
+#define T3R 5
+#define T1L 6
+#define T3L 7
+#define MSE 8
 
 // Key position groups and extra key bindings
 #ifdef TOTEM38   /* dropped index and pinkies */
@@ -20,25 +22,32 @@
 #    define KEYS_R 5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 31
 #    define P_L_DEF    &kp ESC     /* left pinky             */
 #    define P_R_DEF    &kp RET     /* right pinky            */
-#    define P_T_R_T3R  &none       /* top right pinky        */
-#    define OI_M_R_T3R &none       /* middle right out index */
-#    define I_M_R_T3R  &kp LSHIFT  /* middle right index     */
-#    define M_M_R_T3R  &kp LCTRL   /* middle right middle    */
-#    define R_M_R_T3R  &kp LALT    /* middle right ring      */
-#    define P_M_R_T3R  &kp LGUI    /* middle right pinky     */
 #    define ALP_XXX &none
 #else
 #    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
 #    define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
 #    define P_L_DEF
 #    define P_R_DEF
-#    define P_T_R_T3R  &bt BT_CLR_ALL
-#    define OI_M_R_T3R &bt BT_SEL 0
-#    define I_M_R_T3R  &bt BT_SEL 1
-#    define M_M_R_T3R  &bt BT_SEL 2
-#    define R_M_R_T3R  &bt BT_SEL 3
-#    define P_M_R_T3R  &bt BT_CLR
 #    define ALP_XXX
+#endif
+
+// Dongle mode. keyboardname.keymap include #define DONGLE_MODE
+#ifdef DONGLE_MODE
+#        define mid0        &kp LC(Y)
+#        define mid1        &kp LC(V)
+#        define mid2        &kp LC(C)
+#        define mid3        &kp LC(X)
+#        define mid4        &kp LC(Z)
+#        define mid5        &none
+#        define mid6        &none
+#else
+#        define mid0        &bt BT_SEL 0
+#        define mid1        &bt BT_SEL 1
+#        define mid2        &bt BT_SEL 2
+#        define mid3        &bt BT_SEL 3
+#        define mid4        &bt BT_SEL 4
+#        define mid5        &bt BT_CLR
+#        define mid6        &bt BT_CLR_ALL
 #endif
 
 #ifdef THREE_THUMBS
@@ -153,7 +162,7 @@
     };
 
      macros {
-        ZMK_MACRO(win_sleep,
+        ZMK_MACRO(win_sl,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
