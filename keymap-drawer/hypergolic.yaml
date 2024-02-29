@@ -25,8 +25,8 @@ layers:
   - {t: X, h: Alt}
   - {t: C, h: Ctrl}
   - V
-  - B
-  - N
+  - {t: B, h: MID}
+  - {t: N, h: FUN}
   - M
   - {t: ',', h: Ctrl}
   - {t: ., h: Alt}
@@ -60,8 +60,8 @@ layers:
   - {t: X, h: Alt}
   - {t: C, h: Ctrl}
   - D
-  - V
-  - K
+  - {t: V, h: MID}
+  - {t: K, h: FUN}
   - H
   - {t: ',', h: Ctrl}
   - {t: ., h: Alt}
@@ -167,7 +167,7 @@ layers:
   - LG(L)
   - '&extra'
   - '&base'
-  - ''
+  - {type: held}
   - LC(Y)
   - LC(V)
   - LC(C)
@@ -273,7 +273,7 @@ layers:
   - F2
   - F3
   - Pause Break
-  - ''
+  - {type: held}
   - '&base'
   - '&extra'
   - LG(L)
