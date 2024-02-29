@@ -52,13 +52,6 @@
 #    define T3_L_FUN    &kp K_APP
 #    define T3_R_FUN    &lt FUN DEL
 #    define T3_XXX      &none
-#    define mid0        &none
-#    define mid1        &none
-#    define mid2        &none
-#    define mid3        &none
-#    define mid4        &none
-#    define mid5        &none
-#    define mid6        &none
 #else
 #    ifdef TOTEM38
 #        define THUMBS 30 31 32 33
@@ -78,15 +71,8 @@
 #    define T3_L_FUN
 #    define T3_R_FUN
 #    define T3_XXX       &none
-#    define mid0        &none
-#    define mid1        &none
-#    define mid2        &none
-#    define mid3        &none
-#    define mid4        &none
-#    define mid5        &none
-#    define mid6        &none
 #endif
-
+/*
 // Dongle mode. keyboardname.keymap include #define DONGLE_MODE
 #ifdef DONGLE_MODE
 #    define mid0        &none
@@ -105,7 +91,7 @@
 #    define mid5        &none
 #    define mid6        &none
 #endif
-
+*/
 // Desktop and tab navigation shortcuts
 #define D_LT   LC(LG(LEFT))
 #define D_RT   LC(LG(RIGHT))
@@ -281,8 +267,8 @@ P_L_DEF &sleep        &kp LG(L)     &extra        &base         &none           
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &out OUT_BLE  &out OUT_USB  &kp C_VOL_UP  &ext_power EP_ON &ext_power EP_OFF
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none         &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT    &none
-P_L_DEF &sleep        &kp LG(L)     &extra        &base         &none             &mid0         &mid1         &mid2         &mid3         &mid4         P_R_DEF
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &bt BT_CLR    &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT    &bt BT_CLR_ALL
+P_L_DEF &sleep        &kp LG(L)     &extra        &base         &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
                                     T3_L_MID      &none         &none             &kp C_STOP    &kp C_PP      T3_R_MID
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
