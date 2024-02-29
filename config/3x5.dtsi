@@ -203,7 +203,7 @@
             bindings
                 = <&macro_tap &kp LG(SPACE) &to EXT>;
         )
-        ZMK_MACRO(hangl,
+        ZMK_MACRO(base,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
@@ -254,9 +254,9 @@ P_L_DEF &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)       
             display-name = "NAV";  // NAVIGATION
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &kp LC(F4)        &kp INS       &kp HOME      &kp UP        &kp END       &kp PG_UP        
+        &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &kp INS       &kp HOME      &kp UP        &kp END       &kp PG_UP        
         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp CAPS      &kp LEFT      &kp DOWN      &kp RIGHT     &kp PG_DN
-P_L_DEF &sleep        &kp LG(L)     &extra        &hangl        &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
+P_L_DEF &sleep        &kp LG(L)     &extra        &base         &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
                                     T3_L_NAV      &kp D_LT      &kp D_RT          &kp RET       &kp BSPC      T3_R_NAV
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
@@ -266,13 +266,10 @@ P_L_DEF &sleep        &kp LG(L)     &extra        &hangl        &none           
             display-name = "MID";  // MEDIA
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-         &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y         &kp SQT
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &aml LGUI A   &aml LALT R   &aml LCTRL S  &asl LSHFT T  &kp G             &kp M         &asr LSHFT N  &amr LCTRL E  &amr LALT I   &amr LGUI O
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-P_L_DEF  &kp Z         &kp X         &kp C         MS_ACT(D)     &kp V             &kp K         &kp H         &kp COMMA     &kp DOT       &kp SLASH    P_R_DEF
-//     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_MID     &lt NAV SPACE &lt MID TAB       &lt SYM RET   &lt NUM BSPC  T3_R_MID
+        &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &out OUT_BLE  &out OUT_USB  &kp C_VOL_UP  &ext_power EP_ON &ext_power EP_OFF
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &mid5         &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT    &mid6
+P_L_DEF &sleep        &kp LG(L)     &extra        &base         &none             &mid0         &mid1         &mid2         &mid3         &mid4         P_R_DEF
+                                    T3_L_MID      &none         &none             &kp C_STOP    &kp C_PP      T3_R_MID
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
