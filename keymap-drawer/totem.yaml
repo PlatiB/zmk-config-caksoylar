@@ -376,9 +376,6 @@ combos:
 - p: [17, 18]
   k: ']'
   l: [DEF, EXT]
-- p: [12, 13]
-  k: (
-  l: [DEF, EXT]
 - p: [16, 17]
   k: )
   l: [DEF, EXT]
@@ -405,9 +402,9 @@ combos:
 - p: [33, 34]
   k: .
   l: [NUM]
-- p: [33, 34]
+- p: [12, 13, 33, 34]
   k: (
-  l: [SYM]
+  l: [DEF, EXT, SYM]
 - p: [35, 36]
   k: MUTE
   l: [MID]
