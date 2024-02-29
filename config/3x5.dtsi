@@ -202,13 +202,10 @@ P_L_DEF &lt BTN Z     &aml LALT X   &aml LCTRL C  &kp V         &kp B           
             display-name = "EXT";  // colemakdh
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-         &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &kp C_AL_CALC &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &kp CAPS      &kp LSHIFT    &kp LCTRL     &kp LALT      &kp LGUI
-//     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-P_L_DEF  &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &none         &kp COMMA     &kp DOT       &kp SLASH    P_R_DEF
-//     ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                     T3_L_NUM      &kp N0        &kp MINUS         &lt SYM RET   &lt NUM BSPC  T3_R_NUM
+        &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y         &kp SQT          
+        &aml LGUI A   &aml LALT R   &aml LCTRL S  &asl LSHFT T  &kp G             &kp M         &asr LSHFT N  &amr LCTRL E  &amr LALT I   &amlr LGUI O     
+P_L_DEF &lt BTN  Z    &aml LALT X   &aml LCTRL C  &kp D         &kp V             &kp K         &kp H         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH P_R_DEF
+                                    T3_L_DEF      &lt NAV SPACE &lt MSE TAB       &lt SYM RET   &lt NUM BSPC  T3_R_DEF
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
