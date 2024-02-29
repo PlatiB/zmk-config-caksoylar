@@ -7,7 +7,7 @@
 
 // Layer aliases left thums T0L, right thums T0R
 #define DEF 0
-#define CMK 1
+#define EXT 1
 #define BTN 2
 #define NAV 3
 #define MID 4
