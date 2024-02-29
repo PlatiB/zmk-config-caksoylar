@@ -307,8 +307,8 @@ layers:
   - '&sleep'
   - ⏎
   - APP
-  - ''
-  - ''
+  - ␣
+  - ↹
   - ''
   - ''
   - {t: ⌦, h: FUN, type: held}

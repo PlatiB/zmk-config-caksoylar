@@ -278,8 +278,8 @@ layers:
   - '&extra'
   - LG(L)
   - '&sleep'
-  - ''
-  - ''
+  - ␣
+  - ↹
   - ''
   - ''
 combos:

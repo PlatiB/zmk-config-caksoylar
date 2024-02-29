@@ -291,8 +291,8 @@ layers:
   - LG(L)
   - '&sleep'
   - APP
-  - ''
-  - ''
+  - ␣
+  - ↹
   - ''
   - ''
   - {t: ⌦, h: FUN, type: held}
