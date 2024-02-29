@@ -81,7 +81,7 @@
 #    define T3_XXX   &none
 #endif
 
-#include "combos.dtsi"
+// #include "combos.dtsi"
 
 #ifdef MOUSE_KEYS
 #    include "mouse.dtsi"
