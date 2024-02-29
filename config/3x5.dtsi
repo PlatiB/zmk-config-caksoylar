@@ -97,8 +97,6 @@
 #define D_RT   LC(LG(RIGHT))
 #define TAB_RT LC(TAB)
 #define TAB_LT LC(LS(TAB))
-#define WIN_RT LA(TAB)
-#define WIN_LT LA(LS(TAB))
 
 // #include "combos.dtsi"
 
