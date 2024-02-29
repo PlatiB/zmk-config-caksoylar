@@ -267,7 +267,7 @@ P_L_DEF &sleep        &kp LG(L)     &extra        &base         &none           
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &out OUT_BLE  &out OUT_USB  &kp C_VOL_UP  &ext_power EP_ON &ext_power EP_OFF
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &mid5         &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT    &mid6
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none         &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT    &none
 P_L_DEF &sleep        &kp LG(L)     &extra        &base         &none             &mid0         &mid1         &mid2         &mid3         &mid4         P_R_DEF
                                     T3_L_MID      &none         &none             &kp C_STOP    &kp C_PP      T3_R_MID
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
