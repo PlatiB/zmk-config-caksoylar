@@ -371,7 +371,7 @@ combos:
   o: 0.15
 - p: [16, 18]
   k: ⌦
-  l: [DEF, EXT]
+  l: [DEF, EXT, NAV]
   a: top
   o: 0.15
 - p: [13, 16]
