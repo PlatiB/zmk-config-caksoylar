@@ -56,7 +56,7 @@ COMBO(del,    &kp DEL,           16 18, DEF EXT NAV,  40, 150)
 // horizontal corse hand
 COMBO(capswd, &caps_word,        13 16, DEF EXT,      60, 200)
 
-#ifdef TOTEM38
+#ifdef PLUS1KEY
 COMBO(semi,   &kp SEMI,          27 28, DEF EXT,      40, 150)
 COMBO(colon,  &kp COLON,         28 29, DEF EXT,      40, 150)
 COMBO(dot,    &kp DOT,           33 34, NUM,          40, 150)
