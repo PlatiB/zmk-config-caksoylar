@@ -274,9 +274,9 @@ P_L_DEF &sleep        &kp LG(L)     &extra        &base         &trans          
             display-name = "NUM";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &kp C_AL_CALC &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH
-        &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
-P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &none         &kp COMMA     &kp DOT       &kp SLASH     P_R_DEF
+        &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)
+        &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &kp C_AL_CALC &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
+P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH     P_R_DEF
                                     T3_L_NUM      &kp N0        &kp MINUS         &none         &trans        T3_R_NUM
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
