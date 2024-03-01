@@ -22,8 +22,8 @@ layers:
   - {t: L, h: Alt}
   - {t: '''', h: Gui}
   - {t: Z, h: BTN}
-  - {t: X, h: Alt}
-  - {t: C, h: Ctrl}
+  - X
+  - C
   - V
   - {t: B, h: MID}
   - {t: N, h: FUN}
@@ -57,10 +57,10 @@ layers:
   - {t: I, h: Alt}
   - {t: O, h: Gui}
   - {t: Z, h: BTN}
-  - {t: X, h: Alt}
-  - {t: C, h: Ctrl}
+  - X
+  - C
   - D
-  - {t: V, h: MID}
+  - V
   - {t: K, h: FUN}
   - H
   - {t: ',', h: Ctrl}
