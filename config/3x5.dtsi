@@ -252,7 +252,7 @@ P_L_DEF &sleep        &kp LG(L)     &kp D_LT      &kp D_RT      &none           
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &out OUT_BLE  &out OUT_USB  &kp C_VOL_UP  &ext_power EP_ON &ext_power EP_OFF
         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &bt BT_CLR    &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT    &bt BT_CLR_ALL
-P_L_DEF &sleep        &kp LG(L)     &extra        &base         &trans            &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
+P_L_DEF &sleep        &kp LG(L)     &extra        &base         &trans            &mid0         &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
                                     T3_L_MID      &none         &none             &kp C_STOP    &kp C_PP      T3_R_MID
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;

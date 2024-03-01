@@ -183,7 +183,7 @@ layers:
   - '&extra'
   - '&base'
   - {type: held}
-  - LC(Y)
+  - BT 1
   - LC(V)
   - LC(C)
   - LC(X)
