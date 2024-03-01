@@ -2,10 +2,9 @@
 
 ## Keymap
 
-This is a [ZMK](https://zmk.dev) config repo for my 30-36 key split keyboards, arranged in 3 rows of 5 columns with 2 or 3 thumb keys on each side.
-The keymap is optimized to be usable with 30 keys, with dropped keys from inner index and pinky columns and two thumb keys each, like the [Hummingbird](https://github.com/PJE66/hummingbird) layout.
+This is a [ZMK](https://zmk.dev) config repo for my 34-38 key split keyboards, arranged in 3 rows of 5 columns with 2 or 3 thumb keys on each side.
 Currently these keyboards are:
-- A hand-wired [Rommana](https://github.com/AlaaSaadAbdo/Rommana) (30 keys)
+- [Totem](https://github.com/GEIGEIGEIST/zmk-config-totem) (38 keys)
 - [Corne-ish Zen](https://lowprokb.ca/products/corne-ish-zen) (36 keys)
 - [Hypergolic (1.2 BM variant)](https://github.com/davidphilipbarr/hypergolic) (34 keys)
 
