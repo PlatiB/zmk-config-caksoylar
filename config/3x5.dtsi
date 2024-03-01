@@ -241,8 +241,8 @@ P_L_DEF &lt BTN  Z    &kp X         &kp C         &kp D         &kp V           
         &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)      
         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
 P_L_DEF &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     P_R_DEF
-                                    T3_XXX        &none         &none &none         &none      T3_XXX
-//                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯&mkp LCLK     &mkp RCLK         &mkp RCLK     &mkp LCLK 
+                                    T3_XXX        &mkp LCLK     &mkp RCLK         &mkp RCLK     &mkp LCLK     T3_XXX
+//                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
 

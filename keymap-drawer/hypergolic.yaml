@@ -101,10 +101,10 @@ layers:
   - LC(C)
   - LC(X)
   - LC(Z)
-  - ''
-  - ''
-  - ''
-  - ''
+  - Left Click
+  - Right Click
+  - Right Click
+  - Left Click
   NAV:
   - Win Prev
   - Win Next
