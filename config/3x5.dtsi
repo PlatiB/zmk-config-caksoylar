@@ -73,9 +73,21 @@
 
 // Dongle mode. keyboardname.keymap include #define DONGLE_MODE
 #ifdef DONGLE_MODE
-#    define mid0 LC(Y)
+#    define mid0    &kp LC(Y)
+#    define mid1    &kp LC(V)
+#    define mid2    &kp LC(C)
+#    define mid3    &kp LC(X)
+#    define mid4    &kp LC(Z)
+#    define mid5    &none
+#    define mid6    &none
 #else
-#    define mid0 &bt BT_SEL 0
+#    define mid0    &bt BT_SEL 0
+#    define mid1    &bt BT_SEL 1
+#    define mid2    &bt BT_SEL 2
+#    define mid3    &bt BT_SEL 3
+#    define mid4    &bt BT_SEL 4
+#    define mid5    &bt BT_CLR
+#    define mid6    &bt BT_CLR_ALL
 #endif
 
 // Desktop and tab navigation shortcuts
