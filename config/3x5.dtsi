@@ -70,26 +70,14 @@
 #    define T3_R_FUN
 #    define T3_XXX
 #endif
-/*
+
 // Dongle mode. keyboardname.keymap include #define DONGLE_MODE
 #ifdef DONGLE_MODE
-#    define mid0        &none
-#    define mid1        &none
-#    define mid2        &none
-#    define mid3        &none
-#    define mid4        &none
-#    define mid5        &none
-#    define mid6        &none
+#    define mid0 LC(Y)
 #else
-#    define mid0        &none
-#    define mid1        &none
-#    define mid2        &none
-#    define mid3        &none
-#    define mid4        &none
-#    define mid5        &none
-#    define mid6        &none
+#    define mid0 &bt BT_SEL 0
 #endif
-*/
+
 // Desktop and tab navigation shortcuts
 #define D_LT   LC(LG(LEFT))
 #define D_RT   LC(LG(RIGHT))
