@@ -21,6 +21,7 @@ layers:
   - {t: K, h: Ctrl}
   - {t: L, h: Alt}
   - {t: '''', h: Gui}
+  - Esc
   - {t: Z, h: BTN}
   - {t: X, h: Alt}
   - {t: C, h: Ctrl}
@@ -31,6 +32,7 @@ layers:
   - {t: ',', h: Ctrl}
   - {t: ., h: Alt}
   - {t: /, h: BTN}
+  - ⏎
   - {t: Esc, h: MID}
   - {t: ␣, h: NAV}
   - {t: ↹, h: MSE}
@@ -58,6 +60,7 @@ layers:
   - {t: E, h: Ctrl}
   - {t: I, h: Alt}
   - {t: O, h: Gui}
+  - Esc
   - {t: Z, h: BTN}
   - {t: X, h: Alt}
   - {t: C, h: Ctrl}
@@ -68,6 +71,7 @@ layers:
   - {t: ',', h: Ctrl}
   - {t: ., h: Alt}
   - {t: /, h: BTN}
+  - ⏎
   - {t: Esc, h: MID}
   - {t: ␣, h: NAV}
   - {t: ↹, h: MSE}
@@ -95,6 +99,7 @@ layers:
   - Ctrl
   - Alt
   - Gui
+  - Esc
   - {t: LC(Z), type: held}
   - LC(X)
   - LC(C)
@@ -105,6 +110,7 @@ layers:
   - LC(C)
   - LC(X)
   - LC(Z)
+  - ⏎
   - ''
   - Left Click
   - Right Click
@@ -132,6 +138,7 @@ layers:
   - ↓
   - →
   - Page Down
+  - Esc
   - '&sleep'
   - LG(L)
   - Desk Left
@@ -142,6 +149,7 @@ layers:
   - LC(C)
   - LC(X)
   - LC(Z)
+  - ⏎
   - ''
   - {type: held}
   - ''
@@ -169,6 +177,7 @@ layers:
   - Vol Down
   - ⏭️
   - BT CLR ALL
+  - Esc
   - '&sleep'
   - LG(L)
   - '&extra'
@@ -179,6 +188,7 @@ layers:
   - BT 3
   - BT 4
   - BT 5
+  - ⏎
   - {t: Esc, h: MID}
   - ''
   - ''
@@ -206,6 +216,7 @@ layers:
   - Ctrl
   - Alt
   - Gui
+  - Esc
   - '`'
   - '1'
   - '2'
@@ -216,6 +227,7 @@ layers:
   - ','
   - .
   - /
+  - ⏎
   - .
   - '0'
   - '-'
@@ -243,6 +255,7 @@ layers:
   - Ctrl
   - Alt
   - Gui
+  - Esc
   - '~'
   - '!'
   - '@'
@@ -253,6 +266,7 @@ layers:
   - '&extra'
   - LG(L)
   - '&sleep'
+  - ⏎
   - (
   - )
   - _
@@ -280,6 +294,7 @@ layers:
   - Ctrl
   - Alt
   - Gui
+  - Esc
   - F10
   - F1
   - F2
@@ -290,6 +305,7 @@ layers:
   - '&extra'
   - LG(L)
   - '&sleep'
+  - ⏎
   - APP
   - ␣
   - ↹
@@ -317,6 +333,7 @@ layers:
   - M↓
   - M→
   - MW↓
+  - Esc
   - '&sleep'
   - LG(L)
   - '&extra'
@@ -327,6 +344,7 @@ layers:
   - LC(C)
   - LC(X)
   - LC(Z)
+  - ⏎
   - ''
   - ''
   - {type: held}
