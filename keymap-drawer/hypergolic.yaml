@@ -32,7 +32,7 @@ layers:
   - {t: ., h: Alt}
   - {t: /, h: BTN}
   - {t: ␣, h: NAV}
-  - ↹
+  - {t: ↹, h: MSE}
   - {t: ⏎, h: SYM}
   - {t: ⌫, h: NUM}
   EXT:
@@ -67,7 +67,7 @@ layers:
   - {t: ., h: Alt}
   - {t: /, h: BTN}
   - {t: ␣, h: NAV}
-  - ↹
+  - {t: ↹, h: MSE}
   - {t: ⏎, h: SYM}
   - {t: ⌫, h: NUM}
   BTN:
@@ -280,3 +280,38 @@ layers:
   - ↹
   - ''
   - ''
+  MSE:
+  - Win Prev
+  - Win Next
+  - Tab Left
+  - Tab Right
+  - {t: Tab Close, h: Win Close}
+  - ''
+  - MW←
+  - M↑
+  - MW→
+  - MW↑
+  - Gui
+  - Alt
+  - Ctrl
+  - Shift
+  - ''
+  - ''
+  - M←
+  - M↓
+  - M→
+  - MW↓
+  - '&sleep'
+  - LG(L)
+  - '&extra'
+  - '&base'
+  - ''
+  - LC(Y)
+  - LC(V)
+  - LC(C)
+  - LC(X)
+  - LC(Z)
+  - ''
+  - {type: held}
+  - Right Click
+  - Left Click
