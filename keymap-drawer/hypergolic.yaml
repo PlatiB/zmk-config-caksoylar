@@ -167,10 +167,10 @@ layers:
   - '&base'
   - {type: held}
   - BT 1
-  - LC(V)
-  - LC(C)
-  - LC(X)
-  - LC(Z)
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   - ''
   - ''
   - STOP
