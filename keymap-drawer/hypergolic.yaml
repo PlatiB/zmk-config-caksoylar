@@ -60,8 +60,7 @@ layers:
   - X
   - C
   - D
-  - '&lt 4'
-  - V
+  - {t: V, h: MID}
   - {t: K, h: FUN}
   - H
   - {t: ',', h: Ctrl}
