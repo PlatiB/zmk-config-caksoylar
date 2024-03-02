@@ -139,7 +139,7 @@ layers:
   - →
   - Page Down
   - Esc
-  - '&sleep'
+  - ''
   - LG(L)
   - Desk Left
   - Desk Right
@@ -178,7 +178,7 @@ layers:
   - ⏭️
   - ''
   - Esc
-  - '&sleep'
+  - ''
   - LG(L)
   - '&extra'
   - '&base'
@@ -265,7 +265,7 @@ layers:
   - '&base'
   - '&extra'
   - LG(L)
-  - '&sleep'
+  - ''
   - ⏎
   - (
   - )
@@ -304,7 +304,7 @@ layers:
   - '&base'
   - '&extra'
   - LG(L)
-  - '&sleep'
+  - ''
   - ⏎
   - APP
   - ␣
@@ -334,7 +334,7 @@ layers:
   - M→
   - MW↓
   - Esc
-  - '&sleep'
+  - ''
   - LG(L)
   - '&extra'
   - '&base'

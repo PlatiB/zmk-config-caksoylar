@@ -126,7 +126,7 @@ layers:
   - ↓
   - →
   - Page Down
-  - '&sleep'
+  - ''
   - LG(L)
   - Desk Left
   - Desk Right
@@ -161,7 +161,7 @@ layers:
   - Vol Down
   - ⏭️
   - BT CLR ALL
-  - '&sleep'
+  - ''
   - LG(L)
   - '&extra'
   - '&base'
@@ -240,7 +240,7 @@ layers:
   - '&base'
   - '&extra'
   - LG(L)
-  - '&sleep'
+  - ''
   - )
   - _
   - {type: held}
@@ -275,7 +275,7 @@ layers:
   - '&base'
   - '&extra'
   - LG(L)
-  - '&sleep'
+  - ''
   - ␣
   - ↹
   - ''
@@ -301,7 +301,7 @@ layers:
   - M↓
   - M→
   - MW↓
-  - '&sleep'
+  - ''
   - LG(L)
   - '&extra'
   - '&base'
