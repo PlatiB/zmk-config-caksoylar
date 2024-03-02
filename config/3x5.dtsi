@@ -194,7 +194,7 @@
         )
 // 시간및언어>언어및지역>기본설정언어 한국어, 영어(미국) 2가지가 있을 때 작
         ZMK_MACRO(extra,
-            wait-ms = <10>;
+            wait-ms = <2000>;
             tap-ms = <10>;
             bindings
                 = <&macro_tap &kp LG(SPACE) &to EXT>;
