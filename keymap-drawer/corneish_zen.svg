@@ -1565,6 +1565,10 @@ path.combo {
 <text x="0" y="0" class="key ghost tap">⌦</text>
 <text x="0" y="24" class="key ghost hold">FUN</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="452" y="206" width="28" height="26" class="combo"/>
+<text x="466" y="219" class="combo tap">APP</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2645)" class="layer-MSE">

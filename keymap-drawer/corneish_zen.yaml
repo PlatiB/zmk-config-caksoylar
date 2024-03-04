@@ -385,5 +385,8 @@ combos:
   k: (
   l: [SYM]
 - p: [33, 34]
+  k: APP
+  l: [FUN]
+- p: [33, 34]
   k: MUTE
   l: [MID]
