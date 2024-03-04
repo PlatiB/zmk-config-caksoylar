@@ -93,7 +93,7 @@ COMBO(semi,   &kp SEMI,          26 27, DEF EXT,      40, 150)
 COMBO(colon,  &kp COLON,         27 28, DEF EXT,      40, 150)
 COMBO(dot,    &kp DOT,           30 31, NUM,          40, 150)
 COMBO(lparT,  &kp LPAR,          30 31, SYM,          40, 150)
-COMBO(app,    &kp K_APP,         32 33, FUN,          40, 150)
+COMBO(app,    &kp K_APP,         30 31, FUN,          40, 150)
 COMBO(mute,   &kp C_MUTE,        32 33, MID,          40, 150)
 #	endif
 #endif
