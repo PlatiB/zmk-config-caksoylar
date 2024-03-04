@@ -32,9 +32,9 @@
 #endif
 
 #ifdef THREE_THUMBS    // corne totem
-#    ifdef PLUS1KEY    // totem
+#    ifdef PLUS1KEY    // totem 31~
 #        define THUMBS 32 33 34 35 36 37
-#    else    //    corne
+#    else    //    corne 29~
 #        define THUMBS 30 31 32 33 34 35
 #    endif
 #    define T3_L_DEF    &lt MID ESC
@@ -53,7 +53,7 @@
 #else    // sweep
 #    ifdef PLUS1KEY    // two thumbs -no keyboard
 #        define THUMBS 32 33 34 35
-#    else    // sweep
+#    else    // sweep 29~
 #        define THUMBS 30 31 32 33
 #    endif
 #    define T3_L_DEF
