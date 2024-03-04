@@ -132,8 +132,8 @@ layers:
   - ↓
   - →
   - Page Down
-  - ''
-  - LG(L)
+  - '&extra'
+  - '&base'
   - Desk Left
   - Desk Right
   - ''
@@ -169,10 +169,10 @@ layers:
   - Vol Down
   - ⏭️
   - BT CLR ALL
-  - ''
-  - LG(L)
   - '&extra'
   - '&base'
+  - Desk Left
+  - Desk Right
   - {type: held}
   - BT 1
   - BT 2
@@ -249,10 +249,10 @@ layers:
   - '#'
   - '|'
   - ''
+  - Desk Left
+  - Desk Right
   - '&base'
   - '&extra'
-  - LG(L)
-  - ''
   - (
   - )
   - _
@@ -286,10 +286,10 @@ layers:
   - F3
   - Pause Break
   - {type: held}
+  - Desk Left
+  - Desk Right
   - '&base'
   - '&extra'
-  - LG(L)
-  - ''
   - APP
   - ␣
   - ↹
@@ -317,10 +317,10 @@ layers:
   - M↓
   - M→
   - MW↓
-  - ''
-  - LG(L)
   - '&extra'
   - '&base'
+  - Desk Left
+  - Desk Right
   - ''
   - LC(Y)
   - LC(V)
