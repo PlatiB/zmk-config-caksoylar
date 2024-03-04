@@ -17,13 +17,13 @@
 #define MSE 8
 
 // Key position groups and extra key bindings
-#ifdef PLUS1KEY   /* dropped index and pinkies */
+#ifdef PLUS1KEY   // totem
 #    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25
 #    define KEYS_R 5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 31
 #    define P_L_DEF    &kp ESC     /* left pinky             */
 #    define P_R_DEF    &kp RET     /* right pinky            */
 //#    define SWP_POS 0 9    // &kp LS(TAB) position
-#else
+#else    // sweep corne
 #    define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
 #    define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
 #    define P_L_DEF
@@ -31,11 +31,11 @@
 //#    define SWP_POS 0 9    // &kp LS(TAB) position
 #endif
 
-#ifdef THREE_THUMBS
-#    ifdef PLUS1KEY
-#        define THUMBS 30 31 32 33 34 35
-#    else
+#ifdef THREE_THUMBS    // corne totem
+#    ifdef PLUS1KEY    // totem
 #        define THUMBS 32 33 34 35 36 37
+#    else    //    corne
+#        define THUMBS 30 31 32 33 34 35
 #    endif
 #    define T3_L_DEF    &lt MID ESC
 #    define T3_R_DEF    &lt FUN DEL
@@ -50,11 +50,11 @@
 #    define T3_L_FUN    &kp K_APP
 #    define T3_R_FUN    &lt FUN DEL
 #    define T3_XXX      &none
-#else
-#    ifdef PLUS1KEY
-#        define THUMBS 30 31 32 33
-#    else
+#else    // sweep
+#    ifdef PLUS1KEY    // two thumbs -no keyboard
 #        define THUMBS 32 33 34 35
+#    else    // sweep
+#        define THUMBS 30 31 32 33
 #    endif
 #    define T3_L_DEF
 #    define T3_R_DEF
