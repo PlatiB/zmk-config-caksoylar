@@ -182,8 +182,8 @@ layers:
   - '9'
   - ']'
   - {t: Tab Close, h: Win Close}
-  - Tab Right
   - Tab Left
+  - Tab Right
   - Win Next
   - Win Prev
   - ;
@@ -217,8 +217,8 @@ layers:
   - (
   - '}'
   - {t: Tab Close, h: Win Close}
-  - Tab Right
   - Tab Left
+  - Tab Right
   - Win Next
   - Win Prev
   - ':'
@@ -252,8 +252,8 @@ layers:
   - F9
   - Print Scrn
   - {t: Tab Close, h: Win Close}
-  - Tab Right
   - Tab Left
+  - Tab Right
   - Win Next
   - Win Prev
   - F11

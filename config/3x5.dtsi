@@ -274,7 +274,7 @@ P_L_DEF &extra        &base         &kp D_RT      &kp D_LT      &trans          
             display-name = "NUM";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)
+        &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &ht LA(F4) LC(F4) &kp TAB_LT &kp TAB_RT   &swapper      &kp LS(TAB)
         &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &kp C_AL_CALC &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
 P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH     P_R_DEF
                                     T3_L_NUM      &kp N0        &kp MINUS         &none         &trans        T3_R_NUM
@@ -286,7 +286,7 @@ P_L_DEF &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH        
             display-name = "SYM";
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LBRC      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RBRC          &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)
+        &kp LBRC      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RBRC          &ht LA(F4) LC(F4) &kp TAB_LT &kp TAB_RT   &swapper      &kp LS(TAB)
         &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
 P_L_DEF &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &none         &kp D_LT      &kp D_RT      &base         &extra        P_R_DEF
                                     T3_L_SYM      &kp RPAR      &kp UNDER         &trans        &none         T3_R_SYM
@@ -298,7 +298,7 @@ P_L_DEF &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE        
             display-name = "FUN";    //t3r
             bindings = <
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)
+        &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &ht LA(F4) LC(F4) &kp TAB_LT &kp TAB_RT   &swapper      &kp LS(TAB)
         &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
 P_L_DEF &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &trans        &kp D_LT      &kp D_RT      &base         &extra        P_R_DEF
                                     T3_L_FUN      &kp SPACE     &kp TAB           &none         &none         T3_R_FUN
