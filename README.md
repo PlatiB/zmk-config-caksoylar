@@ -8,8 +8,6 @@ Currently these keyboards are:
 - [Corne-ish Zen](https://lowprokb.ca/products/corne-ish-zen) (36 keys)
 - [Hypergolic (1.2 BM variant)](https://github.com/davidphilipbarr/hypergolic) (34 keys)
 
-It mainly uses three non-base layers activated through two thumb keys, along with combos. It has <kbd>Ctrl</kbd>/<kbd>Shift</kbd> thumb hold-taps along with home row mods.
-
 OS-dependent shortcuts are present on the `NAV` layer, e.g. for Windows:
 - `Win Close`: <kbd>Alt</kbd><kbd>F4</kbdy>
 - `Tab Next`: <kbd>Ctrl</kbd><kbd>Tab</kbd>
