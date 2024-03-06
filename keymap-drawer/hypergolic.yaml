@@ -108,8 +108,8 @@ layers:
   NAV:
   - Win Prev
   - Win Next
-  - Tab Right
   - Tab Left
+  - Tab Right
   - {t: Tab Close, h: Win Close}
   - Insert
   - Home
@@ -128,8 +128,8 @@ layers:
   - Page Down
   - '&extra'
   - '&base'
-  - Desk Right
   - Desk Left
+  - Desk Right
   - ''
   - LC(Y)
   - LC(V)
@@ -143,8 +143,8 @@ layers:
   MID:
   - Win Prev
   - Win Next
-  - Tab Right
   - Tab Left
+  - Tab Right
   - {t: Tab Close, h: Win Close}
   - Out BLE
   - Out USB
@@ -163,8 +163,8 @@ layers:
   - BT CLR ALL
   - '&extra'
   - '&base'
-  - Desk Right
   - Desk Left
+  - Desk Right
   - {type: held}
   - BT 1
   - BT 2
@@ -182,8 +182,8 @@ layers:
   - '9'
   - ']'
   - {t: Tab Close, h: Win Close}
-  - Tab Left
   - Tab Right
+  - Tab Left
   - Win Next
   - Win Prev
   - ;
@@ -217,8 +217,8 @@ layers:
   - (
   - '}'
   - {t: Tab Close, h: Win Close}
-  - Tab Left
   - Tab Right
+  - Tab Left
   - Win Next
   - Win Prev
   - ':'
@@ -237,8 +237,8 @@ layers:
   - '#'
   - '|'
   - ''
-  - Desk Left
   - Desk Right
+  - Desk Left
   - '&base'
   - '&extra'
   - )
@@ -252,8 +252,8 @@ layers:
   - F9
   - Print Scrn
   - {t: Tab Close, h: Win Close}
-  - Tab Left
   - Tab Right
+  - Tab Left
   - Win Next
   - Win Prev
   - F11
@@ -272,8 +272,8 @@ layers:
   - F3
   - Pause Break
   - {type: held}
-  - Desk Left
   - Desk Right
+  - Desk Left
   - '&base'
   - '&extra'
   - ␣
@@ -283,8 +283,8 @@ layers:
   MSE:
   - Win Prev
   - Win Next
-  - Tab Right
   - Tab Left
+  - Tab Right
   - {t: Tab Close, h: Win Close}
   - ''
   - MW←
@@ -303,8 +303,8 @@ layers:
   - MW↓
   - '&extra'
   - '&base'
-  - Desk Right
   - Desk Left
+  - Desk Right
   - ''
   - LC(Y)
   - LC(V)
