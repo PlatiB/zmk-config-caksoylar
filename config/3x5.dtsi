@@ -187,7 +187,7 @@
 
      macros {
         ZMK_MACRO(sleep,
-            wait-ms = <2000>;
+            wait-ms = <500>;
             tap-ms = <10>;
             bindings
                 = <&macro_tap &kp LG(X) &kp U &kp S>;
