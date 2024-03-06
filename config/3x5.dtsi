@@ -51,8 +51,8 @@
 #    define T3_R_FUN    &lt FUN DEL
 #    define T3_XXX      &none
 #else    // sweep
-#    ifdef PLUS1KEY    // two thumbs -no keyboard
-#        define THUMBS 32 33 34 35
+#    ifdef PLUS1KEY    // two thumbs, 31~ -no keyboard
+// #        define THUMBS 32 33 34 35
 #    else    // sweep 29~
 #        define THUMBS 30 31 32 33
 #    endif
