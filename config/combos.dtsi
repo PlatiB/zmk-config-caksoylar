@@ -88,22 +88,5 @@ COMBO(mute,   &kp C_MUTE,        32 33, MID,          40, 150)
 #	endif
 #endif
 
-/*
-#ifdef MOUSE_KEYS
-#    ifdef THREE_THUMBS
-#        ifdef TOTEM38
-COMBO(mse_l,  &mo MSE,           33 34, DEF EXT,     150,   0, slow-release;)
-#        else
-COMBO(mse_l,  &mo MSE,           31 32, DEF EXT,     150,   0, slow-release;)
-#        endif
-#    else
-#        ifdef TOTEM38
-COMBO(mse_l,  &mo MSE,           33 34, DEF EXT,     150,   0, slow-release;)
-#        else
-COMBO(mse_l,  &mo MSE,           31 32, DEF EXT,     150,   0, slow-release;)
-#        endif
-#    endif
-#endif
-*/
 	};
 };
