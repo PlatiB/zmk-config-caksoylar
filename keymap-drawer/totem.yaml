@@ -79,16 +79,16 @@ layers:
   - {t: ⌫, h: NUM}
   - {t: ⌦, h: FUN}
   BTN:
-  - LC(Z)
-  - LC(X)
-  - LC(C)
-  - LC(V)
-  - LC(Y)
-  - LC(Y)
-  - LC(V)
-  - LC(C)
-  - LC(X)
-  - LC(Z)
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - Ctl+ Y
+  - Ctl+ V
+  - Ctl+ C
+  - Ctl+ X
+  - Ctl+ Z
   - Gui
   - Alt
   - Ctrl
@@ -100,16 +100,16 @@ layers:
   - Alt
   - Gui
   - Esc
-  - {t: LC(Z), type: held}
-  - LC(X)
-  - LC(C)
-  - LC(V)
-  - LC(Y)
-  - LC(Y)
-  - LC(V)
-  - LC(C)
-  - LC(X)
-  - LC(Z)
+  - {t: Ctl+ Z, type: held}
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - Ctl+ Y
+  - Ctl+ V
+  - Ctl+ C
+  - Ctl+ X
+  - Ctl+ Z
   - ⏎
   - ''
   - Left Click
@@ -144,11 +144,11 @@ layers:
   - Desk Left
   - Desk Right
   - ''
-  - LC(Y)
-  - LC(V)
-  - LC(C)
-  - LC(X)
-  - LC(Z)
+  - Ctl+ Y
+  - Ctl+ V
+  - Ctl+ C
+  - Ctl+ X
+  - Ctl+ Z
   - ⏎
   - ''
   - {type: held}
@@ -339,11 +339,11 @@ layers:
   - Desk Left
   - Desk Right
   - ''
-  - LC(Y)
-  - LC(V)
-  - LC(C)
-  - LC(X)
-  - LC(Z)
+  - Ctl+ Y
+  - Ctl+ V
+  - Ctl+ C
+  - Ctl+ X
+  - Ctl+ Z
   - ⏎
   - ''
   - ''
@@ -362,7 +362,7 @@ combos:
   k: '"'
   l: [DEF, EXT]
 - p: [3, 4]
-  k: LG(L)
+  k: Gui+ L
   l: [DEF, EXT]
 - p: [5, 6]
   k: '&sleep'
