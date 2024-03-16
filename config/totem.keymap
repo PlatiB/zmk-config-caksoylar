@@ -1,6 +1,6 @@
 #define PLUS1KEY
 #define THREE_THUMBS
-#define DONGLE_MODE
+
 #define MOUSE_KEYS
 
 #include "3x5.dtsi"

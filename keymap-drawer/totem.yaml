@@ -172,22 +172,22 @@ layers:
   - Ctrl
   - Shift
   - ''
-  - ''
+  - BT CLR
   - ⏮️
   - Vol Down
   - ⏭️
-  - ''
+  - BT CLR ALL
   - Esc
   - '&extra'
   - '&base'
   - Desk Left
   - Desk Right
   - {type: held}
-  - LC(Y)
-  - LC(V)
-  - LC(C)
-  - LC(X)
-  - LC(Z)
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   - ⏎
   - {t: Esc, h: MID}
   - ''
