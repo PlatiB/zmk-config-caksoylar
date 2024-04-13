@@ -64,14 +64,14 @@
 #define LB2 23
 #define LB3 22
 #define LB4 21
-#define LB4 20
+#define LB5 20
 
 #define RB0 26  // right-bottom row
 #define RB1 27
 #define RB2 28
 #define RB3 29
 #define RB4 30
-#define RB4 31
+#define RB5 31
 
 #define LH0 34  // left thumb keys
 #define LH1 33
