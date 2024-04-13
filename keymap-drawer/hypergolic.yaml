@@ -22,6 +22,7 @@ layers:
   - {t: I, h: Gui}
   - {t: O, h: Ctrl}
   - Z
+  - Z
   - X
   - C
   - D
@@ -30,11 +31,10 @@ layers:
   - H
   - ','
   - .
-  - /
+  - Z
+  - {t: ↹, h: Gui}
   - {t: Esc, h: Ctrl}
   - {t: ␣, h: NAV}
-  - {t: ⌫, h: SYM}
-  - {t: ⏎, h: Shift}
   BRD:
   - X
   - C
@@ -56,6 +56,7 @@ layers:
   - {t: E, h: Alt}
   - {t: I, h: Gui}
   - {t: A, h: Ctrl}
+  - Z
   - ''
   - W
   - M
@@ -65,11 +66,10 @@ layers:
   - D
   - ','
   - .
-  - ''
+  - Z
+  - {t: ↹, h: Gui}
   - {t: Esc, h: Ctrl}
   - {t: ␣, h: NAV}
-  - {t: ⌫, h: SYM}
-  - {t: ⏎, h: Shift}
   GME:
   - ↹
   - Q
@@ -91,6 +91,7 @@ layers:
   - K
   - L
   - {t: GME, h: toggle}
+  - Z
   - Esc
   - Z
   - X
@@ -100,11 +101,10 @@ layers:
   - M
   - ','
   - .
-  - /
+  - Z
+  - Ctrl
   - Alt
   - ␣
-  - NAV
-  - ⏎
   SYM:
   - '!'
   - '@'
@@ -126,6 +126,7 @@ layers:
   - '5'
   - '6'
   - .
+  - Z
   - ''
   - ¿
   - '*'
@@ -135,11 +136,10 @@ layers:
   - '1'
   - '2'
   - '3'
-  - /
+  - Z
+  - Gui
   - ⌫
   - {t: ▽, type: trans}
-  - {type: held}
-  - ''
   NAV:
   - Win Close
   - Tab Left
@@ -161,6 +161,7 @@ layers:
   - ↓
   - →
   - End
+  - Z
   - ''
   - Win Prev
   - Win Next
@@ -170,11 +171,10 @@ layers:
   - ⌦
   - ⏮️
   - ⏭️
-  - ''
+  - Z
+  - Gui
   - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - ␣
   FUN:
   - F1
   - F2
@@ -196,6 +196,7 @@ layers:
   - BT 3
   - BT 4
   - BT 5
+  - Z
   - ''
   - Desk Left
   - Desk Right
@@ -205,11 +206,10 @@ layers:
   - Caps Lock
   - Print Scrn
   - Pause Break
+  - Z
   - ''
   - Boot
   - {type: held}
-  - {type: held}
-  - Boot
 combos:
 - p: [2, 3]
   k: J
