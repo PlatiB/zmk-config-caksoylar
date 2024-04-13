@@ -66,7 +66,7 @@
 #define LB4 21
 #define LB4 20
 
-#define RB0 25  // right-bottom row
+#define RB0 26  // right-bottom row
 #define RB1 27
 #define RB2 28
 #define RB3 29
