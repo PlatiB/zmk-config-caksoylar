@@ -1,2 +1,0 @@
-config SHIELD_GRUMPYBIRD
-    def_bool $(shields_list_contains,grumpybird)

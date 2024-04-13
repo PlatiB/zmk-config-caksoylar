@@ -1,6 +1,0 @@
-if SHIELD_GRUMPYBIRD
-
-config ZMK_KEYBOARD_NAME
-    default "Grumpy(bird)"
-
-endif
