@@ -37,6 +37,8 @@ layers:
   - {t: Esc, h: Ctrl}
   - {t: ␣, h: NAV}
   - {t: ⌫, h: SYM}
+  - {t: ⏎, h: Shift}
+  - {t: ⌦, h: Alt}
   BRD:
   - X
   - C
@@ -74,6 +76,8 @@ layers:
   - {t: Esc, h: Ctrl}
   - {t: ␣, h: NAV}
   - {t: ⌫, h: SYM}
+  - {t: ⏎, h: Shift}
+  - {t: ⌦, h: Alt}
   GME:
   - ↹
   - Q
@@ -111,6 +115,8 @@ layers:
   - Alt
   - ␣
   - NAV
+  - ⏎
+  - {t: GME, h: toggle}
   SYM:
   - '!'
   - '@'
@@ -148,6 +154,8 @@ layers:
   - ⌫
   - {t: ▽, type: trans}
   - {type: held}
+  - ''
+  - Alt
   NAV:
   - Win Close
   - Tab Left
@@ -185,6 +193,8 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
+  - ␣
+  - Alt
   FUN:
   - F1
   - F2
@@ -222,6 +232,8 @@ layers:
   - Boot
   - {type: held}
   - {type: held}
+  - Boot
+  - ''
 combos:
 - p: [2, 3]
   k: J
@@ -287,25 +299,25 @@ combos:
 - p: [4, 5]
   k: Boot
   l: [FUN]
-- p: [21, 22]
+- p: [22, 23]
   k: Z
   l: [DEF, BRD]
-- p: [22, 23]
+- p: [23, 24]
   k: V
   l: [DEF]
-- p: [26, 27]
+- p: [27, 28]
   k: \
   l: [DEF, BRD, SYM]
   draw_separate: true
-- p: [27, 28]
+- p: [28, 29]
   k: /
   l: [DEF, BRD, SYM]
   draw_separate: true
-- p: [21, 22]
+- p: [22, 23]
   k: F12
   l: [FUN]
   a: bottom
-- p: [27, 28]
+- p: [28, 29]
   k: BT CLR
   l: [FUN]
   a: bottom
