@@ -117,7 +117,7 @@
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-            ignored-key-positions = <0 9>;    //<SWP_POS>; &kp LS(TAB) position
+            ignored-key-positions = <LT3>;    //<SWP_POS>; &kp LS(TAB) position
         };
 
         ht: hold_tap {
@@ -160,10 +160,10 @@
             display-name = "DEF";
             bindings = <LAYER_FROM38( \
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P                     /
-        &aml LGUI A   &aml LALT S   &aml LCTRL D  &asl LSHFT F  &kp G             &kp H         &asr LSHFT J  &amr LCTRL K  &amr LALT L   &aml LGUI SQT             /
-&kp ESC &lt BTN Z     &kp X         &kp C         &kp V         &lt MID B         &lt FUN N     &kp M         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH &kp RET  /
-                                    &lt MID ESC   &lt NAV SPACE MS_ACT(TAB )      &lt SYM RET   &lt NUM BSPC  &lt FUN DEL                                        /
+        &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P                     \
+        &aml LGUI A   &aml LALT S   &aml LCTRL D  &asl LSHFT F  &kp G             &kp H         &asr LSHFT J  &amr LCTRL K  &amr LALT L   &aml LGUI SQT             \
+&kp ESC &lt BTN Z     &kp X         &kp C         &kp V         &lt MID B         &lt FUN N     &kp M         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH &kp RET  \
+                                    &lt MID ESC   &lt NAV SPACE MS_ACT(TAB )      &lt SYM RET   &lt NUM BSPC  &lt FUN DEL                                           \
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             )>;
         };
@@ -172,10 +172,10 @@
             display-name = "EXT";  // colemakdh
             bindings = <LAYER_FROM38( \
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y         &kp SQT                   /
-        &aml LGUI A   &aml LALT R   &aml LCTRL S  &asl LSHFT T  &kp G             &kp M         &asr LSHFT N  &amr LCTRL E  &amr LALT I   &amr LGUI O               /
-&kp ESC &lt BTN  Z    &kp X         &kp C         &kp D         &lt MID V         &lt FUN K     &kp H         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH &kp RET  /
-                                    &lt MID ESC   &lt NAV SPACE MS_ACT(TAB)       &lt SYM RET   &lt NUM BSPC  &lt FUN DEL                                        /
+        &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y         &kp SQT                   \
+        &aml LGUI A   &aml LALT R   &aml LCTRL S  &asl LSHFT T  &kp G             &kp M         &asr LSHFT N  &amr LCTRL E  &amr LALT I   &amr LGUI O               \
+&kp ESC &lt BTN  Z    &kp X         &kp C         &kp D         &lt MID V         &lt FUN K     &kp H         &amr RCTRL COMMA &amr RALT DOT &lt BTN SLASH &kp RET  \
+                                    &lt MID ESC   &lt NAV SPACE MS_ACT(TAB)       &lt SYM RET   &lt NUM BSPC  &lt FUN DEL                                           \
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             )>;
         };
@@ -184,10 +184,10 @@
             display-name = "BTN";  // BUTTON
             bindings = <LAYER_FROM38( \
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)                 /
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI                  /
-&kp ESC &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     &kp RET     /
-                                    &none         &mkp LCLK     &mkp RCLK         &mkp RCLK     &mkp LCLK     &none
+        &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)                 \
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI                  \
+&kp ESC &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)         &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     &kp RET     \
+                                    &none         &mkp LCLK     &mkp RCLK         &mkp RCLK     &mkp LCLK     &none                                                 \
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             )>;
         };
@@ -196,10 +196,10 @@
             display-name = "NAV";
             bindings = <LAYER_FROM38( \
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &kp INS       &kp HOME      &kp UP        &kp END       &kp PG_UP                 /
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp CAPS      &kp LEFT      &kp DOWN      &kp RIGHT     &kp PG_DN                 /
-&kp ESC &extra        &base         &kp D_LT      &kp D_RT      &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     &kp RET     /
-                                    &none         &trans        &none             &kp RET       &kp BSPC      &kp DEL                                               /
+        &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &kp INS       &kp HOME      &kp UP        &kp END       &kp PG_UP                 \
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp CAPS      &kp LEFT      &kp DOWN      &kp RIGHT     &kp PG_DN                 \
+&kp ESC &extra        &base         &kp D_LT      &kp D_RT      &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     &kp RET     \
+                                    &none         &trans        &none             &kp RET       &kp BSPC      &kp DEL                                               \
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             )>;
         };
@@ -208,10 +208,10 @@
             display-name = "MID";    // t3l
             bindings = <LAYER_FROM38( \
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &out OUT_BLE  &out OUT_USB  &kp C_VOL_UP  &ext_power EP_ON &ext_power EP_OFF      /
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             mid5          &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT    mid6                      /
-&kp ESC &extra        &base         &kp D_LT      &kp D_RT      &trans            mid0          mid1          mid2          mid3          mid4          &kp RET     /
-                                    &lt MID ESC   &none         &none             &kp C_STOP    &kp C_PP      &kp C_MUTE                                            /
+        &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &out OUT_BLE  &out OUT_USB  &kp C_VOL_UP  &ext_power EP_ON &ext_power EP_OFF      \
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             mid5          &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT    mid6                      \
+&kp ESC &extra        &base         &kp D_LT      &kp D_RT      &trans            mid0          mid1          mid2          mid3          mid4          &kp RET     \
+                                    &lt MID ESC   &none         &none             &kp C_STOP    &kp C_PP      &kp C_MUTE                                            \
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             )>;
         };
@@ -220,10 +220,10 @@
             display-name = "NUM";
             bindings = <LAYER_FROM38( \
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)               /
-        &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &kp C_AL_CALC &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI                  /
-&kp ESC &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH     &kp RET     /
-                                    &kp DOT       &kp N0        &kp MINUS         &none         &trans        &none                                                 /
+        &kp LBKT      &kp N7        &kp N8        &kp N9        &kp RBKT          &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)               \
+        &kp SEMI      &kp N4        &kp N5        &kp N6        &kp EQUAL         &kp C_AL_CALC &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI                  \
+&kp ESC &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp BSLH          &kp RET       &kp PLUS      &kp MINUS     &kp STAR      &kp SLASH     &kp RET     \
+                                    &kp DOT       &kp N0        &kp MINUS         &none         &trans        &none                                                 \
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             )>;
         };
@@ -232,10 +232,10 @@
             display-name = "SYM";
             bindings = <LAYER_FROM38( \
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LBRC      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RBRC          &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)               /
-        &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI                  /
-&kp ESC &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &none         &kp D_RT      &kp D_LT      &base         &extra        &kp RET     /
-                                    &kp LPAR      &kp RPAR      &kp UNDER         &trans        &none         &none                                                 /
+        &kp LBRC      &kp AMPS      &kp ASTRK     &kp LPAR      &kp RBRC          &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)               \
+        &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI                  \
+&kp ESC &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &none         &kp D_RT      &kp D_LT      &base         &extra        &kp RET     \
+                                    &kp LPAR      &kp RPAR      &kp UNDER         &trans        &none         &none                                                 \
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             )>;
         };
@@ -244,10 +244,10 @@
             display-name = "FUN";    //t3r
             bindings = <LAYER_FROM38( \
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)               /
-        &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI                  /
-&kp ESC &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &trans        &kp D_RT      &kp D_LT      &base         &extra        &kp RET     /
-                                    &kp K_APP     &kp SPACE     &kp TAB           &none         &none         &lt FUN DEL                                           /
+        &kp F12       &kp F7        &kp F8        &kp F9        &kp PSCRN         &ht LA(F4) LC(F4) &kp TAB_RT &kp TAB_LT   &swapper      &kp LS(TAB)               \
+        &kp F11       &kp F4        &kp F5        &kp F6        &kp SLCK          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI                  \
+&kp ESC &kp F10       &kp F1        &kp F2        &kp F3        &kp PAUSE_BREAK   &trans        &kp D_RT      &kp D_LT      &base         &extra        &kp RET     \
+                                    &kp K_APP     &kp SPACE     &kp TAB           &none         &none         &lt FUN DEL                                           \
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             )>;
         };
@@ -257,10 +257,10 @@
             display-name = "MSE";
             bindings = <LAYER_FROM38( \
 //     ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &none        &msc SCRL_LEFT &mmv MOVE_UP  &msc SCRL_RIGHT &msc SCRL_UP            /
-        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none       &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_DOWN          /
-&kp ESC &extra        &base         &kp D_LT      &kp D_RT      &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     &kp RET     /
-                                    &none         &none         &trans            &mkp RCLK     &mkp LCLK     &none                                                 /
+        &kp LS(TAB)   &swapper      &kp TAB_LT    &kp TAB_RT    &ht LA(F4) LC(F4) &none        &msc SCRL_LEFT &mmv MOVE_UP  &msc SCRL_RIGHT &msc SCRL_UP            \
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &none       &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_DOWN          \
+&kp ESC &extra        &base         &kp D_LT      &kp D_RT      &none             &kp LC(Y)     &kp LC(V)     &kp LC(C)     &kp LC(X)     &kp LC(Z)     &kp RET     \
+                                    &none         &none         &trans            &mkp RCLK     &mkp LCLK     &none                                                 \
 //                                               ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             )>;
         };
