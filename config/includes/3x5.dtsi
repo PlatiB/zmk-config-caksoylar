@@ -15,7 +15,6 @@
 #define FUN 5
 #define MSE 6
 
-
 // Dongle mode. keyboardname.keymap include #define DONGLE_MODE
 #ifdef DONGLE_MODE
 #    define mid0    &kp LC(Y)
@@ -42,7 +41,7 @@
 #define TAB_LT LC(LS(TAB))
 
 // Extra key bindings
-#define SWP_POS LB2
+#define SWP_POS RB2
 
 // #include "combos.dtsi"
 
@@ -129,26 +128,23 @@
         };
     };
 
+    cond_layers {
+        compatible = "zmk,conditional-layers";
+        // Define FUN layer as tri-state
+        func_tristate {
+            if-layers = <NAV SYM>;
+            then-layer = <FUN>;
+        };
+    };
 
-     macros {
-        ZMK_MACRO(sleep,
-            wait-ms = <500>;
-            tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp LG(X) &kp U &kp S>;
-        )
-// 시간및언어>언어및지역>기본설정언어 한국어, 영어(미국) 2가지가 있을 때 작동
-        ZMK_MACRO(extra,
+    macros {
+        ZMK_MACRO(inv_qm,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp LG(SPACE) &to EXT>;
-        )
-        ZMK_MACRO(base,
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp LG(SPACE) &to DEF>;
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp KP_N1 &kp KP_N6 &kp KP_N8>
+                , <&macro_release &kp LALT>;
         )
     };
 
