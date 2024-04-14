@@ -1045,11 +1045,13 @@ rect.held, rect.combo.held { fill: #fcc; }
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">Boot</text>
 </g>
-<g transform="translate(498, 213) rotate(-15.0)" class="key held keypos-34">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(498, 213) rotate(-15.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(560, 205)" class="key ghost keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
+<text x="0" y="0" class="key ghost tap">▽</text>
 </g>
 </g>
 </g>
