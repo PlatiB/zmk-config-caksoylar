@@ -41,7 +41,7 @@
 #define TAB_LT LC(LS(TAB))
 
 // Extra key bindings
-#define SWP_POS RB2
+#define SWP_POS LB2
 
 // #include "combos.dtsi"
 
@@ -124,7 +124,7 @@
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-            ignored-key-positions = <SWP_POS>;
+            ignored-key-positions = <SWP_POS>;    //<SWP_POS>; &kp LS(TAB) position
         };
     };
 
@@ -145,6 +145,26 @@
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp KP_N1 &kp KP_N6 &kp KP_N8>
                 , <&macro_release &kp LALT>;
+        )
+
+        ZMK_MACRO(sleep,
+            wait-ms = <500>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_tap &kp LG(X) &kp U &kp S>;
+        )
+// 시간및언어>언어및지역>기본설정언어 한국어, 영어(미국) 2가지가 있을 때 작
+        ZMK_MACRO(extra,
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_tap &kp LG(SPACE) &to EXT>;
+        )
+        ZMK_MACRO(base,
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_tap &kp LG(SPACE) &to DEF>;
         )
     };
 
