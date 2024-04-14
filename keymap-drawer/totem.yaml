@@ -37,6 +37,8 @@ layers:
   - {t: Esc, h: Ctrl}
   - {t: ␣, h: NAV}
   - {t: ⌫, h: SYM}
+  - {t: ⏎, h: Shift}
+  - {t: ⌦, h: Alt}
   BRD:
   - X
   - C
@@ -74,6 +76,8 @@ layers:
   - {t: Esc, h: Ctrl}
   - {t: ␣, h: NAV}
   - {t: ⌫, h: SYM}
+  - {t: ⏎, h: Shift}
+  - {t: ⌦, h: Alt}
   GME:
   - ↹
   - Q
@@ -111,6 +115,8 @@ layers:
   - Alt
   - ␣
   - NAV
+  - ⏎
+  - {t: GME, h: toggle}
   SYM:
   - '!'
   - '@'
@@ -148,6 +154,8 @@ layers:
   - ⌫
   - {t: ▽, type: trans}
   - {type: held}
+  - ''
+  - Alt
   NAV:
   - Win Close
   - Tab Left
@@ -185,6 +193,8 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
+  - ␣
+  - Alt
   FUN:
   - F1
   - F2
@@ -222,3 +232,5 @@ layers:
   - Boot
   - {type: held}
   - {type: held}
+  - Boot
+  - ''
