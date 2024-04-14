@@ -154,11 +154,11 @@
                 = <&macro_tap &kp LG(X) &kp U &kp S>;
         )
 // 시간및언어>언어및지역>기본설정언어 한국어, 영어(미국) 2가지가 있을 때 작
-        ZMK_MACRO(extra,
+        ZMK_MACRO(extra1,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp LG(SPACE) &to EXT>;
+                = <&macro_tap &kp LG(SPACE) &to BRD>;    // BRD->EXT로바꿔야함
         )
         ZMK_MACRO(base,
             wait-ms = <10>;
