@@ -219,7 +219,7 @@ rect.held, rect.combo.held { fill: #fcc; }
 </g>
 <g transform="translate(232, 161)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">D</text>
+<text x="0" y="0" class="key tap">C</text>
 </g>
 <g transform="translate(292, 170)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -369,7 +369,7 @@ rect.held, rect.combo.held { fill: #fcc; }
 </g>
 <g transform="translate(232, 161)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">G</text>
+<text x="0" y="0" class="key tap">C</text>
 </g>
 <g transform="translate(292, 170)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -516,7 +516,7 @@ rect.held, rect.combo.held { fill: #fcc; }
 </g>
 <g transform="translate(232, 161)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">G</text>
+<text x="0" y="0" class="key tap">C</text>
 </g>
 <g transform="translate(292, 170)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
