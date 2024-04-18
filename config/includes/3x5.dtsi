@@ -130,15 +130,6 @@
         };
     };
 
-    cond_layers {
-        compatible = "zmk,conditional-layers";
-        // Define FUN layer as tri-state
-        func_tristate {
-            if-layers = <NAV SYM>;
-            then-layer = <FUN>;
-        };
-    };
-
     macros {
         ZMK_MACRO(sleep,
             wait-ms = <500>;
