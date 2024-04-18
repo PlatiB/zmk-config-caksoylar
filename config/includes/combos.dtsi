@@ -47,3 +47,5 @@ COMBO(play,   &kp C_PP,    RH0 RH1,     NAV,          40, 150)
 
 // cross
 COMBO(capswd, &caps_word,  LM1 RM1,     DEF EXT,      60, 200)
+    };
+};
