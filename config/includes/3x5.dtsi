@@ -151,7 +151,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp LG(SPACE) &to BRD>;    // BRD->EXT로바꿔야함
+                = <&macro_tap &kp LG(SPACE) &to EXT>;    // BRD->EXT로바꿔야함
         )
         ZMK_MACRO(base,
             wait-ms = <10>;
