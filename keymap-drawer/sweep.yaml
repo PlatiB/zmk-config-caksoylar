@@ -244,5 +244,5 @@ layers:
   - Gui
   - ⌫
   - {t: ▽, type: trans}
-  FUN: [F1, F2, F3, F4, F5, Out USB, Out BLE, '', '', '', F6, F7, F8, F9, F10, BT 1, BT 2, BT 3, BT 4, BT 5, '', Desk Left, Desk Right, F11, F12, '', Caps Lock, Print
-      Scrn, Pause Break, '', '', '', '', '']
+  FUN: [F1, F2, F3, F4, F5, Out USB, Out BLE, '', '', '', F6, F7, F8, F9, F10, BT 1, BT 2, BT 3, BT 4, BT 5, '', Desk Left, Desk Right, F11, F12, '', Caps Lock, Caps
+      Lock, Caps Lock, '', '', '', '', '']
