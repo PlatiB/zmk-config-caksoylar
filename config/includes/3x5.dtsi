@@ -45,7 +45,7 @@
 // Extra key bindings
 #define SWP_POS LB2
 
-#include "combos.dtsi"
+// #include "combos.dtsi"
 
 #ifdef MOUSE_KEYS
 #    include "mouse.dtsi"
