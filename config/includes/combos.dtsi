@@ -21,7 +21,7 @@
         compatible = "zmk,combos";
 // top
 COMBO(lock,   &kp LG(L),   LT1 LT0,     DEF EXT,      80, 500)
-COMBO(sleep,  &sleep,      RT0 RT1,     DEF EXT,      80, 500)
+// COMBO(sleep,  &sleep,      RT0 RT1,     DEF EXT,      80, 500)
 COMBO(at,     &kp AT,      LT3 LT2,     DEF EXT,      40, 150)
 
 COMBO(hash,   &kp HASH,    LT2 LT1,     DEF EXT,      40, 150)
