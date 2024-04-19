@@ -79,7 +79,6 @@ layers:
   - {t: ⌫, h: NUM}
   - {t: ⌦, h: FUN}
   BTN:
-  - '&LAYER_FROM38('
   - Ctl+ Z
   - Ctl+ X
   - Ctl+ C
@@ -100,8 +99,8 @@ layers:
   - Ctrl
   - Alt
   - Gui
-  - {t: Esc, type: held}
-  - Ctl+ Z
+  - Esc
+  - {t: Ctl+ Z, type: held}
   - Ctl+ X
   - Ctl+ C
   - Ctl+ V

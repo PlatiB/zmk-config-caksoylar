@@ -70,7 +70,6 @@ layers:
   - {t: ␣, h: NAV}
   - ↹
   BTN:
-  - '&LAYER_FROM38('
   - Ctl+ Z
   - Ctl+ X
   - Ctl+ C
@@ -91,8 +90,8 @@ layers:
   - Ctrl
   - Alt
   - Gui
-  - {t: Esc, type: held}
-  - Ctl+ Z
+  - Esc
+  - {t: Ctl+ Z, type: held}
   - Ctl+ X
   - Ctl+ C
   - Ctl+ V
@@ -101,14 +100,10 @@ layers:
   - Ctl+ V
   - Ctl+ C
   - Ctl+ X
-  - Ctl+ Z
   - ⏎
   - ''
   - Left Click
   - Right Click
-  - Right Click
-  - Left Click
-  - ''
   NAV:
   - Win Prev
   - Win Next

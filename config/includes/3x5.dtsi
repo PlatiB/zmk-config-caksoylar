@@ -177,7 +177,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp LC(Z),     &kp LC(X),     &kp LC(C),     &kp LC(V),     &kp LC(Y),         &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z), \
               &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
-&kp ESC       &kp LC(Z),     &kp LC(X),     &kp LC(C),     &kp LC(V),     &kp LC(Y),         &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
+&kp ESC,      &kp LC(Z),     &kp LC(X),     &kp LC(C),     &kp LC(V),     &kp LC(Y),         &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
                                             &none,         &mkp LCLK,     &mkp RCLK,         &mkp RCLK,     &mkp LCLK,     &none \
 //                                         ╰─────────────┴──────────────┴──────────────╯    ╰──────────────┴──────────────┴──────────────╯
             )>;
