@@ -183,7 +183,7 @@ layers:
   NUM: ['[', '7', '8', '9', ']', '&ht LA(F4) LC(F4)', Tab Left, Tab Right, Win Next, Win Prev, ;, '4', '5', '6', '=', Calc, Shift, Ctrl, Alt, Gui, Esc, '`', '1',
     '2', '3', \, ⏎, +, '-', '*', ⏎, ., '0', '-']
   SYM: ['{', '&', '*', (, '}', '&ht LA(F4) LC(F4)', Tab Left, Tab Right, Win Next, Win Prev, ':', $, '%', ^, +, '', Shift, Ctrl, Alt, Gui, Esc, '~', '!', '@', '#',
-    '|', '', Desk Left, Desk Right, '&base', RET /, (, ), _]
+    '|', '', Desk Left, Desk Right, '&base', ⏎, (, ), _]
   FUN:
   - F12
   - F7

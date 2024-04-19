@@ -163,8 +163,8 @@
             display-name = "EXT";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &kp Q,         &kp W,         &kp F,         &kp P,         &kp B,             &kp J,         &kp L,         &kp U,         &kp Y,         &kp SQT, \          
-              &aml LGUI A,   &aml LALT R,   &aml LCTRL S,  &asl LSHFT T,  &kp G,             &kp M,         &asr LSHFT N,  &amr LCTRL E,  &amr LALT I,   &amr LGUI O, \     
+              &kp Q,         &kp W,         &kp F,         &kp P,         &kp B,             &kp J,         &kp L,         &kp U,         &kp Y,         &kp SQT, \
+              &aml LGUI A,   &aml LALT R,   &aml LCTRL S,  &asl LSHFT T,  &kp G,             &kp M,         &asr LSHFT N,  &amr LCTRL E,  &amr LALT I,   &amr LGUI O, \
 &kp ESC,      &lt BTN  Z,    &kp X,         &kp C,         &kp D,         &lt MID V,         &lt FUN K,     &kp H,        &amr RCTRL COMMA, &amr RALT DOT, &lt BTN SLASH, &kp RET, \
                                             &lt MID ESC,   &lt NAV SPACE, MS_ACT(TAB),       &lt SYM RET,   &lt NUM BSPC,  &lt FUN DEL \
 //                                         ╰─────────────┴──────────────┴──────────────╯    ╰──────────────┴──────────────┴──────────────╯
@@ -175,7 +175,7 @@
             display-name = "BTN";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &kp LC(Z),     &kp LC(X),     &kp LC(C),     &kp LC(V),     &kp LC(Y),         &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z), \     
+              &kp LC(Z),     &kp LC(X),     &kp LC(C),     &kp LC(V),     &kp LC(Y),         &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z), \
               &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
 &kp ESC       &kp LC(Z),     &kp LC(X),     &kp LC(C),     &kp LC(V),     &kp LC(Y),         &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
                                             &none,         &mkp LCLK,     &mkp RCLK,         &mkp RCLK,     &mkp LCLK,     &none \
@@ -187,7 +187,7 @@
             display-name = "NAV";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-        &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \       
+        &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
         &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
 &kp ESC, &extra,        &base,         &kp D_RT,      &kp D_LT,      &none,             &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
                                     &none,      &trans,        &none,            &kp RET,       &kp BSPC,      &kp DEL \
@@ -225,7 +225,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp LBRC,      &kp AMPS,      &kp ASTRK,     &kp LPAR,      &kp RBRC,          &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,   &swapper,      &kp LS(TAB), \
               &kp COLON,     &kp DLLR,      &kp PRCNT,     &kp CARET,     &kp PLUS,          &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
-&kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,          &none,         &kp D_LT,      &kp D_RT,      &base,         &extra,        &kp RET, /
+&kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,          &none,         &kp D_LT,      &kp D_RT,      &base,         &extra,        &kp RET, \
                                             &kp LPAR,      &kp RPAR,      &kp UNDER,         &trans,        &none,         &none \
 //                                         ╰─────────────┴──────────────┴──────────────╯    ╰──────────────┴──────────────┴──────────────╯
             )>;
