@@ -275,6 +275,8 @@ layers:
   - Alt
   FUN: [F1, F2, F3, F4, F5, Out USB, Out BLE, '', '', '', F6, F7, F8, F9, F10, BT 1, BT 2, BT 3, BT 4, BT 5, '', Desk Left, Desk Right, F11, F12, '', Caps Lock, Caps
       Lock, Caps Lock, '', '', '', '', '', '', '', '', '']
+  MSE: ['', '', '', '', '', Scroll ←, Scroll ↓, Mouse ↑, Scroll ↑, Scroll →, Ctrl, Gui, Alt, Shift, '', Right Click, Mouse ←, Mouse ↓, Mouse →, '', '', '', '', '',
+    '', '', Back Click, Middle Click, Forward Click, '', '', '', '', '', '', Left Click, Right Click, '']
 combos:
 - p: [3, 4]
   k: Lock
