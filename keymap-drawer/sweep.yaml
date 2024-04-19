@@ -35,250 +35,189 @@ layers:
   - {t: ␣, h: NAV}
   - ↹
   EXT:
-  - X
-  - C
-  - L
-  - F
-  - B
-  - J
-  - Y
-  - O
-  - U
-  - ''''
-  - {t: R, h: Ctrl}
-  - {t: S, h: Gui}
-  - {t: N, h: Alt}
-  - {t: T, h: Shift}
-  - P
-  - K
-  - {t: H, h: Shift}
-  - {t: E, h: Alt}
-  - {t: I, h: Gui}
-  - {t: A, h: Ctrl}
-  - ''
+  - Q
   - W
-  - M
-  - C
-  - ''
-  - ''
-  - D
-  - ','
-  - .
-  - ''
-  - ''
-  - {t: ↹, h: Gui}
-  - {t: Esc, h: Ctrl}
-  - {t: ␣, h: NAV}
-  BTN:
-  - X
-  - C
-  - L
   - F
+  - P
   - B
   - J
-  - Y
-  - O
+  - L
   - U
+  - Y
   - ''''
-  - {t: R, h: Ctrl}
-  - {t: S, h: Gui}
-  - {t: N, h: Alt}
+  - {t: A, h: Gui}
+  - {t: R, h: Alt}
+  - {t: S, h: Ctrl}
   - {t: T, h: Shift}
-  - P
-  - K
-  - {t: H, h: Shift}
-  - {t: E, h: Alt}
-  - {t: I, h: Gui}
-  - {t: A, h: Ctrl}
-  - ''
-  - {t: W, type: held}
+  - G
   - M
+  - {t: N, h: Shift}
+  - {t: E, h: Ctrl}
+  - {t: I, h: Alt}
+  - {t: O, h: Gui}
+  - Esc
+  - {t: Z, h: BTN}
+  - X
   - C
-  - ''
-  - ''
   - D
-  - ','
-  - .
-  - ''
-  - ''
-  - {t: ↹, h: Gui}
-  - {t: Esc, h: Ctrl}
+  - {t: V, h: MID}
+  - {t: K, h: FUN}
+  - H
+  - {t: ',', h: Ctrl}
+  - {t: ., h: Alt}
+  - ⏎
+  - {t: Esc, h: MID}
   - {t: ␣, h: NAV}
+  - ↹
+  BTN:
+  - '&LAYER_FROM38('
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - Ctl+ Y
+  - Ctl+ V
+  - Ctl+ C
+  - Ctl+ X
+  - Ctl+ Z
+  - Gui
+  - Alt
+  - Ctrl
+  - Shift
+  - ''
+  - ''
+  - Shift
+  - Ctrl
+  - Alt
+  - Gui
+  - {t: Esc, type: held}
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - Ctl+ Y
+  - Ctl+ V
+  - Ctl+ C
+  - Ctl+ X
+  - Ctl+ Z
+  - ⏎
+  - ''
+  - Left Click
+  - Right Click
+  - Right Click
+  - Left Click
+  - ''
   NAV:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - ','
-  - +
-  - '='
-  - _
-  - '-'
-  - ^
-  - '0'
-  - '4'
-  - '5'
-  - '6'
-  - .
-  - ''
-  - ''
-  - '*'
-  - '&'
-  - ''
-  - ;
-  - '1'
-  - '2'
-  - '3'
-  - /
-  - ''
+  - Win Prev
+  - Win Next
+  - Tab Right
+  - Tab Left
+  - '&ht LA(F4) LC(F4)'
+  - Insert
+  - Home
+  - ↑
+  - End
+  - Page Up
   - Gui
-  - {t: ⌫, type: held}
-  - {t: ▽, type: trans}
+  - Alt
+  - Ctrl
+  - Shift
+  - ''
+  - Caps Lock
+  - ←
+  - ↓
+  - →
+  - Page Down
+  - Esc
+  - '&extra'
+  - '&base'
+  - Desk Right
+  - Desk Left
+  - ''
+  - Ctl+ Y
+  - Ctl+ V
+  - Ctl+ C
+  - Ctl+ X
+  - ⏎
+  - ''
+  - {type: held}
+  - ''
   MID:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - ','
-  - +
-  - '='
-  - _
-  - '-'
-  - ^
-  - '0'
-  - '4'
-  - '5'
-  - '6'
-  - .
-  - ''
-  - ''
-  - '*'
-  - '&'
-  - ''
-  - {t: ;, type: held}
-  - '1'
-  - '2'
-  - '3'
-  - /
-  - ''
-  - Gui
-  - ⌫
-  - {t: ▽, type: trans}
-  NUM:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - ','
-  - +
-  - '='
-  - _
-  - '-'
-  - ^
-  - '0'
-  - '4'
-  - '5'
-  - '6'
-  - .
-  - ''
-  - ''
-  - '*'
-  - '&'
-  - ''
-  - ;
-  - '1'
-  - '2'
-  - '3'
-  - /
-  - ''
-  - Gui
-  - ⌫
-  - {t: ▽, type: trans}
-  SYM:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - ','
-  - +
-  - '='
-  - _
-  - '-'
-  - ^
-  - '0'
-  - '4'
-  - '5'
-  - '6'
-  - .
-  - ''
-  - ''
-  - '*'
-  - '&'
-  - ''
-  - ;
-  - '1'
-  - '2'
-  - '3'
-  - /
-  - ''
-  - Gui
-  - ⌫
-  - {t: ▽, type: trans}
-  FUN:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - Out USB
+  - Win Prev
+  - Win Next
+  - Tab Right
+  - Tab Left
+  - '&ht LA(F4) LC(F4)'
   - Out BLE
+  - Out USB
+  - Vol Up
+  - EP ON
+  - EP OFF
+  - Gui
+  - Alt
+  - Ctrl
+  - Shift
   - ''
-  - ''
-  - ''
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - BT CLR
+  - ⏮️
+  - Vol Down
+  - ⏭️
+  - BT CLR ALL
+  - Esc
+  - '&extra'
+  - '&base'
+  - Desk Right
+  - Desk Left
+  - {type: held}
   - BT 1
   - BT 2
   - BT 3
   - BT 4
-  - BT 5
+  - ⏎
+  - {t: Esc, h: MID}
   - ''
+  - ''
+  NUM: ['[', '7', '8', '9', ']', '&ht LA(F4) LC(F4)', Tab Left, Tab Right, Win Next, Win Prev, ;, '4', '5', '6', '=', Calc, Shift, Ctrl, Alt, Gui, Esc, '`', '1',
+    '2', '3', \, ⏎, +, '-', '*', ⏎, ., '0', '-']
+  SYM: ['{', '&', '*', (, '}', '&ht LA(F4) LC(F4)', Tab Left, Tab Right, Win Next, Win Prev, ':', $, '%', ^, +, '', Shift, Ctrl, Alt, Gui, Esc, '~', '!', '@', '#',
+    '|', '', Desk Left, Desk Right, '&base', RET /, (, ), _]
+  FUN:
+  - F12
+  - F7
+  - F8
+  - F9
+  - Print Scrn
+  - '&ht LA(F4) LC(F4)'
+  - Tab Left
+  - Tab Right
+  - Win Next
+  - Win Prev
+  - F11
+  - F4
+  - F5
+  - F6
+  - SLCK
+  - ''
+  - Shift
+  - Ctrl
+  - Alt
+  - Gui
+  - Esc
+  - F10
+  - F1
+  - F2
+  - F3
+  - Pause Break
+  - {type: held}
   - Desk Left
   - Desk Right
-  - F11
-  - F12
-  - ''
-  - {t: Caps Lock, type: held}
-  - Caps Lock
-  - Caps Lock
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&base'
+  - ⏎
+  - APP
+  - ␣
+  - ↹
 combos:
 - p: [3, 4]
   k: Lock
