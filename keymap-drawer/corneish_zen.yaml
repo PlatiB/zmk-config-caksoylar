@@ -154,32 +154,32 @@ layers:
   - {t: FUN, h: toggle}
   - {t: MID, h: toggle}
   - ''
-  - Out BLE
-  - Out USB
+  - RGB TOG
+  - RGB EFF
   - Vol Up
-  - Out USB
-  - Out USB
+  - RGB HUI
+  - RGB SAI
   - Gui
   - Alt
   - Ctrl
   - Shift
   - ''
-  - ''
+  - EP TOG
   - ⏮️
   - Vol Down
   - ⏭️
-  - ''
+  - RGB BRI
   - Esc
   - Win Prev
   - Win Next
   - Tab Right
   - Tab Left
   - {t: Tab Close, h: Win Close, type: held}
-  - Ctl+ Y
-  - Ctl+ V
-  - Ctl+ C
-  - Ctl+ X
-  - Ctl+ Z
+  - OUT TOG
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT CLR ALL
   - ⏎
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -201,7 +201,7 @@ layers:
   - '5'
   - '6'
   - '='
-  - ''
+  - Calc
   - Shift
   - Ctrl
   - Alt

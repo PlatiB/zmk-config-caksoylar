@@ -880,13 +880,13 @@ rect.held, rect.combo.held { fill: #fcc; }
 <g transform="translate(476, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Out</tspan><tspan x="0" dy="1.2em">BLE</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">TOG</tspan>
 </text>
 </g>
 <g transform="translate(532, 35)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Out</tspan><tspan x="0" dy="1.2em">USB</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">EFF</tspan>
 </text>
 </g>
 <g transform="translate(588, 28)" class="key keypos-7">
@@ -898,13 +898,13 @@ rect.held, rect.combo.held { fill: #fcc; }
 <g transform="translate(644, 35)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Out</tspan><tspan x="0" dy="1.2em">USB</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">HUI</tspan>
 </text>
 </g>
 <g transform="translate(700, 49)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Out</tspan><tspan x="0" dy="1.2em">USB</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SAI</tspan>
 </text>
 </g>
 <g transform="translate(28, 105)" class="key keypos-10">
@@ -928,6 +928,9 @@ rect.held, rect.combo.held { fill: #fcc; }
 </g>
 <g transform="translate(476, 98)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">EP</tspan><tspan x="0" dy="1.2em">TOG</tspan>
+</text>
 </g>
 <g transform="translate(532, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -945,6 +948,9 @@ rect.held, rect.combo.held { fill: #fcc; }
 </g>
 <g transform="translate(700, 105)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">BRI</tspan>
+</text>
 </g>
 <g transform="translate(28, 161)" class="key ghost keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
@@ -984,31 +990,32 @@ rect.held, rect.combo.held { fill: #fcc; }
 <g transform="translate(532, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">Y</tspan>
+<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">TOG</tspan>
 </text>
 </g>
 <g transform="translate(588, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">V</tspan>
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">1</tspan>
 </text>
 </g>
 <g transform="translate(644, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">C</tspan>
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">2</tspan>
 </text>
 </g>
 <g transform="translate(700, 161)" class="key ghost keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
 <text x="0" y="0" class="key ghost tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">X</tspan>
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">3</tspan>
 </text>
 </g>
 <g transform="translate(168, 205)" class="key ghost keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
 <text x="0" y="0" class="key ghost tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">Z</tspan>
+<tspan x="0" dy="-1.2em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan>
+<tspan x="0" dy="1.2em">ALL</tspan>
 </text>
 </g>
 <g transform="translate(230, 213) rotate(15.0)" class="key keypos-31">
@@ -1099,6 +1106,7 @@ rect.held, rect.combo.held { fill: #fcc; }
 </g>
 <g transform="translate(476, 98)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Calc</text>
 </g>
 <g transform="translate(532, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
