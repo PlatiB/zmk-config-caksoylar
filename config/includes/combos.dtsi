@@ -42,10 +42,19 @@ COMBO(semi,   &kp SEMI,    RB1 RB2,     DEF EXT,      40, 100)
 COMBO(colon,  &kp COLON,   RB2 RB3,     DEF EXT,      40, 100)
 
 // thumb
+COMBO(dot,    &kp DOT,     LH1 LH0,     NUM,          40, 150)
 COMBO(app,    &kp K_APP,   LH1 LH0,     FUN,          40, 150)
-COMBO(play,   &kp C_PP,    RH0 RH1,     NAV,          40, 150)
+COMBO(play,   &kp C_PP,    RH0 RH1,     MID,          40, 150)
 
 // cross
 COMBO(capswd, &caps_word,  LM1 RM1,     DEF EXT,      60, 200)
+
+// calc +-*/.,RET
+COMBO(plus,   &kp PLUS,    LM2 LM1,     NUM,          40, 100)
+COMBO(minus,  &kp MINUS,   LB2 LB1,     NUM,          40, 100)
+COMBO(star,   &kp STAR,    LM2 LB1,     NUM,          40, 150)
+COMBO(slash,  &kp SLASH,   LB2 LM1,     NUM,          40, 150)
+COMBO(ret,    &kp RET,     LM3 LM2 LM1, NUM,          40,  50)
+
     };
 };

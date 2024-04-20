@@ -397,13 +397,32 @@ combos:
   k: ':'
   l: [DEF, EXT]
 - p: [33, 34]
+  k: .
+  l: [NUM]
+- p: [33, 34]
   k: APP
   l: [FUN]
 - p: [35, 36]
   k: ⏯
-  l: [NAV]
+  l: [MID]
   a: right
 - p: [13, 16]
   k: Caps Word
   l: [DEF, EXT]
+  draw_separate: true
+- p: [12, 13]
+  k: +
+  l: [NUM]
+- p: [23, 24]
+  k: '-'
+  l: [NUM]
+- p: [12, 24]
+  k: '*'
+  l: [NUM]
+- p: [23, 13]
+  k: /
+  l: [NUM]
+- p: [11, 12, 13]
+  k: ⏎
+  l: [NUM]
   draw_separate: true
