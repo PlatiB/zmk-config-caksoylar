@@ -201,11 +201,11 @@ layers:
   - '8'
   - '9'
   - ']'
-  - ''
-  - {t: NUM, h: toggle}
-  - {t: NAV, h: toggle}
-  - '&extra'
-  - '&base'
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
   - ;
   - '4'
   - '5'
@@ -267,9 +267,9 @@ layers:
   - Win Next
   - Win Prev
   - ⏎
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - (
+  - )
+  - _
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -315,24 +315,24 @@ layers:
   MSE:
   - '&extra'
   - '&base'
-  - {t: NUM, h: toggle}
-  - {t: NAV, h: toggle}
+  - {t: SYM, h: toggle}
+  - {t: MSE, h: toggle}
   - ''
-  - Insert
-  - Home
-  - ↑
-  - End
-  - Page Up
+  - ''
+  - Scroll ←
+  - Mouse ↑
+  - Scroll →
+  - Scroll ↑
   - Gui
   - Alt
   - Ctrl
   - Shift
   - ''
-  - Caps Lock
-  - ←
-  - ↓
-  - →
-  - Page Down
+  - ''
+  - Mouse ←
+  - Mouse ↓
+  - Mouse →
+  - Scroll ↓
   - Esc
   - Win Prev
   - Win Next
@@ -348,9 +348,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Right Click
+  - Left Click
+  - ''
 combos:
 - p: [3, 4]
   k: Lock
