@@ -149,18 +149,18 @@ layers:
   - Out BLE
   - Out USB
   - Vol Up
-  - EP ON
-  - EP OFF
+  - Out USB
+  - Out USB
   - Gui
   - Alt
   - Ctrl
   - Shift
   - ''
-  - Caps Lock
+  - BT CLR
   - ⏮️
   - Vol Down
   - ⏭️
-  - Page Down
+  - BT CLR ALL
   - Esc
   - Win Prev
   - Win Next
@@ -176,16 +176,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
   - '&extra'
   - '&base'
-  - {t: NUM, h: toggle}
   - {t: NAV, h: toggle}
+  - {t: NUM, h: toggle}
   - ''
-  - Insert
-  - Home
-  - ↑
-  - End
-  - Page Up
   - Gui
   - Alt
   - Ctrl
