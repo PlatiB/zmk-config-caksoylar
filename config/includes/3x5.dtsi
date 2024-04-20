@@ -207,9 +207,9 @@
             display-name = "MID";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &extra,        &base,         &to FUN,       &to MID,       &none,             &none, &none, &kp C_VOL_UP, &none,& none, \
-              &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &none, &kp C_PREV, &kp C_VOL_DN,  &kp C_NEXT,   &none, \
-&kp ESC,      &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &none,  &bt BT_SEL 0,  &bt BT_SEL 1,  &bt BT_SEL 2,  &bt BT_CLR_ALL, &kp RET, \
+              &extra,        &base,         &to FUN,       &to MID,       &none,             &out OUT_USB,  &out OUT_BLE,  &kp C_VOL_UP,  &none,         & none, \
+              &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &none,         &kp C_PREV,    &kp C_VOL_DN,  &kp C_NEXT,    &none, \
+&kp ESC,      &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &bt BT_SEL 0,  &bt BT_SEL 1,  &bt BT_SEL 2, &bt BT_SEL 3, &bt BT_SEL 4, &kp RET, \
                                             &trans,        &trans,        &trans,            &kp C_STOP,    &kp C_PP,      &kp C_MUTE \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;

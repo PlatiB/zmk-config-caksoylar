@@ -154,8 +154,8 @@ layers:
   - {t: FUN, h: toggle}
   - {t: MID, h: toggle}
   - ''
-  - ''
-  - ''
+  - Out USB
+  - Out BLE
   - Vol Up
   - ''
   - ''
@@ -175,11 +175,11 @@ layers:
   - Tab Right
   - Tab Left
   - {t: Tab Close, h: Win Close, type: held}
-  - ''
   - BT 1
   - BT 2
   - BT 3
-  - BT CLR ALL
+  - BT 4
+  - BT 5
   - ⏎
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
