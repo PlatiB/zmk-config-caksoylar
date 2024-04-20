@@ -154,28 +154,28 @@ layers:
   - {t: FUN, h: toggle}
   - {t: MID, h: toggle}
   - ''
-  - RGB TOG
-  - RGB EFF
+  - ''
+  - ''
   - Vol Up
-  - RGB HUI
-  - RGB SAI
+  - ''
+  - ''
   - Gui
   - Alt
   - Ctrl
   - Shift
   - ''
-  - EP TOG
+  - ''
   - ⏮️
   - Vol Down
   - ⏭️
-  - RGB BRI
+  - ''
   - Esc
   - Win Prev
   - Win Next
   - Tab Right
   - Tab Left
   - {t: Tab Close, h: Win Close, type: held}
-  - OUT TOG
+  - ''
   - BT 1
   - BT 2
   - BT 3
