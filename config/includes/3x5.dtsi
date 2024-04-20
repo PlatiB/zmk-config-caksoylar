@@ -221,10 +221,10 @@
             display-name = "NUM";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &extra,        &base,         &to FUN,       &to MID,       &none,             &out OUT_BLE,  &out OUT_USB,  &kp C_VOL_UP,  &out OUT_USB, &out OUT_USB, \
-              &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &none,         &kp C_PREV,    &kp C_VOL_DN,  &kp C_NEXT,    &none, \
-&kp ESC,      &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
-                                            &trans,        &trans,        &trans,            &kp C_STOP,    &kp C_PP,      &kp C_MUTE \
+              &extra,        &base,         &to FUN,       &to MID,       &none,             &none,         &to NUM,       &to NAV,       &base,         &extra, \
+              &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
+&kp ESC,      &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,   &swapper,     &kp LS(TAB),    &kp RET, \
+                                            &trans,        &trans,        &trans,            &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
         };

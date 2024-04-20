@@ -191,37 +191,37 @@ layers:
   - {t: FUN, h: toggle}
   - {t: MID, h: toggle}
   - ''
-  - Out BLE
-  - Out USB
-  - Vol Up
-  - Out USB
-  - Out USB
+  - ''
+  - {t: NUM, h: toggle}
+  - {t: NAV, h: toggle}
+  - '&base'
+  - '&extra'
   - Gui
   - Alt
   - Ctrl
   - Shift
   - ''
   - ''
-  - ⏮️
-  - Vol Down
-  - ⏭️
-  - ''
+  - Shift
+  - Ctrl
+  - Alt
+  - Gui
   - Esc
   - Win Prev
   - Win Next
   - Tab Right
   - Tab Left
   - {t: Tab Close, h: Win Close}
-  - Ctl+ Y
-  - Ctl+ V
-  - Ctl+ C
-  - Ctl+ X
-  - Ctl+ Z
+  - {t: Tab Close, h: Win Close}
+  - Tab Left
+  - Tab Right
+  - Win Next
+  - Win Prev
   - ⏎
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - STOP
+  - {t: ▽, type: trans}
   SYM:
   - '{'
   - '&'
