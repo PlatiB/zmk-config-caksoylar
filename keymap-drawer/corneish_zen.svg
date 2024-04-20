@@ -1207,6 +1207,10 @@ rect.held, rect.combo.held { fill: #fcc; }
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <text x="168" y="116" class="combo tap">/</text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="42" y="85" width="28" height="26" class="combo"/>
+<text x="56" y="98" class="combo tap">,</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1984)" class="layer-SYM">
