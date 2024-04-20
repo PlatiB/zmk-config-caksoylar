@@ -235,17 +235,16 @@ layers:
   - {type: held}
   - ''
   SYM:
-  - '&LAYER_FROM38('
   - '{'
   - '&'
   - '*'
   - (
   - '}'
-  - {t: Tab Close, h: Win Close}
-  - TAB LT
-  - TAB RT
-  - Win Next
-  - Win Prev
+  - ''
+  - {t: SYM, h: toggle}
+  - {t: MSE, h: toggle}
+  - '&base'
+  - '&extra'
   - ':'
   - $
   - '%'
@@ -262,18 +261,18 @@ layers:
   - '@'
   - '#'
   - '|'
-  - ''
-  - D LT
-  - D RT
-  - '&base'
-  - '&extra'
+  - {t: Tab Close, h: Win Close}
+  - Tab Left
+  - Tab Right
+  - Win Next
+  - Win Prev
   - ⏎
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&trans )'
   FUN:
   - '&extra'
   - '&base'

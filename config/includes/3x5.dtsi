@@ -221,7 +221,7 @@
             display-name = "NUM";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &kp LBKT,      &kp N7,        &kp N8,        &kp N9,        &kp RBKT,          &none,         &to 3,       &to 5,       &extra,        &base, \
+              &kp LBKT,      &kp N7,        &kp N8,        &kp N9,        &kp RBKT,          &none,         &to 3,         &to 5,       &extra,        &base, \
               &kp SEMI,      &kp N4,        &kp N5,        &kp N6,        &kp EQUAL,         &kp C_AL_CALC, &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
 &kp ESC,      &kp GRAVE,     &kp N1,        &kp N2,        &kp N3,        &kp BSLH,          &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
                                             &kp DOT,       &kp N0,        &kp MINUS,         &none,         &trans,        &none /
@@ -233,9 +233,9 @@
             display-name = "SYM";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &kp LBRC,      &kp AMPS,      &kp ASTRK,     &kp LPAR,      &kp RBRC,         &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,    &swapper,      &kp LS(TAB), \
-              &kp COLON     &kp DLLR      &kp PRCNT     &kp CARET     &kp PLUS          &none         &kp LSHFT     &kp LCTRL     &kp LALT      &kp LGUI
-&kp ESC,      &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp PIPE          &none         &kp D_LT      &kp D_RT      &base         &extra        &kp RET, \
+              &kp LBRC,      &kp AMPS,      &kp ASTRK,     &kp LPAR,      &kp RBRC,          &none,         &to 6,         &to 8,         &base,         &extra, \
+              &kp COLON,     &kp DLLR,      &kp PRCNT,     &kp CARET,     &kp PLUS,          &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
+&kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,          &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,   &swapper,     &kp LS(TAB),    &kp RET, \
                                             &trans,        &trans,        &trans,            &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
