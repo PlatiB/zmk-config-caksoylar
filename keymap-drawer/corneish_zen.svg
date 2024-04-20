@@ -1021,10 +1021,8 @@ rect.held, rect.combo.held { fill: #fcc; }
 <text x="0" y="0" class="key ghost tap">STOP</text>
 </g>
 <g class="combo combopos-0">
-<path d="M527,219 l-76,4" class="combo"/>
-<path d="M527,219 l-18,-3" class="combo"/>
-<rect rx="6" ry="6" x="513" y="206" width="28" height="26" class="combo"/>
-<text x="527" y="219" class="combo tap">⏯</text>
+<rect rx="6" ry="6" x="452" y="206" width="28" height="26" class="combo"/>
+<text x="466" y="219" class="combo tap">MUTE</text>
 </g>
 </g>
 </g>
