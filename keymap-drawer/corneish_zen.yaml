@@ -137,7 +137,7 @@ layers:
   - Win Next
   - Tab Right
   - Tab Left
-  - '&ht LA(F4) LC(F4)'
+  - {t: Tab Close, h: Win Close}
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
@@ -151,14 +151,14 @@ layers:
   MID:
   - '&extra'
   - '&base'
-  - {t: NUM, h: toggle}
-  - {t: NAV, h: toggle}
+  - {t: FUN, h: toggle}
+  - {t: MID, h: toggle}
   - ''
-  - Insert
-  - Home
+  - Out BLE
+  - Out USB
   - Vol Up
-  - End
-  - Page Up
+  - EP ON
+  - EP OFF
   - Gui
   - Alt
   - Ctrl
@@ -174,7 +174,7 @@ layers:
   - Win Next
   - Tab Right
   - Tab Left
-  - {t: '&ht LA(F4) LC(F4)', type: held}
+  - {t: Tab Close, h: Win Close, type: held}
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
@@ -211,7 +211,7 @@ layers:
   - Win Next
   - Tab Right
   - Tab Left
-  - '&ht LA(F4) LC(F4)'
+  - {t: Tab Close, h: Win Close}
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
@@ -248,7 +248,7 @@ layers:
   - Win Next
   - Tab Right
   - Tab Left
-  - '&ht LA(F4) LC(F4)'
+  - {t: Tab Close, h: Win Close}
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
@@ -285,7 +285,7 @@ layers:
   - Win Next
   - Tab Right
   - Tab Left
-  - '&ht LA(F4) LC(F4)'
+  - {t: Tab Close, h: Win Close}
   - {t: Ctl+ Y, type: held}
   - Ctl+ V
   - Ctl+ C
@@ -322,7 +322,7 @@ layers:
   - Win Next
   - Tab Right
   - Tab Left
-  - '&ht LA(F4) LC(F4)'
+  - {t: Tab Close, h: Win Close}
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
