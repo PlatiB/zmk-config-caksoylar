@@ -215,7 +215,7 @@
               &kp COLON,     &kp DLLR,      &kp PRCNT,     &kp CARET,     &kp PLUS,          &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
 &kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,         &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,    &swapper,      &kp LS(TAB),    &kp RET, \
                                             &kp LPAR,      &kp RPAR,      &kp UNDER,         &trans,        &trans,        &trans \
-//                       
+//                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
         };
 
