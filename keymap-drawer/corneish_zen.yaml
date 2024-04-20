@@ -192,8 +192,8 @@ layers:
   - '9'
   - ']'
   - ''
-  - {t: NAV, h: toggle}
   - {t: NUM, h: toggle}
+  - {t: NAV, h: toggle}
   - '&extra'
   - '&base'
   - ;
@@ -260,17 +260,16 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   FUN:
-  - '&LAYER_FROM38('
   - F12
   - F7
   - F8
   - F9
   - Print Scrn
-  - {t: Tab Close, h: Win Close}
-  - TAB LT
-  - TAB RT
-  - Win Next
-  - Win Prev
+  - ''
+  - {t: FUN, h: toggle}
+  - {t: MID, h: toggle}
+  - '&base'
+  - '&extra'
   - F11
   - F4
   - F5
@@ -286,19 +285,17 @@ layers:
   - F1
   - F2
   - F3
-  - {t: Pause Break, type: held}
-  - {t: ▽, type: trans}
-  - D LT
-  - D RT
-  - '&base'
-  - '&extra'
+  - Pause Break
+  - {t: Tab Close, h: Win Close, type: held}
+  - Tab Left
+  - Tab Right
+  - Win Next
+  - Win Prev
   - ⏎
   - APP
   - ␣
   - ↹
   - ''
-  - ''
-  - '&lt FUN DEL )'
   MSE:
   - '&extra'
   - '&base'
