@@ -21,7 +21,6 @@ layers:
   - {t: K, h: Ctrl}
   - {t: L, h: Alt}
   - {t: '''', h: Gui}
-  - Esc
   - {t: Z, h: BTN}
   - X
   - C
@@ -32,11 +31,12 @@ layers:
   - {t: ',', h: Ctrl}
   - {t: ., h: Alt}
   - {t: /, h: BTN}
-  - ⏎
   - {t: Esc, h: MID}
   - {t: ␣, h: NAV}
   - {t: ↹, h: MSE}
   - {t: ⏎, h: SYM}
+  - {t: ⌫, h: NUM}
+  - {t: ⌦, h: FUN}
   EXT:
   - Q
   - W
@@ -58,7 +58,6 @@ layers:
   - {t: E, h: Ctrl}
   - {t: I, h: Alt}
   - {t: O, h: Gui}
-  - Esc
   - {t: Z, h: BTN}
   - X
   - C
@@ -69,11 +68,12 @@ layers:
   - {t: ',', h: Ctrl}
   - {t: ., h: Alt}
   - {t: /, h: BTN}
-  - ⏎
   - {t: Esc, h: MID}
   - {t: ␣, h: NAV}
   - {t: ↹, h: MSE}
   - {t: ⏎, h: SYM}
+  - {t: ⌫, h: NUM}
+  - {t: ⌦, h: FUN}
   BTN:
   - Ctl+ Z
   - Ctl+ X
@@ -95,7 +95,6 @@ layers:
   - Ctrl
   - Alt
   - Gui
-  - Esc
   - {t: Ctl+ Z, type: held}
   - Ctl+ X
   - Ctl+ C
@@ -106,11 +105,12 @@ layers:
   - Ctl+ C
   - Ctl+ X
   - Ctl+ Z
-  - ⏎
   - ''
   - Left Click
   - Right Click
   - Right Click
+  - Left Click
+  - ''
   NAV:
   - Win Prev
   - Win Next
@@ -132,7 +132,6 @@ layers:
   - ↓
   - →
   - Page Down
-  - Esc
   - '&extra'
   - '&base'
   - {t: NUM, h: toggle}
@@ -143,11 +142,12 @@ layers:
   - Ctl+ C
   - Ctl+ X
   - Ctl+ Z
-  - ⏎
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - ⏎
+  - ⌫
+  - ⌦
   MID:
   - Win Prev
   - Win Next
@@ -169,7 +169,6 @@ layers:
   - Vol Down
   - ⏭️
   - ''
-  - Esc
   - '&extra'
   - '&base'
   - {t: FUN, h: toggle}
@@ -180,11 +179,12 @@ layers:
   - BT 3
   - BT CLR
   - BT CLR ALL
-  - ⏎
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - STOP
+  - ⏯
+  - MUTE
   NUM:
   - '['
   - '7'
@@ -206,7 +206,6 @@ layers:
   - Ctrl
   - Alt
   - Gui
-  - Esc
   - '`'
   - '1'
   - '2'
@@ -217,10 +216,11 @@ layers:
   - {t: NAV, h: toggle}
   - '&base'
   - '&extra'
-  - ⏎
   - .
   - '0'
   - '-'
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   SYM:
   - '{'
@@ -243,7 +243,6 @@ layers:
   - Ctrl
   - Alt
   - Gui
-  - Esc
   - '~'
   - '!'
   - '@'
@@ -254,11 +253,12 @@ layers:
   - {t: MSE, h: toggle}
   - '&base'
   - '&extra'
-  - ⏎
   - (
   - )
   - _
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   FUN:
   - F12
   - F7
@@ -280,7 +280,6 @@ layers:
   - Ctrl
   - Alt
   - Gui
-  - Esc
   - F10
   - F1
   - F2
@@ -291,11 +290,12 @@ layers:
   - {t: MID, h: toggle}
   - '&base'
   - '&extra'
-  - ⏎
   - APP
   - ␣
   - ↹
   - ''
+  - ''
+  - {t: ⌦, h: FUN}
   MSE:
   - Win Prev
   - Win Next
@@ -317,7 +317,6 @@ layers:
   - Mouse ↓
   - Mouse →
   - Scroll ↓
-  - Esc
   - '&extra'
   - '&base'
   - {t: SYM, h: toggle}
@@ -328,11 +327,12 @@ layers:
   - Ctl+ C
   - Ctl+ X
   - Ctl+ Z
-  - ⏎
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - Right Click
+  - Left Click
+  - ''
 combos:
 - p: [3, 4]
   k: Lock
