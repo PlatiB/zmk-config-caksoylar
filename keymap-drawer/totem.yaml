@@ -196,41 +196,41 @@ layers:
   - ⏯
   - MUTE
   NUM:
-  - '&extra'
-  - '&base'
-  - {t: FUN, h: toggle}
-  - {t: MID, h: toggle}
-  - ''
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
   - ''
   - {t: NUM, h: toggle}
   - {t: NAV, h: toggle}
   - '&base'
   - '&extra'
-  - Gui
-  - Alt
-  - Ctrl
-  - Shift
-  - ''
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
   - ''
   - Shift
   - Ctrl
   - Alt
   - Gui
   - Esc
-  - Win Prev
-  - Win Next
-  - Tab Right
-  - Tab Left
-  - {t: Tab Close, h: Win Close}
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
   - {t: Tab Close, h: Win Close}
   - Tab Left
   - Tab Right
   - Win Next
   - Win Prev
   - ⏎
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
+  - '0'
+  - '-'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
