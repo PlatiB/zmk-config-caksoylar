@@ -190,7 +190,7 @@
               &extra,        &base,         &to NUM,       &to NAV,       &none,             &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
               &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
 &kp ESC,      &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
-                                            &trans,        &trans,        &trans,            &kp RET,       &kp BSPC,      &kp DEL \
+                                            &trans,        &trans,        &trans,            &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
         };
@@ -202,7 +202,7 @@
               &extra,        &base,         &to NUM,       &to NAV,       &none,             &kp INS,       &kp HOME,      &kp C_VOL_UP,        &kp END,       &kp PG_UP, \
               &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &kp CAPS,      &kp C_PREV,    &kp C_VOL_DN,  &kp C_NEXT,    &kp PG_DN, \
 &kp ESC,      &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
-                                            &trans,        &trans,        &trans,            &kp RET,       &kp BSPC,      &kp DEL \
+                                            &trans,        &trans,        &trans,            &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
         };
@@ -214,7 +214,7 @@
               &extra,        &base,         &to NUM,       &to NAV,       &none,             &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
               &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
 &kp ESC,      &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
-                                            &trans,        &trans,        &trans,            &kp RET,       &kp BSPC,      &kp DEL \
+                                            &trans,        &trans,        &trans,            &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
         };
@@ -223,10 +223,10 @@
             display-name = "SYM";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &kp LBRC,      &kp AMPS,      &kp ASTRK,     &kp LPAR,      &kp RBRC,          &none,         &to SYM,       &to MSE,       &to base,      &to extra, \
-              &kp COLON,     &kp DLLR,      &kp PRCNT,     &kp CARET,     &kp PLUS,          &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
-&kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,         &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,    &swapper,      &kp LS(TAB),    &kp RET, \
-                                            &kp LPAR,      &kp RPAR,      &kp UNDER,         &trans,        &trans,        &trans \
+              &extra,        &base,         &to NUM,       &to NAV,       &none,             &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
+              &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
+&kp ESC,      &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
+                                            &trans,        &trans,        &trans,            &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
         };
