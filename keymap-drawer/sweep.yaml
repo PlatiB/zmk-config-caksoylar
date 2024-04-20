@@ -210,40 +210,45 @@ layers:
   - '0'
   - '-'
   SYM:
-  - '&extra'
-  - '&base'
-  - {t: NUM, h: toggle}
-  - {t: NAV, h: toggle}
-  - ''
-  - Insert
-  - Home
-  - ↑
-  - End
-  - Page Up
-  - Gui
-  - Alt
-  - Ctrl
-  - Shift
-  - ''
-  - Caps Lock
-  - ←
-  - ↓
-  - →
-  - Page Down
-  - Esc
-  - Win Prev
-  - Win Next
-  - Tab Right
-  - Tab Left
+  - '&LAYER_FROM38('
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
   - {t: Tab Close, h: Win Close}
-  - Ctl+ Y
-  - Ctl+ V
-  - Ctl+ C
-  - Ctl+ X
+  - TAB LT
+  - TAB RT
+  - Win Next
+  - Win Prev
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
+  - ''
+  - Shift
+  - Ctrl
+  - Alt
+  - Gui
+  - Esc
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - ''
+  - D LT
+  - D RT
+  - '&base'
+  - '&extra'
   - ⏎
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&trans )'
   FUN:
   - '&extra'
   - '&base'
