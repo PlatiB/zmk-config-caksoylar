@@ -147,7 +147,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⏎
   MID:
   - '&extra'
   - '&base'
@@ -164,11 +164,11 @@ layers:
   - Ctrl
   - Shift
   - ''
-  - BT CLR
+  - ''
   - ⏮️
   - Vol Down
   - ⏭️
-  - BT CLR ALL
+  - ''
   - Esc
   - Win Prev
   - Win Next
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - STOP
   NUM:
   - '['
   - '7'
@@ -221,7 +221,7 @@ layers:
   - .
   - '0'
   - '-'
-  - ''
+  - {t: ▽, type: trans}
   SYM:
   - '{'
   - '&'
@@ -260,42 +260,45 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   FUN:
-  - '&extra'
-  - '&base'
-  - {t: NUM, h: toggle}
-  - {t: NAV, h: toggle}
-  - ''
-  - Insert
-  - Home
-  - ↑
-  - End
-  - Page Up
-  - Gui
-  - Alt
-  - Ctrl
-  - Shift
-  - ''
-  - Caps Lock
-  - ←
-  - ↓
-  - →
-  - Page Down
-  - Esc
-  - Win Prev
-  - Win Next
-  - Tab Right
-  - Tab Left
+  - '&LAYER_FROM38('
+  - F12
+  - F7
+  - F8
+  - F9
+  - Print Scrn
   - {t: Tab Close, h: Win Close}
-  - {t: Ctl+ Y, type: held}
-  - Ctl+ V
-  - Ctl+ C
-  - Ctl+ X
-  - Ctl+ Z
+  - TAB LT
+  - TAB RT
+  - Win Next
+  - Win Prev
+  - F11
+  - F4
+  - F5
+  - F6
+  - SLCK
+  - ''
+  - Shift
+  - Ctrl
+  - Alt
+  - Gui
+  - Esc
+  - F10
+  - F1
+  - F2
+  - F3
+  - {t: Pause Break, type: held}
+  - {t: ▽, type: trans}
+  - D LT
+  - D RT
+  - '&base'
+  - '&extra'
   - ⏎
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - APP
+  - ␣
+  - ↹
+  - ''
+  - ''
+  - '&lt FUN DEL )'
   MSE:
   - '&extra'
   - '&base'
