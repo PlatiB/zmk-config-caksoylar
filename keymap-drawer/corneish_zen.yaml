@@ -265,11 +265,11 @@ layers:
   - F8
   - F9
   - Print Scrn
-  - ''
-  - {t: FUN, h: toggle}
-  - {t: MID, h: toggle}
-  - '&base'
-  - '&extra'
+  - {t: Tab Close, h: Win Close}
+  - Tab Left
+  - Tab Right
+  - Win Next
+  - Win Prev
   - F11
   - F4
   - F5
@@ -286,22 +286,22 @@ layers:
   - F2
   - F3
   - Pause Break
-  - {t: Tab Close, h: Win Close, type: held}
-  - Tab Left
-  - Tab Right
-  - Win Next
-  - Win Prev
+  - {type: held}
+  - {t: FUN, h: toggle}
+  - {t: MID, h: toggle}
+  - '&base'
+  - '&extra'
   - ⏎
   - APP
   - ␣
   - ↹
   - ''
   MSE:
-  - '&extra'
-  - '&base'
-  - {t: SYM, h: toggle}
-  - {t: MSE, h: toggle}
-  - ''
+  - Win Prev
+  - Win Next
+  - Tab Right
+  - Tab Left
+  - {t: Tab Close, h: Win Close}
   - ''
   - Scroll ←
   - Mouse ↑
@@ -318,11 +318,11 @@ layers:
   - Mouse →
   - Scroll ↓
   - Esc
-  - Win Prev
-  - Win Next
-  - Tab Right
-  - Tab Left
-  - {t: Tab Close, h: Win Close}
+  - '&extra'
+  - '&base'
+  - {t: SYM, h: toggle}
+  - {t: MSE, h: toggle}
+  - ''
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
