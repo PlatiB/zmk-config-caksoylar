@@ -112,11 +112,11 @@ layers:
   - Right Click
   - Right Click
   NAV:
-  - '&extra'
-  - '&base'
-  - {t: NUM, h: toggle}
-  - {t: NAV, h: toggle}
-  - ''
+  - Win Prev
+  - Win Next
+  - Tab Right
+  - Tab Left
+  - {t: Tab Close, h: Win Close}
   - Insert
   - Home
   - ↑
@@ -133,11 +133,11 @@ layers:
   - →
   - Page Down
   - Esc
-  - Win Prev
-  - Win Next
-  - Tab Right
-  - Tab Left
-  - {t: Tab Close, h: Win Close}
+  - '&extra'
+  - '&base'
+  - {t: NUM, h: toggle}
+  - {t: NAV, h: toggle}
+  - ''
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
@@ -149,11 +149,11 @@ layers:
   - {t: ▽, type: trans}
   - ⏎
   MID:
-  - '&extra'
-  - '&base'
-  - {t: FUN, h: toggle}
-  - {t: MID, h: toggle}
-  - ''
+  - Win Prev
+  - Win Next
+  - Tab Right
+  - Tab Left
+  - {t: Tab Close, h: Win Close}
   - Out USB
   - Out BLE
   - Vol Up
@@ -170,11 +170,11 @@ layers:
   - ⏭️
   - ''
   - Esc
-  - Win Prev
-  - Win Next
-  - Tab Right
-  - Tab Left
-  - {t: Tab Close, h: Win Close, type: held}
+  - '&extra'
+  - '&base'
+  - {t: FUN, h: toggle}
+  - {t: MID, h: toggle}
+  - {type: held}
   - BT 1
   - BT 2
   - BT 3
@@ -191,11 +191,11 @@ layers:
   - '8'
   - '9'
   - ']'
-  - ''
-  - {t: NUM, h: toggle}
-  - {t: NAV, h: toggle}
-  - '&base'
-  - '&extra'
+  - {t: Tab Close, h: Win Close}
+  - Tab Left
+  - Tab Right
+  - Win Next
+  - Win Prev
   - ;
   - '4'
   - '5'
@@ -212,11 +212,11 @@ layers:
   - '2'
   - '3'
   - \
-  - {t: Tab Close, h: Win Close}
-  - Tab Left
-  - Tab Right
-  - Win Next
-  - Win Prev
+  - ''
+  - {t: NUM, h: toggle}
+  - {t: NAV, h: toggle}
+  - '&base'
+  - '&extra'
   - ⏎
   - .
   - '0'
@@ -228,11 +228,11 @@ layers:
   - '*'
   - (
   - '}'
-  - ''
-  - {t: SYM, h: toggle}
-  - {t: MSE, h: toggle}
-  - '&base'
-  - '&extra'
+  - {t: Tab Close, h: Win Close}
+  - Tab Left
+  - Tab Right
+  - Win Next
+  - Win Prev
   - ':'
   - $
   - '%'
@@ -249,11 +249,11 @@ layers:
   - '@'
   - '#'
   - '|'
-  - {t: Tab Close, h: Win Close}
-  - Tab Left
-  - Tab Right
-  - Win Next
-  - Win Prev
+  - ''
+  - {t: SYM, h: toggle}
+  - {t: MSE, h: toggle}
+  - '&base'
+  - '&extra'
   - ⏎
   - (
   - )
