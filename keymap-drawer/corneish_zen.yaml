@@ -191,37 +191,37 @@ layers:
   - '8'
   - '9'
   - ']'
-  - '&extra'
-  - '&base'
+  - ''
   - {t: NAV, h: toggle}
   - {t: NUM, h: toggle}
-  - ''
-  - Gui
-  - Alt
-  - Ctrl
+  - '&extra'
+  - '&base'
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - Calc
   - Shift
-  - ''
-  - Caps Lock
-  - ←
-  - ↓
-  - →
-  - Page Down
+  - Ctrl
+  - Alt
+  - Gui
   - Esc
-  - Win Prev
-  - Win Next
-  - Tab Right
-  - Tab Left
-  - {t: Tab Close, h: Win Close}
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
   - Ctl+ X
   - Ctl+ Z
   - ⏎
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
+  - '0'
+  - '-'
+  - ''
   SYM:
   - '&extra'
   - '&base'
