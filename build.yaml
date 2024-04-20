@@ -24,9 +24,6 @@ include:
 #    shield: sweep_right
 #  - board: seeeduino_xiao_ble
 #    shield: sweep_dongle
-    
- # - board: corneish_zen_v1_right
- # - board: corneish_zen_v2_left
   
   - board: seeeduino_xiao_ble
     shield: totem_left rgbled_adapter
