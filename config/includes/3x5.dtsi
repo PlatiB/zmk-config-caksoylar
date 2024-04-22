@@ -213,7 +213,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp LBRC,      &kp AMPS,      &kp ASTRK,     &kp LPAR,      &kp RBRC,          &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,   &swapper,      &kp LS(TAB), \
               &kp COLON,     &kp DLLR,      &kp PRCNT,     &kp CARET,     &kp PLUS,          &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
-&kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,          &none,         &tog SYM,      &to MSE,       &base,         &extra,        &kp RET, \
+&kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,          &none,         &tog SYM,      &to SYM,       &base,         &extra,        &kp RET, \
                                             &kp LPAR,      &kp RPAR,      &kp UNDER,         &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
@@ -238,7 +238,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &none,        &msc SCRL_LEFT, &mmv MOVE_UP,  &msc SCRL_RIGHT, &msc SCRL_UP, \
               &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &none,        &mmv MOVE_LEFT, &mmv MOVE_DOWN, &mmv MOVE_RIGHT, &msc SCRL_DOWN, \
-&kp ESC,      &extra,        &base,         &to SYM,       &tog MSE,      &none,             &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
+&kp ESC,      &extra,        &base,         &to SYM,       &tog SYM,      &none,             &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
                                             &trans,        &trans,        &trans,            &mkp RCLK,     &mkp LCLK,     &none \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;

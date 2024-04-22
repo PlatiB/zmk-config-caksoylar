@@ -263,7 +263,7 @@ layers:
   - '|'
   - ''
   - {t: SYM, h: toggle}
-  - {t: MSE, h: toggle}
+  - {t: SYM, h: toggle}
   - '&base'
   - '&extra'
   - ⏎
@@ -337,7 +337,7 @@ layers:
   - '&extra'
   - '&base'
   - {t: SYM, h: toggle}
-  - {t: MSE, h: toggle}
+  - {t: SYM, h: toggle}
   - ''
   - Ctl+ Y
   - Ctl+ V
