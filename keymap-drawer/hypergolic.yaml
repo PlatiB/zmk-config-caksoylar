@@ -273,7 +273,7 @@ layers:
   - Pause Break
   - {type: held}
   - {t: FUN, h: toggle}
-  - {t: MID, h: toggle}
+  - ''
   - '&base'
   - '&extra'
   - ␣

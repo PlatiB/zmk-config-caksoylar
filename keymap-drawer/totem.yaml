@@ -302,7 +302,7 @@ layers:
   - Pause Break
   - {type: held}
   - {t: FUN, h: toggle}
-  - {t: MID, h: toggle}
+  - ''
   - '&base'
   - '&extra'
   - ⏎
@@ -337,7 +337,7 @@ layers:
   - '&extra'
   - '&base'
   - {t: SYM, h: toggle}
-  - {t: SYM, h: toggle}
+  - ''
   - ''
   - Ctl+ Y
   - Ctl+ V
