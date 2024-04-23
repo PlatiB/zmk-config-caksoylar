@@ -18,7 +18,7 @@ jobs:
       output_folder: keymap-drawer
       install_branch: main
       amend_commit: true
-      draw_args: "sweep:'-k ferris/sweep'"
+      draw_args: "sweep:'-k cradio'"
                # "sweep:'-k hypergolic'"
                # "sweep:'-k ferris/sweep'"
                # "sweep:'-k ferris/sweep --ghost-keys 20 31 32 37'"
