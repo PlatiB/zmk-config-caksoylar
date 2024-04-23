@@ -366,6 +366,9 @@ combos:
 - p: [30, 31]
   k: APP
   l: [FUN]
+- p: [32, 33]
+  k: MUTE
+  l: [MID]
 - p: [13, 16]
   k: Caps Word
   l: [DEF, EXT]
