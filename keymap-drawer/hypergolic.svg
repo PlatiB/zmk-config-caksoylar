@@ -955,10 +955,6 @@ rect.held, rect.combo.held { fill: #fcc; }
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">⏯</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="509" y="239" width="28" height="26" class="combo"/>
-<text x="523" y="252" class="combo tap">MUTE</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1730)" class="layer-NUM">

@@ -44,7 +44,7 @@ COMBO(colon,  &kp COLON,   RB2 RB3,     DEF EXT,      40, 100)
 // thumb
 COMBO(dot,    &kp DOT,     LH1 LH0,     NUM,          40, 150)
 COMBO(app,    &kp K_APP,   LH1 LH0,     FUN,          40, 150)
-COMBO(mute,   &kp C_MUTE,  RH0 RH1,     MID,          40, 150)
+// COMBO(mute,   &kp C_MUTE,  RH0 RH1,     MID,          40, 150)
 
 // cross
 COMBO(capswd, &caps_word,  LM1 RM1,     DEF EXT,      60, 200)
