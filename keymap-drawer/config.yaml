@@ -69,7 +69,6 @@ parse_config:
     C_VOL_DN: Vol Down
     C_AL_CALC: Calc
     C_PP: Play Pause
-    C_MUTE: MUTE
 
     LCTRL: Ctrl
     RCTRL: Ctrl
