@@ -177,7 +177,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
               &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
-&kp ESC,      &to EXT,       &to DEF,       &to  NUM,      &to NAV,       &none,             &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
+&kp ESC,      &to EXT,       &to DEF,       &to  NUM,      &tog NAV,       &none,             &kp LC(Y),     &kp LC(V),     &kp LC(C),     &kp LC(X),     &kp LC(Z),     &kp RET, \
                                             &trans,        &trans,        &trans,            &kp RET,       &kp BSPC,      &kp DEL \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
@@ -201,7 +201,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp LBKT,      &kp N7,        &kp N8,        &kp N9,        &kp RBKT,          &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,   &swapper,     &kp LS(TAB), \
               &kp SEMI,      &kp N4,        &kp N5,        &kp N6,        &kp EQUAL,         &kp C_AL_CALC, &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
-&kp ESC,      &kp GRAVE,     &kp N1,        &kp N2,        &kp N3,        &kp BSLH,          &none,         &to NUM,       &to NAV,       &to EXT,       &to DEF,       &kp RET, \
+&kp ESC,      &kp GRAVE,     &kp N1,        &kp N2,        &kp N3,        &kp BSLH,          &none,         &tog NUM,       &to NAV,       &to DEF,       &to EXT,       &kp RET, \
                                             &kp DOT,       &kp N0,        &kp MINUS,         &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
@@ -213,7 +213,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp LBRC,      &kp AMPS,      &kp ASTRK,     &kp LPAR,      &kp RBRC,          &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,   &swapper,      &kp LS(TAB), \
               &kp COLON,     &kp DLLR,      &kp PRCNT,     &kp CARET,     &kp PLUS,          &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
-&kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,          &none,         &to SYM,       &to MSE,       &to EXT,       &to DEF,       &kp RET, \
+&kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,          &none,         &to SYM,       &to MSE,       &to DEF,       &to EXT,       &kp RET, \
                                             &kp LPAR,      &kp RPAR,      &kp UNDER,         &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
@@ -225,7 +225,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp F12,       &kp F7,        &kp F8,        &kp F9,        &kp PSCRN,         &ht LA(F4) LC(F4), &kp TAB_LT, &kp TAB_RT,   &swapper,      &kp LS(TAB), \
               &kp F11,       &kp F4,        &kp F5,        &kp F6,        &kp SLCK,          &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
-&kp ESC,      &kp F10,       &kp F1,        &kp F2,        &kp F3,        &kp PAUSE_BREAK,   &trans,        &to FUN,       &to MID,       &to EXT,       &to DEF,       &kp RET, \
+&kp ESC,      &kp F10,       &kp F1,        &kp F2,        &kp F3,        &kp PAUSE_BREAK,   &trans,        &to FUN,       &to MID,       &to DEF,       &to EXT,       &kp RET, \
                                             &kp K_APP,     &kp SPACE,     &kp TAB,           &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;

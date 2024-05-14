@@ -203,8 +203,8 @@ layers:
   - ''
   - {t: NUM, h: toggle}
   - {t: NAV, h: toggle}
-  - {t: EXT, h: toggle}
   - {t: DEF, h: toggle}
+  - {t: EXT, h: toggle}
   - '0'
   - '-'
   - {t: ▽, type: trans}
@@ -238,8 +238,8 @@ layers:
   - ''
   - {t: SYM, h: toggle}
   - {t: MSE, h: toggle}
-  - {t: EXT, h: toggle}
   - {t: DEF, h: toggle}
+  - {t: EXT, h: toggle}
   - )
   - _
   - {type: held}
@@ -273,8 +273,8 @@ layers:
   - {type: held}
   - {t: FUN, h: toggle}
   - {t: MID, h: toggle}
-  - {t: EXT, h: toggle}
   - {t: DEF, h: toggle}
+  - {t: EXT, h: toggle}
   - ␣
   - ↹
   - {t: ▽, type: trans}
