@@ -278,8 +278,8 @@ layers:
   - '&extra'
   - ␣
   - ↹
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   MSE:
   - Win Prev
   - Win Next
