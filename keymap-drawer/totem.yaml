@@ -309,9 +309,9 @@ layers:
   - APP
   - ␣
   - ↹
-  - ''
-  - ''
-  - {t: ⌦, h: FUN}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   MSE:
   - Win Prev
   - Win Next
