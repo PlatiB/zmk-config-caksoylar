@@ -139,8 +139,8 @@ layers:
   - →
   - Page Down
   - Esc
-  - '&extra'
-  - '&base'
+  - {t: EXT, h: toggle}
+  - {t: DEF, h: toggle}
   - {t: NUM, h: toggle}
   - {t: NAV, h: toggle}
   - ''
@@ -178,8 +178,8 @@ layers:
   - ⏭️
   - ''
   - Esc
-  - '&extra'
-  - '&base'
+  - {t: EXT, h: toggle}
+  - {t: DEF, h: toggle}
   - {t: FUN, h: toggle}
   - {t: MID, h: toggle}
   - {type: held}
@@ -225,8 +225,8 @@ layers:
   - ''
   - {t: NUM, h: toggle}
   - {t: NAV, h: toggle}
-  - '&base'
-  - '&extra'
+  - {t: EXT, h: toggle}
+  - {t: DEF, h: toggle}
   - ⏎
   - .
   - '0'
@@ -264,8 +264,8 @@ layers:
   - ''
   - {t: SYM, h: toggle}
   - {t: MSE, h: toggle}
-  - '&base'
-  - '&extra'
+  - {t: EXT, h: toggle}
+  - {t: DEF, h: toggle}
   - ⏎
   - (
   - )
@@ -303,8 +303,8 @@ layers:
   - {type: held}
   - {t: FUN, h: toggle}
   - {t: MID, h: toggle}
-  - '&base'
-  - '&extra'
+  - {t: EXT, h: toggle}
+  - {t: DEF, h: toggle}
   - ⏎
   - APP
   - ␣
@@ -334,8 +334,8 @@ layers:
   - Mouse →
   - Scroll ↓
   - Esc
-  - '&extra'
-  - '&base'
+  - {t: EXT, h: toggle}
+  - {t: DEF, h: toggle}
   - {t: SYM, h: toggle}
   - {t: MSE, h: toggle}
   - ''
