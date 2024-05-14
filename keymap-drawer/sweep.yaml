@@ -74,42 +74,42 @@ layers:
   - {t: ⌫, h: NUM}
   - {t: ⌦, h: FUN}
   BTN:
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - ''''
-  - {t: A, h: Gui}
-  - {t: R, h: Alt}
-  - {t: S, h: Ctrl}
-  - {t: T, h: Shift}
-  - G
-  - M
-  - {t: N, h: Shift}
-  - {t: E, h: Ctrl}
-  - {t: I, h: Alt}
-  - {t: O, h: Gui}
-  - {t: Z, h: BTN, type: held}
-  - X
-  - C
-  - D
-  - {t: V, h: MID}
-  - {t: K, h: FUN}
-  - H
-  - {t: ',', h: Ctrl}
-  - {t: ., h: Alt}
-  - {t: /, h: BTN}
-  - {t: Esc, h: MID}
-  - {t: ␣, h: NAV}
-  - {t: ↹, h: MSE}
-  - {t: ⏎, h: SYM}
-  - {t: ⌫, h: NUM}
-  - {t: ⌦, h: FUN}
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - Ctl+ Y
+  - Ctl+ V
+  - Ctl+ C
+  - Ctl+ X
+  - Ctl+ Z
+  - Gui
+  - Alt
+  - Ctrl
+  - Shift
+  - ''
+  - ''
+  - Shift
+  - Ctrl
+  - Alt
+  - Gui
+  - {t: Ctl+ Z, type: held}
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - Ctl+ Y
+  - Ctl+ V
+  - Ctl+ C
+  - Ctl+ X
+  - Ctl+ Z
+  - ''
+  - Left Click
+  - Right Click
+  - Right Click
+  - Left Click
+  - ''
   NAV:
   - Win Prev
   - Win Next
@@ -292,9 +292,9 @@ layers:
   - APP
   - ␣
   - ↹
-  - ''
-  - ''
-  - {t: ⌦, h: FUN}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   MSE:
   - Win Prev
   - Win Next
