@@ -6,8 +6,8 @@
 // Layer aliases
 #define DEF 0
 #define NAV 1
-#define NUM 3
 #define SYM 2
+#define NUM 3
 #define FUN 4
 #define MSE 5
 
@@ -156,18 +156,6 @@
             )>;
         };
 
-        number_layer {
-            display-name = "NUM";
-            bindings = <LAYER_FROM38( \
-//           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp LBKT,      &kp N7,        &kp N8,        &kp N9,        &kp RBKT, \
-              &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &kp EQUAL,     &kp N4,        &kp N5,        &kp N6,        &kp SEMI, \
-&kp ESC,      &none  ,       &to DEF,       &to NUM,       &to FUN,       &trans,            &kp BSLH,      &kp N1,        &kp N2,        &kp N3,        &kp GRAVE,   &kp RET, \
-                                            &trans,        &trans,        &trans,            &kp MINUS,     &kp N0,        &kp DOT \
-//                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
-            )>;
-        };
-
         symbol_layer {
             display-name = "SYM";
             bindings = <LAYER_FROM38( \
@@ -176,6 +164,18 @@
               &kp COLON,     &kp DLLR,      &kp PRCNT,     &kp CARET,     &kp PLUS,          &none,         &kp LSHFT,     &kp LCTRL,     &kp LALT,      &kp LGUI, \
 &kp ESC,      &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,          &none,         &to SYM,       &to MSE,       &to DEF,       &none  ,       &kp RET, \
                                             &kp LPAR,      &kp RPAR,      &kp UNDER,         &trans,        &trans,        &trans \
+//                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
+            )>;
+        };
+
+        number_layer {
+            display-name = "NUM";
+            bindings = <LAYER_FROM38( \
+//           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
+              &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp LBKT,      &kp N7,        &kp N8,        &kp N9,        &kp RBKT, \
+              &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &none,             &kp EQUAL,     &kp N4,        &kp N5,        &kp N6,        &kp SEMI, \
+&kp ESC,      &none  ,       &to DEF,       &to NUM,       &to FUN,       &trans,            &kp BSLH,      &kp N1,        &kp N2,        &kp N3,        &kp GRAVE,   &kp RET, \
+                                            &trans,        &trans,        &trans,            &kp MINUS,     &kp N0,        &kp DOT \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
         };

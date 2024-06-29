@@ -31,9 +31,9 @@ layers:
   - {t: ., h: Alt}
   - /
   - {t: ␣, h: NAV}
-  - {t: ↹, h: SYM}
+  - {t: ↹, h: NUM}
   - {t: ⏎, h: FUN}
-  - {t: ⌫, h: NUM}
+  - {t: ⌫, h: SYM}
   NAV:
   - Win Prev
   - Win Next
@@ -58,7 +58,7 @@ layers:
   - ''
   - {t: DEF, h: toggle}
   - {t: NAV, h: toggle}
-  - {t: NUM, h: toggle}
+  - {t: SYM, h: toggle}
   - ''
   - Ctl+ Y
   - Ctl+ V
@@ -69,41 +69,6 @@ layers:
   - {t: ▽, type: trans}
   - ⏎
   - ⌫
-  NUM:
-  - Win Prev
-  - Win Next
-  - Tab Right
-  - Tab Left
-  - {t: Tab Close, h: Win Close}
-  - '['
-  - '7'
-  - '8'
-  - '9'
-  - ']'
-  - Gui
-  - Alt
-  - Ctrl
-  - Shift
-  - ''
-  - '='
-  - '4'
-  - '5'
-  - '6'
-  - ;
-  - ''
-  - {t: DEF, h: toggle}
-  - {t: SYM, h: toggle}
-  - {t: FUN, h: toggle}
-  - {t: ▽, type: trans}
-  - \
-  - '1'
-  - '2'
-  - '3'
-  - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - {t: '0', type: held}
   SYM:
   - '{'
   - '&'
@@ -131,14 +96,49 @@ layers:
   - '#'
   - '|'
   - ''
-  - {t: NUM, h: toggle}
+  - {t: SYM, h: toggle}
   - {t: MSE, h: toggle}
   - {t: DEF, h: toggle}
   - ''
   - )
-  - {t: _, type: held}
+  - _
   - {t: ▽, type: trans}
+  - {type: held}
+  NUM:
+  - Win Prev
+  - Win Next
+  - Tab Right
+  - Tab Left
+  - {t: Tab Close, h: Win Close}
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - Gui
+  - Alt
+  - Ctrl
+  - Shift
+  - ''
+  - '='
+  - '4'
+  - '5'
+  - '6'
+  - ;
+  - ''
+  - {t: DEF, h: toggle}
+  - {t: NUM, h: toggle}
+  - {t: FUN, h: toggle}
   - {t: ▽, type: trans}
+  - \
+  - '1'
+  - '2'
+  - '3'
+  - '`'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - '-'
+  - '0'
   FUN:
   - F12
   - F7
@@ -166,7 +166,7 @@ layers:
   - F3
   - Pause Break
   - {t: ▽, type: trans}
-  - {t: SYM, h: toggle}
+  - {t: NUM, h: toggle}
   - {t: FUN, h: toggle}
   - {t: DEF, h: toggle}
   - ''
@@ -249,7 +249,7 @@ combos:
   l: [DEF]
 - p: [30, 31]
   k: .
-  l: [SYM]
+  l: [NUM]
 - p: [30, 31]
   k: APP
   l: [FUN]
@@ -266,20 +266,20 @@ combos:
   l: [DEF]
 - p: [17, 16]
   k: +
-  l: [SYM]
+  l: [NUM]
 - p: [27, 26]
   k: '-'
-  l: [SYM]
+  l: [NUM]
 - p: [17, 26]
   k: '*'
-  l: [SYM]
+  l: [NUM]
 - p: [27, 16]
   k: /
-  l: [SYM]
+  l: [NUM]
 - p: [19, 18]
   k: ','
-  l: [SYM]
+  l: [NUM]
 - p: [18, 17, 16]
   k: ⏎
-  l: [SYM]
+  l: [NUM]
   draw_separate: true
