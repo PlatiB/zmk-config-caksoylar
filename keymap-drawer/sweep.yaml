@@ -315,13 +315,6 @@ layers:
   - Right Click
   - Left Click
 combos:
-- p: [3, 4]
-  k: Lock
-  l: [DEF, EXT]
-  draw_separate: true
-- p: [5, 6]
-  k: '&sleep'
-  l: [DEF, EXT]
 - p: [1, 2]
   k: '@'
   l: [DEF, EXT]
@@ -368,6 +361,13 @@ combos:
 - p: [32, 33]
   k: MUTE
   l: [MID]
+- p: [4, 5]
+  k: Lock
+  l: [DEF, EXT]
+  draw_separate: true
+- p: [3, 6]
+  k: '&sleep'
+  l: [DEF, EXT]
 - p: [13, 16]
   k: Caps Word
   l: [DEF, EXT]

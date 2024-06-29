@@ -20,8 +20,6 @@
     combos {
         compatible = "zmk,combos";
 // top
-COMBO(lock,   &kp LG(L),   LT1 LT0,     DEF EXT,      80, 500)
-COMBO(sleep,  &sleep,      RT0 RT1,     DEF EXT,      80, 500)
 COMBO(at,     &kp AT,      LT3 LT2,     DEF EXT,      40, 150)
 
 COMBO(hash,   &kp HASH,    LT2 LT1,     DEF EXT,      40, 150)
@@ -47,6 +45,8 @@ COMBO(app,    &kp K_APP,   LH1 LH0,     FUN,          40, 150)
 COMBO(mute,   &kp C_MUTE,  RH0 RH1,     MID,          40, 150)
 
 // cross
+COMBO(lock,   &kp LG(L),   LT0 RT0,     DEF EXT,      60, 200)
+COMBO(sleep,  &sleep,      LT1 RT1,     DEF EXT,      60, 200)
 COMBO(capswd, &caps_word,  LM1 RM1,     DEF EXT,      60, 200)
 
 // calc +-*/.,RET
