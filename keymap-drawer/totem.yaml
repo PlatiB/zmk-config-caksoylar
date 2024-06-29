@@ -196,32 +196,32 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MSE:
-  - ''
-  - ''
-  - Vol Up
-  - Out BLE
-  - Out USB
+  - BT CLR
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR ALL
   - ''
   - Scroll ←
   - Mouse ↑
   - Scroll →
   - Scroll ↑
-  - BT CLR ALL
-  - ⏮️
   - Vol Down
+  - Vol Up
+  - ⏮️
   - ⏭️
-  - ''
+  - STOP
   - ''
   - Mouse ←
   - Mouse ↓
   - Mouse →
   - Scroll ↓
   - Esc
-  - BT CLR
-  - BT 3
-  - BT 2
-  - BT 1
-  - {type: held}
+  - EP TOG
+  - RGB EFF
+  - RGB TOG
+  - Out BLE
+  - {t: Out USB, type: held}
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
@@ -265,6 +265,12 @@ combos:
   k: ']'
   l: [DEF]
   draw_separate: true
+- p: [11, 10]
+  k: MUTE
+  l: [MSE]
+- p: [13, 12]
+  k: ⏯
+  l: [MSE]
 - p: [27, 28]
   k: ;
   l: [DEF]
