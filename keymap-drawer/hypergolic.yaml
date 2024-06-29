@@ -199,8 +199,8 @@ layers:
   - EP TOG
   - RGB EFF
   - RGB TOG
-  - Out BLE
-  - {t: Out USB, type: held}
+  - OUT TOG
+  - {type: held}
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
