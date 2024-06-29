@@ -32,6 +32,9 @@ COMBO(lpar,   &kp LPAR,    LM2 LM1,     DEF,          40, 100)
 COMBO(rpar,   &kp RPAR,    RM1 RM2,     DEF,          40, 100)
 COMBO(lbkt,   &kp LBKT,    LM3 LM2,     DEF,          40, 100)
 COMBO(rbkt,   &kp RBKT,    RM2 RM3,     DEF,          40, 100)
+COMBO(mute,   &kp C_MUTE,  LM3 LM4,     MSE,          40, 100)
+COMBO(plpu,   &kp C_PP,    LM1 LM2,     MSE,          40, 100)
+
 
 // low
 COMBO(semi,   &kp SEMI,    RB1 RB2,     DEF,          40, 100)
@@ -40,7 +43,6 @@ COMBO(colon,  &kp COLON,   RB2 RB3,     DEF,          40, 100)
 // thumb
 COMBO(dot,    &kp DOT,     RH1 RH0,     NUM,          40, 150)
 COMBO(app,    &kp K_APP,   LH1 LH0,     FUN,          40, 150)
-// COMBO(mute,   &kp C_MUTE,  RH0 RH1,     MID,          40, 150)
 
 // cross
 COMBO(capswd, &caps_word,  LM1 RM1,     DEF,          60, 200)
