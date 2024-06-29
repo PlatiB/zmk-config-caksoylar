@@ -265,10 +265,10 @@ combos:
   k: ']'
   l: [DEF]
   draw_separate: true
-- p: [11, 10]
+- p: [10, 11]
   k: MUTE
   l: [MSE]
-- p: [13, 12]
+- p: [12, 13]
   k: ⏯
   l: [MSE]
 - p: [27, 28]
