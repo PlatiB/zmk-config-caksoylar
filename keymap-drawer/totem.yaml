@@ -141,8 +141,8 @@ layers:
   - Esc
   - {t: EXT, h: toggle}
   - {t: DEF, h: toggle}
-  - {t: NUM, h: toggle}
   - {t: NAV, h: toggle}
+  - {t: NUM, h: toggle}
   - ''
   - Ctl+ Y
   - Ctl+ V
@@ -180,8 +180,8 @@ layers:
   - Esc
   - {t: EXT, h: toggle}
   - {t: DEF, h: toggle}
-  - {t: FUN, h: toggle}
   - {t: MID, h: toggle}
+  - {t: FUN, h: toggle}
   - {type: held}
   - BT 1
   - BT 2
@@ -223,8 +223,8 @@ layers:
   - '3'
   - \
   - ''
-  - {t: NUM, h: toggle}
   - {t: NAV, h: toggle}
+  - {t: NUM, h: toggle}
   - {t: DEF, h: toggle}
   - {t: EXT, h: toggle}
   - ⏎
@@ -262,8 +262,8 @@ layers:
   - '#'
   - '|'
   - ''
-  - {t: SYM, h: toggle}
   - {t: MSE, h: toggle}
+  - {t: SYM, h: toggle}
   - {t: DEF, h: toggle}
   - {t: EXT, h: toggle}
   - ⏎
@@ -301,8 +301,8 @@ layers:
   - F3
   - Pause Break
   - {type: held}
-  - {t: FUN, h: toggle}
   - {t: MID, h: toggle}
+  - {t: FUN, h: toggle}
   - {t: DEF, h: toggle}
   - {t: EXT, h: toggle}
   - ⏎
@@ -336,8 +336,8 @@ layers:
   - Esc
   - {t: EXT, h: toggle}
   - {t: DEF, h: toggle}
-  - {t: SYM, h: toggle}
   - {t: MSE, h: toggle}
+  - {t: SYM, h: toggle}
   - ''
   - Ctl+ Y
   - Ctl+ V
