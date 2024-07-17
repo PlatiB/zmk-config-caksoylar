@@ -40,7 +40,6 @@ COMBO(colon,  &kp COLON,   RB2 RB3,     DEF,          40, 100)
 
 // thumb
 COMBO(dot,    &kp DOT,     RH1 RH0,     NUM,          40, 150)
-COMBO(app,    &kp K_APP,   LH1 LH0,     FUN,          40, 150)
 
 // cross
 COMBO(capswd, &caps_word,  LM1 RM1,     DEF,          60, 200)
