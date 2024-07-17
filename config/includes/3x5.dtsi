@@ -115,13 +115,7 @@
             bindings
                 = <&macro_tap &kp LG(X) &kp U &kp S>;
         )
-// 시간및언어>언어및지역>기본설정언어 한국어, 영어(미국) 2가지가 있을 때 작동
-        ZMK_MACRO(extra,
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp LG(SPACE) &none  >;
-        )
+
         ZMK_MACRO(base,
             wait-ms = <10>;
             tap-ms = <10>;
