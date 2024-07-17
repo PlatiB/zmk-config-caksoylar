@@ -39,7 +39,7 @@ COMBO(semi,   &kp SEMI,    RB1 RB2,     DEF,          40, 100)
 COMBO(colon,  &kp COLON,   RB2 RB3,     DEF,          40, 100)
 
 // thumb
-COMBO(dot,    &kp DOT,     RH1 RH0,     NUM,          40, 150)
+COMBO(dot,    &kp DOT,     LH1 LH0,     NUM,          40, 150)
 
 // cross
 COMBO(capswd, &caps_word,  LM1 RM1,     DEF,          60, 200)
