@@ -141,12 +141,12 @@ layers:
   - ⏎
   - ⌫
   MSE:
-  - BT CLR
-  - BT 3
-  - BT 2
-  - BT 1
-  - BT CLR ALL
+  - EP TOG
+  - RGB EFF
+  - RGB TOG
+  - OUT TOG
   - ''
+  - Calc
   - Scroll ←
   - Mouse ↑
   - Scroll →
@@ -161,11 +161,11 @@ layers:
   - Mouse ↓
   - Mouse →
   - Scroll ↓
-  - EP TOG
-  - RGB EFF
-  - RGB TOG
-  - OUT TOG
-  - {t: ▽, type: trans}
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT CLR ALL
   - Ctl+ Y
   - Ctl+ V
   - Ctl+ C
