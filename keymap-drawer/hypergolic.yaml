@@ -131,46 +131,46 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - Ctl+ Y
-  - Ctl+ Y
-  - Ctl+ V
-  - Ctl+ C
-  - Ctl+ X
-  - Ctl+ Z
+  - STOP
+  - ⏮️
+  - ⏭️
+  - Vol Up
+  - Vol Down
   - {type: held}
   - {t: ▽, type: trans}
   - ⏎
   - ⌫
   MSE:
-  - EP TOG
-  - RGB EFF
-  - RGB TOG
-  - OUT TOG
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - Calc
   - Scroll ←
   - Mouse ↑
   - Scroll →
   - Scroll ↑
-  - Vol Down
-  - Vol Up
-  - {t: ⏮️, h: Ctrl}
-  - {t: ⏭️, h: Shift}
-  - STOP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - APP
   - Mouse ←
   - Mouse ↓
   - Mouse →
   - Scroll ↓
-  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR ALL
   - BT 1
   - BT 2
   - BT 3
-  - BT CLR ALL
-  - Ctl+ Y
-  - Ctl+ V
-  - Ctl+ C
-  - Ctl+ X
-  - Ctl+ Z
+  - BT CLR
   - {t: ▽, type: trans}
   - {type: held}
   - Right Click
