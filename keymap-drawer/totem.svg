@@ -874,12 +874,12 @@ rect.held, rect.combo.held { fill: #fcc; }
 <text x="0" y="0" class="key tap">⌦</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="715" y="130" width="28" height="26" class="combo"/>
-<text x="729" y="143" class="combo tap">MUTE</text>
+<rect rx="6" ry="6" x="708" y="186" width="28" height="26" class="combo"/>
+<text x="722" y="199" class="combo tap">MUTE</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="591" y="85" width="28" height="26" class="combo"/>
-<text x="605" y="98" class="combo tap">⏯</text>
+<rect rx="6" ry="6" x="591" y="141" width="28" height="26" class="combo"/>
+<text x="605" y="154" class="combo tap">⏯</text>
 </g>
 <g class="combo combopos-2">
 <path d="M421,121 l-75,0" class="combo"/>

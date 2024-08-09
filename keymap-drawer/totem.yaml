@@ -226,12 +226,6 @@ combos:
   k: ']'
   l: [DEF]
   draw_separate: true
-- p: [19, 18]
-  k: MUTE
-  l: [NAV]
-- p: [17, 16]
-  k: ⏯
-  l: [NAV]
 - p: [27, 28]
   k: ;
   l: [DEF]
@@ -239,6 +233,12 @@ combos:
 - p: [28, 29]
   k: ':'
   l: [DEF]
+- p: [30, 29]
+  k: MUTE
+  l: [NAV]
+- p: [28, 27]
+  k: ⏯
+  l: [NAV]
 - p: [33, 34]
   k: .
   l: [NUM]
