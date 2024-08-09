@@ -9,8 +9,8 @@
 #define DEF 0
 #define NUM 1
 #define SYM 2
-// #define NAV 3
-// #define MSE 4
+#define NAV 3
+#define MSE 4
 
 // Desktop and tab navigation shortcuts
 #define D_LT   LC(LG(LEFT))
@@ -21,7 +21,7 @@
 // Extra key bindings
 #define SWP_POS LT4 RT4
 
-// #include "combos.dtsi"
+#include "combos.dtsi"
 
 #ifdef MOUSE_KEYS
 #    include "mouse.dtsi"
@@ -157,6 +157,30 @@
             )>;
         };
 
+        navigation_layer {
+            display-name = "NAV";
+            bindings = <LAYER_FROM38( \
+//           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
+              &kp LS(TAB),   &swapper,      &kp TAB_RT,    &kp TAB_LT,    &ht LA(F4) LC(F4), &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
+              &kp LGUI,      &kp LALT,      &kp LCTRL,     &kp LSHFT,     &to NUM,           &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
+&kp ESC,      &kp LC(Z),     &kp LC(X),     &kp LC(C),     &kp LC(V),     &kp LC(Y),         &kp C_STOP,    &kp C_PREV,    &kp C_NEXT,    &kp C_VOL_UP,  &kp C_VOL_DN,  &kp RET, \
+                                            &trans,        &trans,        &trans,            &kp RET,       &kp BSPC,      &kp DEL \
+//                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
+            )>;
+        };
 
+#ifdef MOUSE_KEYS
+        mouse_layer {
+            display-name = "MSE";
+            bindings = <LAYER_FROM38( \
+//           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
+              &none,         &none,         &none,         &none,         &none,             &kp C_AL_CALC, &msc SCRL_LEFT, &mmv MOVE_UP,  &msc SCRL_RIGHT, &msc SCRL_UP, \
+              &none,         &none,         &none,         &none,         &none,             &kp K_APP,    &mmv MOVE_LEFT, &mmv MOVE_DOWN, &mmv MOVE_RIGHT, &msc SCRL_DOWN, \
+&kp ESC,      &none,         &none,         &none,         &none,         &none,             &bt BT_CLR_ALL, &bt BT_SEL 0, &bt BT_SEL 1,  &bt BT_SEL 2,  &bt BT_CLR,    &kp RET, \
+                                            &trans,        &trans,        &trans,            &mkp RCLK,     &mkp LCLK,     &none \
+//                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
+            )>;
+        };
+#endif
     };
 };
