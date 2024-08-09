@@ -810,6 +810,14 @@ rect.held, rect.combo.held { fill: #fcc; }
 <text x="0" y="0" class="key tap">⌫</text>
 </g>
 <g class="combo combopos-0">
+<rect rx="6" ry="6" x="754" y="127" width="28" height="26" class="combo"/>
+<text x="768" y="140" class="combo tap">MUTE</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="627" y="81" width="28" height="26" class="combo"/>
+<text x="641" y="94" class="combo tap">⏯</text>
+</g>
+<g class="combo combopos-2">
 <path d="M422,114 l-110,0" class="combo"/>
 <path d="M422,114 l110,0" class="combo"/>
 <rect rx="6" ry="6" x="408" y="101" width="28" height="26" class="combo"/>
@@ -972,14 +980,6 @@ rect.held, rect.combo.held { fill: #fcc; }
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">Left</tspan><tspan x="0" dy="1.2em">Click</tspan>
 </text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="61" y="127" width="28" height="26" class="combo"/>
-<text x="75" y="140" class="combo tap">MUTE</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="189" y="81" width="28" height="26" class="combo"/>
-<text x="203" y="94" class="combo tap">⏯</text>
 </g>
 </g>
 </g>

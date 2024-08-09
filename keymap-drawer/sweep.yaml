@@ -205,12 +205,12 @@ combos:
   k: ']'
   l: [DEF]
   draw_separate: true
-- p: [10, 11]
+- p: [19, 18]
   k: MUTE
-  l: [MSE]
-- p: [12, 13]
+  l: [NAV]
+- p: [17, 16]
   k: ⏯
-  l: [MSE]
+  l: [NAV]
 - p: [26, 27]
   k: ;
   l: [DEF]
